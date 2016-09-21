@@ -1,0 +1,5 @@
+Meeting 1:
+- Redexer (byte rewrite tool)
+- Start experiments testing application runs (comparisons)
+- Start separate weekly meetings with Onur
+- Onur presentation next Thursday (09/29)
