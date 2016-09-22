@@ -4,7 +4,7 @@ September 20 - 4 hours
 - looked up bytecode rewriting tools (Redexer*)
 
 September 22 - 4 hours
-- pushed replay software to Nexus
+- pushed replay software to Nexus (moved files to /data/local/)
 - troubleshooting: adb root to device
   - http://www.makeuseof.com/tag/how-to-easily-root-unroot-and-unlock-any-nexus-device/
   - https://autoroot.chainfire.eu/
