@@ -1,0 +1,10 @@
+WEEK 1:
+September 20 - 4 hours
+- tinkered with RERAN
+- looked up bytecode rewriting tools (Redexer*)
+
+September 22 - 4 hours
+- pushed replay software to Nexus
+- troubleshooting: adb root to device
+  - http://www.makeuseof.com/tag/how-to-easily-root-unroot-and-unlock-any-nexus-device/
+  - https://autoroot.chainfire.eu/
