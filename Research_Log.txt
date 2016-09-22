@@ -18,3 +18,8 @@ September 22 - 4 hours
     - http://www.youtube.com/watch?v=ptjedOZEXPM
     - Dalvik Executable Format -- http://source.android.com/tech/dalvik/dex-format.html
     - Bytecode for the Dalvik VM -- http://source.android.com/devices/tech/dalvik/
+- troubleshooting Redexer tutorial:
+  - issues running 'make doc' command
+      Error: Unbound module Yojson
+      Command exited with code 2.
+
