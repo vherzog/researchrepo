@@ -14,3 +14,7 @@ September 22 - 4 hours
     error: /sbin/adbdsh: /data/local/REPLAY_UTILITY/replay_4: can't execute: Permission denied
 - tried changing settings in adbd Insecure/SuperSU Free
 - download/made Redexer... learning how it works
+  - important links to learn Redexer:
+    - http://www.youtube.com/watch?v=ptjedOZEXPM
+    - Dalvik Executable Format -- http://source.android.com/tech/dalvik/dex-format.html
+    - Bytecode for the Dalvik VM -- http://source.android.com/devices/tech/dalvik/
