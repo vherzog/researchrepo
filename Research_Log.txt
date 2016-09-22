@@ -8,3 +8,8 @@ September 22 - 4 hours
 - troubleshooting: adb root to device
   - http://www.makeuseof.com/tag/how-to-easily-root-unroot-and-unlock-any-nexus-device/
   - https://autoroot.chainfire.eu/
+- successfully rooted, but still having issues running executable (replay_4)
+  adb SHELL (#)
+    data/local/REPLAY_UTILITY/replay_4 /data/local/abJava.txt 
+    error: /sbin/adbdsh: /data/local/REPLAY_UTILITY/replay_4: can't execute: Permission denied
+- tried changing settings in adbd Insecure/SuperSU Free
