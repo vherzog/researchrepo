@@ -13,3 +13,4 @@ September 22 - 4 hours
     data/local/REPLAY_UTILITY/replay_4 /data/local/abJava.txt 
     error: /sbin/adbdsh: /data/local/REPLAY_UTILITY/replay_4: can't execute: Permission denied
 - tried changing settings in adbd Insecure/SuperSU Free
+- download/made Redexer... learning how it works
