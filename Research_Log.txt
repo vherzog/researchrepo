@@ -23,3 +23,6 @@ September 22 - 4 hours
       Error: Unbound module Yojson
       Command exited with code 2.
 
+September 23 - 2 hours
+- conversed with one creator of Redexer (krismicinski@gmail.com), in order to fix issue with Redexer install
+- 
