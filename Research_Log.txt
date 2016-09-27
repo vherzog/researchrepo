@@ -25,4 +25,9 @@ September 22 - 4 hours
 
 September 23 - 2 hours
 - conversed with one creator of Redexer (krismicinski@gmail.com), in order to fix issue with Redexer install
-- 
+- continued troubleshooting Redexer issues
+- began learning about Dalvik byte code
+
+September 27 - 4 hours
+- met with Onur
+
