@@ -31,3 +31,4 @@ September 23 - 2 hours
 September 27 - 4 hours
 - met with Onur
 - looked into Dexpler (Dalvik bytecote to Soot Jimple Tanslator)
+** play drone ?
