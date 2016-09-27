@@ -32,3 +32,5 @@ September 27 - 4 hours
 - met with Onur
 - looked into Dexpler (Dalvik bytecote to Soot Jimple Tanslator)
 ** play drone ?
+- recorded different applications (see "replay_testing.txt") and marked down non-deterministic behaviors
+
