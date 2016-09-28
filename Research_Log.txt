@@ -35,3 +35,5 @@ September 27 - 4 hours
 ** play drone ?
 - recorded different applications (see "replay_testing.txt") and marked down non-deterministic behaviors
 
+
+** redexer : CFLAGS=“-arch i386”
