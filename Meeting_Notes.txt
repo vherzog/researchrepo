@@ -3,3 +3,17 @@ Meeting 1:
 - Start experiments testing application runs (comparisons)
 - Start separate weekly meetings with Onur
 - Onur presentation next Thursday (09/29)
+
+Meeting 2:
+- play drone archived
+- stick to redexer
+- alt: reread document - main input to the softawre
+- this is what you use s input for the rewriting -- injet somt code 
+- smali - sissasemnle app
+write smali and inject into and reassemble
+- share observations
+smali dex assemlber
+- start redexer
+- print hello message to log!!!!! - redexer or smali
+logcat
+onCreate add bc ou knw
