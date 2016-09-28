@@ -5,15 +5,12 @@ Meeting 1:
 - Onur presentation next Thursday (09/29)
 
 Meeting 2:
-- play drone archived
-- stick to redexer
-- alt: reread document - main input to the softawre
-- this is what you use s input for the rewriting -- injet somt code 
-- smali - sissasemnle app
-write smali and inject into and reassemble
-- share observations
-smali dex assemlber
-- start redexer
-- print hello message to log!!!!! - redexer or smali
-logcat
-onCreate add bc ou knw
+- play drone application archive (use later instead of google play)
+- REWRITING:
+  - reread Redexer documentation -> determine main input
+    - what language is used/injected for rewriting**
+  - alternative to Redexer (if fails to work): Smali 
+    - write Smali assembly code for manipulating dalvik bytecode
+  - play with either method - print "hello world" in onCreate (know it will be called) to log & check if successful
+- Application testing:
+  - format observations in clear presentation & share!
