@@ -37,3 +37,7 @@ September 27 - 4 hours
 
 September 29 - 5 Hours
 - Redexer: main language - Ocaml (Objective Caml)
+  - important articles: http://www.netmite.com/android/mydroid/dalvik/docs/dex-format.html
+      https://github.com/plum-umd/redexer
+      
+    
