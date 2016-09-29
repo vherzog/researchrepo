@@ -22,18 +22,18 @@ September 22 - 4 hours
   - issues running 'make doc' command
       Error: Unbound module Yojson
       Command exited with code 2.
-
-WEEK 2:
+      
 September 23 - 2 hours
 - conversed with one creator of Redexer (krismicinski@gmail.com), in order to fix issue with Redexer install
 - continued troubleshooting Redexer issues
 - began learning about Dalvik byte code
 
+WEEK 2:
 September 27 - 4 hours
 - met with Onur
 - looked into Dexpler (Dalvik bytecote to Soot Jimple Tanslator)
 ** play drone ?
 - recorded different applications (see "replay_testing.txt") and marked down non-deterministic behaviors
 
-
-** redexer : CFLAGS=“-arch i386”
+September 29 - 5 Hours
+- Redexer: main language - Ocaml (Objective Caml)
