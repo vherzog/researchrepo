@@ -35,7 +35,7 @@ September 27 - 4 hours
 ** play drone ?
 - recorded different applications (see "replay_testing.txt") and marked down non-deterministic behaviors
 
-September 29 - 5 Hours
+September 29 - 4 Hours
 - Redexer: main language - Ocaml (Objective Caml)
   - important articles: http://www.netmite.com/android/mydroid/dalvik/docs/dex-format.html
       https://github.com/plum-umd/redexer
