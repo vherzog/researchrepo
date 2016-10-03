@@ -14,3 +14,7 @@ Meeting 2:
   - play with either method - print "hello world" in onCreate (know it will be called) to log & check if successful
 - Application testing:
   - format observations in clear presentation & share!
+
+Meeting w. Onur:
+- worked on issues with Redexer installation
+
