@@ -40,4 +40,10 @@ September 29 - 4 Hours
   - important articles: http://www.netmite.com/android/mydroid/dalvik/docs/dex-format.html
       https://github.com/plum-umd/redexer
       
+September 30 - 2 hours
+- learning/understanding Smali
+- testing apps
+
+WEEK 3:
+
     
