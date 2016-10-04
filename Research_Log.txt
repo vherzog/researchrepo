@@ -45,5 +45,8 @@ September 30 - 2 hours
 - testing apps
 
 WEEK 3:
-
+October 4 - 3 hours
+- exploring Smali code
+  - helpful resource: https://samsclass.info/128/proj/smali-trojan.htm
+  - downlaoded apktools from: https://bitbucket.org/iBotPeaches/apktool/downloads
     
