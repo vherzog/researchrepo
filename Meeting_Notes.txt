@@ -18,4 +18,28 @@ Meeting 2:
 Meeting w. Onur:
 - worked on issues with Redexer installation
 
+
 Meeting 3:
+- create my own key self signed 
+- java lang random -- prng
+- fix eed to gix blaue
+ - snapchat -- deativate timer recieve snap and never times out
+    - make gake account
+    
+- send brief update
+- loh mesage for every method
+-log.i 
+- prnit method - class name (path of file)
+- write a program for htis
+
+two more variables
+inst two strings
+print log.i
+invoke-static v1, v2, L**i:Ljava
+
+888 create in oncreate without smali compile the find ho  they do it in smali
+
+look into app where it works -- real life not games -- other apps- 
+
+- facebook - mosaic
+- apps that should work but actually dont!
