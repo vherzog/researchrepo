@@ -18,3 +18,4 @@ Meeting 2:
 Meeting w. Onur:
 - worked on issues with Redexer installation
 
+Meeting 3:
