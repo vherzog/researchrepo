@@ -22,4 +22,31 @@ September 22 - 4 hours
   - issues running 'make doc' command
       Error: Unbound module Yojson
       Command exited with code 2.
+      
+September 23 - 2 hours
+- conversed with one creator of Redexer (krismicinski@gmail.com), in order to fix issue with Redexer install
+- continued troubleshooting Redexer issues
+- began learning about Dalvik byte code
 
+WEEK 2:
+September 27 - 4 hours
+- met with Onur
+- looked into Dexpler (Dalvik bytecote to Soot Jimple Tanslator)
+** play drone ?
+- recorded different applications (see "replay_testing.txt") and marked down non-deterministic behaviors
+
+September 29 - 4 Hours
+- Redexer: main language - Ocaml (Objective Caml)
+  - important articles: http://www.netmite.com/android/mydroid/dalvik/docs/dex-format.html
+      https://github.com/plum-umd/redexer
+      
+September 30 - 2 hours
+- learning/understanding Smali
+- testing apps
+
+WEEK 3:
+October 4 - 3 hours
+- exploring Smali code
+  - helpful resource: https://samsclass.info/128/proj/smali-trojan.htm
+  - downlaoded apktools from: https://bitbucket.org/iBotPeaches/apktool/downloads
+  - created, zipped, pushed, and ran basic HelloWorld.smali code & Main.smali (print string '42')

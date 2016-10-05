@@ -3,3 +3,18 @@ Meeting 1:
 - Start experiments testing application runs (comparisons)
 - Start separate weekly meetings with Onur
 - Onur presentation next Thursday (09/29)
+
+Meeting 2:
+- play drone application archive (use later instead of google play)
+- REWRITING:
+  - reread Redexer documentation -> determine main input
+    - what language is used/injected for rewriting**
+  - alternative to Redexer (if fails to work): Smali 
+    - write Smali assembly code for manipulating dalvik bytecode
+  - play with either method - print "hello world" in onCreate (know it will be called) to log & check if successful
+- Application testing:
+  - format observations in clear presentation & share!
+
+Meeting w. Onur:
+- worked on issues with Redexer installation
+
