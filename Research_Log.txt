@@ -50,3 +50,6 @@ October 4 - 3 hours
   - helpful resource: https://samsclass.info/128/proj/smali-trojan.htm
   - downlaoded apktools from: https://bitbucket.org/iBotPeaches/apktool/downloads
   - created, zipped, pushed, and ran basic HelloWorld.smali code & Main.smali (print string '42')
+
+October 6 - 5 hours
+- created signed key - successfully repacked an application (schwab)
