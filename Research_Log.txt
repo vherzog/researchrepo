@@ -51,7 +51,7 @@ October 4 - 3 hours
   - downlaoded apktools from: https://bitbucket.org/iBotPeaches/apktool/downloads
   - created, zipped, pushed, and ran basic HelloWorld.smali code & Main.smali (print string '42')
 
-October 6 - 5 hours
+October 6 - 5.5 hours
 - created signed key - successfully repacked an application (snapchat)
   	jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore my-release-key.keystore base.apk alias_name
 - sent message to log in onCreate (my own app) success!
@@ -68,5 +68,5 @@ October 6 - 5 hours
     ......
     return void
   .end method
-
+- started working on an automated schell script to find method calls & add log calls for smali files
   
