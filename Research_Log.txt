@@ -55,3 +55,18 @@ October 6 - 5 hours
 - created signed key - successfully repacked an application (snapchat)
   	jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore my-release-key.keystore base.apk alias_name
 - sent message to log in onCreate (my own app) success!
+- found syntax for log output in smali (example below):
+  (in MainActivity.smali)
+  #virtual methods
+  .method protected onCreate(Landroids/os/Bundle;)V
+    .locals 4
+    ......
+    .line 25
+    const-string v2, "Debug message"
+    const-string v3, "This is a test."
+    invoke-static {v2, v3}, Landroid/util/log;->(Ljava/lang/String;Ljava/lang/String;)I
+    ......
+    return void
+  .end method
+
+  
