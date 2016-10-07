@@ -70,3 +70,6 @@ October 6 - 5.5 hours
   .end method
 - started working on an automated schell script to find method calls & add log calls for smali files
   
+October 7 - 1.5 hours
+- looked into smali code to try to hack snapchat photo timer
+- tested replay applications & recorded results
