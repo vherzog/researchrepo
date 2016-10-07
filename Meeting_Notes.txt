@@ -18,3 +18,31 @@ Meeting 2:
 Meeting w. Onur:
 - worked on issues with Redexer installation
 
+
+Meeting 3:
+- to repackage app - create self signed key
+    keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+    #1 disassemble
+    java -jar ~/bin/apktool.jar d <your-app-here>
+
+    #2 modify your app
+
+    #3 reassemble the package
+    java -jar ~/bin/apktool.jar b <your-app-here>
+
+    #4 sign the package
+    jarsigner -verbose  -sigalg MD5withRSA -digestalg SHA1 -keystore ~/android/mykeystore com.amazon.mp3-2/dist
+    /com.amazon.mp3-1.apk mykey
+
+    #5 upload/install the app
+    adb install <your-app-here>
+- Sudoku -> find out how it generates random #s (java lang random / prng ?)
+- EXERCISE:
+  - experiment with snapchat: change app code so that photo timer never runs out (can view picture as long as you want)
+- Method calls: change smali code to print every method called during app run to log
+  - log.i
+  - (write a program to automate this)
+  - to start (learn smali syntax) -> change in onCreate, then check smali to see how string output is formatted
+- Testing apps: start testing NON-gaming applications
+  - test apps that are expected to replay properly, try to find non-determinism
