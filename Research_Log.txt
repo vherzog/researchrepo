@@ -73,3 +73,11 @@ October 6 - 5.5 hours
 October 7 - 1.5 hours
 - looked into smali code to try to hack snapchat photo timer
 - tested replay applications & recorded results
+
+Week 4:
+October 11 - 1 hour
+- worked on automatic method calling program
+- worked to successfully install Redexer
+
+October 12 - 1 hour
+- work on Redexer installation
