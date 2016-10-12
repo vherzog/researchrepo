@@ -46,3 +46,11 @@ Meeting 3:
   - to start (learn smali syntax) -> change in onCreate, then check smali to see how string output is formatted
 - Testing apps: start testing NON-gaming applications
   - test apps that are expected to replay properly, try to find non-determinism
+
+Meeting 4:
+- Smali - message to log - set at beginning of method
+- try to get redexer working
+- continue to look into snapcht timer modication as exercise
+- continue to investigate random number generation (games like 2048)
+  - APIs involed?
+  - modify to pick a fixed seed
