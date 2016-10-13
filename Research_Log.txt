@@ -79,5 +79,10 @@ October 11 - 1 hour
 - worked on automatic method calling program
 - worked to successfully install Redexer
 
-October 12 - 1 hour
+October 12 - 1.5 hours
 - work on Redexer installation
+
+October 13 - 4 hours
+- continue working on Redexer installation
+- investigated how 2048 generates random numbers (and attempted to change)
+- experimented with logging in smali files (for snapchat app)
