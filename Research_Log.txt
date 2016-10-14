@@ -86,3 +86,6 @@ October 13 - 4 hours
 - continue working on Redexer installation
 - investigated how 2048 generates random numbers (and attempted to change)
 - experimented with logging in smali files (for snapchat app)
+
+October 14 - 3.5 hours
+- started Redexer tutorial (logging method calls)
