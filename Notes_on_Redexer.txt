@@ -4,3 +4,20 @@ visitor class:
 - v_cdef: visits class definition
 - v_emtd: visits method definition
 - v_citm: visits code item
+
+Combine module:
+- lets us (essentially) do static linking to paste two pieces of code together
+- ex: write a 'helper' class as a Java file, then write instrumentation code that calls that helper method
+
+Logger.java (in tutorial/src/umd/logging/util)
+- class containing static methods that we can use to log app interactions
+- logArgs(...) -> a method which turns each of the arguments into a texual representation which can be printed out.
+  - to call method from Java code (something similar to):
+  // Inside MyMainActivity
+  public void onCreate(Bundle bundle) {
+    Logger.logAction("MyMainActivity", AppAction.onCreate, bundle);
+    ...
+Setting up independent project:
+android update project -p . --target 1 (or 2)
+ant debug
+- builds APK, creates a classes.dex which will be fed into redexer and merged with app fed into redexer by the Combine module
