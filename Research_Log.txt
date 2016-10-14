@@ -88,4 +88,5 @@ October 13 - 4 hours
 - experimented with logging in smali files (for snapchat app)
 
 October 14 - 3.5 hours
-- started Redexer tutorial (logging method calls)
+- learned basics of Redexer & started logging tutorial
+- use Redexer to log certain methods to txt file (of simple app)
