@@ -1,0 +1,6 @@
+visitor class:
+- allows one to traverse files hierarchically
+- v_mit: called on method items of .dex files
+- v_cdef: visits class definition
+- v_emtd: visits method definition
+- v_citm: visits code item
