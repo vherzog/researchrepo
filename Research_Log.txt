@@ -90,3 +90,6 @@ October 13 - 4 hours
 October 14 - 3.5 hours
 - learned basics of Redexer & started logging tutorial
 - use Redexer to log certain methods to txt file (of simple app)
+
+October 17 - .5 hour
+- troubleshooting redexer
