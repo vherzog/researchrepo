@@ -96,4 +96,6 @@ October 17 - 1 hour
 - investigated snapchat/2048 smali code further
 
 October 18 - __ hours
+- printed classes in classes.dex file of 20148 game using redexer
+    redexer-master $ruby scripts/cmd.rb ../Android-Apps/2048/base/build/apk/classes.dex --cmd classes
 - 
