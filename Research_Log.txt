@@ -98,4 +98,10 @@ October 17 - 1 hour
 October 18 - __ hours
 - printed classes in classes.dex file of 20148 game using redexer
     redexer-master $ruby scripts/cmd.rb ../Android-Apps/2048/base/build/apk/classes.dex --cmd classes
-- 
+- from MainGame.smali: removed line 287-289
+    invoke-static {}, Ljava/lang/Math;->random()D
+
+    move-result-wide v2
+-replaced with:
+  const v2, 0x3FB999999999999A
+
