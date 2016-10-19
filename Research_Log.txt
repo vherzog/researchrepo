@@ -110,3 +110,5 @@ October 18 - 4 hours
     const v2, 0x3FB999999999999A
   - still troubleshooting
 
+October 19 - 1 hour
+- troubleshoot 2048 changing smali syntax (random)
