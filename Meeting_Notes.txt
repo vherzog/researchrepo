@@ -54,3 +54,9 @@ Meeting 4:
 - continue to investigate random number generation (games like 2048)
   - APIs involed?
   - modify to pick a fixed seed
+
+Meeting 5:
+- (future note) - redexer: write auto identify - hooks certain line, finds and logs (replace network access with file)
+- redexer - get it to work to log method calls in apk
+- continue with RERAN experiments
+- smali logging syntax (place beginning of method?)
