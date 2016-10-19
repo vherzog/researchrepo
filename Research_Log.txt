@@ -91,17 +91,22 @@ October 14 - 3.5 hours
 - learned basics of Redexer & started logging tutorial
 - use Redexer to log certain methods to txt file (of simple app)
 
+Week 5:
 October 17 - 1 hour
 - troubleshooting redexer
 - investigated snapchat/2048 smali code further
 
-October 18 - __ hours
-- printed classes in classes.dex file of 20148 game using redexer
+October 18 - 4 hours
+- Looked deeper into redexer
+- printed classes in classes.dex file of 2048 game using redexer (sucessful)
     redexer-master $ruby scripts/cmd.rb ../Android-Apps/2048/base/build/apk/classes.dex --cmd classes
-- from MainGame.smali: removed line 287-289
-    invoke-static {}, Ljava/lang/Math;->random()D
+- working on running .dex or .apk file through redexer to add loggin capabilities to certain methods (when called)
+- investigated random number generation in 2048 more:
+  - from MainGame.smali: removed line 287-289
+      invoke-static {}, Ljava/lang/Math;->random()D
 
-    move-result-wide v2
--replaced with:
-  const v2, 0x3FB999999999999A
+      move-result-wide v2
+  -replaced with:
+    const v2, 0x3FB999999999999A
+  - still troubleshooting
 
