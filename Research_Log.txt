@@ -112,3 +112,7 @@ October 18 - 4 hours
 
 October 19 - 1 hour
 - troubleshoot 2048 changing smali syntax (random)
+
+October 20 - 4 hours
+- working on implmenting method calls in app with redexer
+- reran apps
