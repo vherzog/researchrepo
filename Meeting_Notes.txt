@@ -60,3 +60,8 @@ Meeting 5:
 - redexer - get it to work to log method calls in apk
 - continue with RERAN experiments
 - smali logging syntax (place beginning of method?)
+
+Meeting with Onur (10/24):
+- open email chain for issues
+- continue looking into redexer - high level how it works (classes.dex  - what is that used for?)
+- hardcoding smali code
