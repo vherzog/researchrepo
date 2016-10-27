@@ -21,3 +21,9 @@ Setting up independent project:
 android update project -p . --target 1 (or 2)
 ant debug
 - builds APK, creates a classes.dex which will be fed into redexer and merged with app fed into redexer by the Combine module
+
+
+RUN DOWN: logging
+- visitor class (src/visitor.ml) allows us to traverse dalvik files hierarchically 
+  - write a concrete instance of the visitor class, and redexer framework iterates through the structure of the .dex file, calling appropriate methods for us
+  - **for complex manipulation of .dex code requiring different traversal order, may want to create custom visitor implementation
