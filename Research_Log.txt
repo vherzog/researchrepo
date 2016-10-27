@@ -116,3 +116,13 @@ October 19 - 1 hour
 October 20 - 4 hours
 - working on implmenting method calls in app with redexer
 - reran apps
+
+Week 6:
+October 25 - 4 hours
+- going through how redexer is implemented
+- learning basic Ocaml
+- looking into errors with smali logging
+- 2048 exercise
+
+October 27 - 6 hours
+
