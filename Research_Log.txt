@@ -132,7 +132,7 @@ October 27 - 6 hours
 
 Week 7:
 October 31 - 1 hour
-- worked on 2048
+- worked on 2048 (app: com.androbaby.game2048)
   - found each call to instantiate Random()
     - after each line, set fixed seed (constant int 2)
     - still not working
