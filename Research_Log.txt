@@ -125,4 +125,17 @@ October 25 - 4 hours
 - 2048 exercise
 
 October 27 - 6 hours
+- worked on 2048 app
+  - looked into UUIDs and BigIntegers
+  - **wrong functions, instead look into Random() and secureRandom()
+- took more notes on how redexer program works
 
+Week 7:
+October 31 - 1 hour
+- worked on 2048
+  - found each call to instantiate Random()
+    - after each line, set fixed seed (constant int 2)
+    - still not working
+  - **go through and do the same for each call to secureRandom() as well
+
+November 1 -
