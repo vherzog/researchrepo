@@ -27,3 +27,7 @@ RUN DOWN: logging
 - visitor class (src/visitor.ml) allows us to traverse dalvik files hierarchically 
   - write a concrete instance of the visitor class, and redexer framework iterates through the structure of the .dex file, calling appropriate methods for us
   - **for complex manipulation of .dex code requiring different traversal order, may want to create custom visitor implementation
+- logging.ml : contains all the functions for iterating through classes/methods
+- Combine module: 
+  - java file - classes for loggin
+      under logging/app/src/main/java/org/umd/logging/Logger.java
