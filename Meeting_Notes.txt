@@ -65,3 +65,7 @@ Meeting with Onur (10/24):
 - open email chain for issues
 - continue looking into redexer - high level how it works (classes.dex  - what is that used for?)
 - hardcoding smali code
+
+Meeting 6: (11/2)
+- 2048 exercise - only look into androbaby packages!! (uses Math.random())
+- try to get redexer working - critical to next steps!
