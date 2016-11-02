@@ -138,4 +138,6 @@ October 31 - 1 hour
     - still not working
   - **go through and do the same for each call to secureRandom() as well
 
-November 1 -
+November 1 - 4 hours
+- latest troubleshooting for 2048 exercise
+- read through redexer files further (more debugging)
