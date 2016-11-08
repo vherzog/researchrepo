@@ -141,3 +141,12 @@ October 31 - 1 hour
 November 1 - 4 hours
 - latest troubleshooting for 2048 exercise
 - read through redexer files further (more debugging)
+
+November 3 - 5 hours
+- REDEXER WORKS!
+- start looking through which methods redexer logs & how to implement more
+- look into how to automate so that every method is logged
+
+Week 8:
+November 8 - 2 hours
+- looking into how redexer implements logging (to add more logging commands)
