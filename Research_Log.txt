@@ -150,3 +150,8 @@ November 3 - 5 hours
 Week 8:
 November 8 - 2 hours
 - looking into how redexer implements logging (to add more logging commands)
+
+November 9 - 
+- looking into how redexer implements logging (continued)
+- it seems that the default logging tracks more than just onCreate, onPause, onResume, and onDestroy
+- logging implementation is called from /src/ext/logging.ml
