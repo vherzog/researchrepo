@@ -69,3 +69,18 @@ Meeting with Onur (10/24):
 Meeting 6: (11/2)
 - 2048 exercise - only look into androbaby packages!! (uses Math.random())
 - try to get redexer working - critical to next steps!
+
+Meeting 7: (11/9)
+- 2048 (quick task):
+  - look into also seeding random locations of new numbers
+  - run modified 2048 app with reran to prove new replay capabilities
+- redexer:
+  - check to see if redexer logging needs to be modified (if all methods are not being logged)
+  - test redexer logging on deterministic applications (calculator)
+  - when redexer logging works:
+    - compare total appl log implementations vs. method logs called during application run
+    - present in slide - bar graph !!
+- for the FUTURE:
+  - with redexer, instrument non-deterministics fixes 
+  - ex: 2048 - use redexer to find random calls, remove, and replace with fixed seed code
+  - good to show for UROP presentations!!
