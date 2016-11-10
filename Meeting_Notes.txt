@@ -88,3 +88,5 @@ Meeting 7: (11/9)
 Meeting with Onur: (11/10)
 - edit Logger.java to log method/api calls to txt file on phone
 - create script to count # of times each method is called in a certain run
+- smali code: redexer changes --- 
+    invoke-static {v0}, Lorg/umd/logging/Logger;->logMethodEntry([Ljava/lang/Object;)V
