@@ -84,3 +84,7 @@ Meeting 7: (11/9)
   - with redexer, instrument non-deterministics fixes 
   - ex: 2048 - use redexer to find random calls, remove, and replace with fixed seed code
   - good to show for UROP presentations!!
+
+Meeting with Onur: (11/10)
+- edit Logger.java to log method/api calls to txt file on phone
+- create script to count # of times each method is called in a certain run
