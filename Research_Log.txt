@@ -158,3 +158,12 @@ November 9 - 2 hours
 
 November 10 - 3 hours
 - determining whether redexer logging covers ALL methods in an apk
+
+November 11 - 3 hours
+- begin analysis of app methods calls (slides for wednesday)
+
+Week 9:
+November 15 - 5 hours
+- wrote automated program (C++) to read textfiles of redexer logging output and logcat output of running application
+- Finished analysis of __ # of apps
+- slides for tomorrow
