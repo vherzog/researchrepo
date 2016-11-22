@@ -1,0 +1,965 @@
+--------- beginning of main
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=0.32 rxSuccessRate=0.03 targetRoamBSSID=any RSSI=-57
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+--------- beginning of system
+I/ActivityManager(  588): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.rovio.angrybirds/com.rovio.fusion.App (has extras)} from uid 10014 on display 0
+V/WindowManager(  588): addAppToken: AppWindowToken{373acb3c token=Token{2595e92f ActivityRecord{22a1cb0e u0 com.rovio.angrybirds/com.rovio.fusion.App t47}}} to stack=1 task=47 at 0
+V/WindowManager(  588): Adding window Window{2491e441 u0 Starting com.rovio.angrybirds} at 3 of 8 (after Window{208f07a u0 com.android.launcher/com.android.launcher2.Launcher})
+I/ActivityManager(  588): Start proc 10837:com.rovio.angrybirds/u0a222 for activity com.rovio.angrybirds/com.rovio.fusion.App
+V/ActivityManager(  588): Display changed displayId=0
+I/ActivityManager(  588): Config changes=480 {1.0 310mcc?mnc en_US ?layoutDir sw384dp w598dp h359dp 320dpi nrml land finger -keyb/v/h -nav/h s.8}
+I/InputReader(  588): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  588): Device reconfigured: id=6, name='touch_dev', size 768x1280, orientation 1, mode 1, display id 0
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.App.onCreate(com.rovio.fusion.App@159715295<activity=true>, null)
+D/FUSION App(10837): No Joystick found.
+D/FUSION App(10837): AngryBirdsClassic
+I/org.umd.logging(10837): Api > 1 java.lang.Thread.start(com.rovio.fusion.GLSurfaceView$GLThread@270122741<thread=631>)
+I/org.umd.logging(10837): Api < 1 java.lang.Thread.start()
+V/HOVER   (10837): MyLegacySurfaceView() v
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.GLSurfaceView$GLThread.run(com.rovio.fusion.GLSurfaceView$GLThread@270122741<thread=631>)
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.App.onStart(com.rovio.fusion.App@159715295<activity=true>)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.App.onStart()
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.App.onResume(com.rovio.fusion.App@159715295<activity=true>)
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacyRenderer$1.onResume(com.rovio.fusion.MyLegacyRenderer$1@882580439)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacyRenderer$1.onResume()
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.GLSurfaceView.onResume(com.rovio.fusion.MyLegacySurfaceView@38262701<file=><x=0><y=0><width=0><height=0><id=-1>)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.GLSurfaceView.onResume()
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.App.onResume()
+V/WindowManager(  588): Adding window Window{1efceb40 u0 com.rovio.angrybirds/com.rovio.fusion.App} at 3 of 10 (before Window{2491e441 u0 Starting com.rovio.angrybirds})
+D/skia    (  742): --- SkImageDecoder::Factory returned null
+V/WindowManager(  588): Adding window Window{d9d13be u0 SurfaceView} at 3 of 11 (before Window{1efceb40 u0 com.rovio.angrybirds/com.rovio.fusion.App})
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.GLSurfaceView$EglHelper.start(com.rovio.fusion.GLSurfaceView$EglHelper@277585523)
+I/Adreno-EGL(10837): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[17,tid=10874,Native,Thread*=0xb84d4348,peer=0x12dc80a0,"Thread-635"]
+W/FlurryAgent(10837): onStartSession called with duplicate context, use a specific Activity or Service as context instead of using a global context
+W/FlurryAgent(10837): onStartSession called with duplicate context, use a specific Activity or Service as context instead of using a global context
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.MyLegacyRenderer$1$1.run(com.rovio.fusion.MyLegacyRenderer$1$1@683259362)
+I/org.umd.logging(10837): Method < 631 com.rovio.fusion.MyLegacyRenderer$1$1.run()
+W/WindowManager(  588): Window freeze timeout expired.
+W/WindowManager(  588): Force clearing orientation change: Window{2491e441 u0 Starting com.rovio.angrybirds}
+W/WindowManager(  588): Force clearing orientation change: Window{1efceb40 u0 com.rovio.angrybirds/com.rovio.fusion.App}
+W/WindowManager(  588): Force clearing orientation change: Window{d9d13be u0 SurfaceView}
+W/WindowManager(  588): Force clearing orientation change: Window{381d42b5 u0 com.android.systemui.ImageWallpaper}
+D/RemoteNotificationsClientWrapper(10837): setEnabled()true
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.RemoteNotificationsClientWrapper.start()
+D/RemoteNotificationsClientWrapper(10837): start()
+D/RemoteNotificationsClientWrapper(10837): Already registered: APA91bG9HOf-WpVxNDSIittwm73tE51-If0ZSElQFuGoTZz5AdhJ1PZEdk-1xHxkKveXH8cWbbJ3Hz-DXOcmnePALMf-Z8y8kILcCYPzBBFaY8WsRbwdo-7KBwN7To6xxnyg_QGOu8sG
+D/RemoteNotificationsClientWrapper(10837): checkStoredRemoteNotificationPayload()
+I/org.umd.logging(10837): Method < 631 com.rovio.fusion.RemoteNotificationsClientWrapper.start()
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.RemoteNotificationsClientWrapper$1.run(com.rovio.fusion.RemoteNotificationsClientWrapper$1@477471792)
+W/art     (10837): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging(10837): Method < 631 com.rovio.fusion.RemoteNotificationsClientWrapper$1.run()
+I/Choreographer(10837): Skipped 107 frames!  The application may be doing too much work on its main thread.
+D/RemoteNotificationsClientWrapper(10837): setEnabled()true
+V/WindowManager(  588): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  588): Layouts looping: loop number 4, mPendingLayoutChanges = 0x0
+V/WindowManager(  588): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  588): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+V/WindowManager(  588): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  588): Layouts looping: loop number 5, mPendingLayoutChanges = 0x0
+V/WindowManager(  588): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  588): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+E/WindowManager(  588): Performed 6 layouts in a row. Skipping
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$1.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$1@188829230)
+I/ActivityManager(  588): Displayed com.rovio.angrybirds/com.rovio.fusion.App: +2s244ms
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$1.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@264819548)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@1041249893)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@345513786)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@1059399659)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@1069402440)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run(com.rovio.skynest.socialnetwork.SocialManagerWrapper$2@752014305)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SocialManagerWrapper$2.run()
+I/WindowManager(  588): Screen frozen for +2s111ms due to Window{2491e441 u0 Starting com.rovio.angrybirds}
+W/IInputConnectionWrapper(  980): showStatusIcon on inactive InputConnection
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+W/        (10837): Caught exception while retrieving hash from assets: 404 
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[16,tid=10871,Native,Thread*=0xb84cd8f0,peer=0x12dbe0a0,"Thread-634"]
+I/art     (  588): Explicit concurrent mark sweep GC freed 22483(1059KB) AllocSpace objects, 3(815KB) LOS objects, 33% free, 21MB/32MB, paused 1.678ms total 133.007ms
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/MtpServerJNI(  766): server is null in send_object_removed
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1212): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+I/WebViewFactory(10837): Loading com.google.android.webview version 54.0.2840.85 (code 284008500)
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/cr_LibraryLoader(10837): Time to load native libraries: 1 ms (timestamps 4690-4691)
+I/cr_LibraryLoader(10837): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/cr_LibraryLoader(10837): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/chromium(10837): [INFO:library_loader_hooks.cc(151)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_BrowserStartup(10837): Initializing chromium process, singleProcess=true
+D/Utils/userAgentString(10837): Mozilla/5.0 (Linux; Android 5.1.1; Nexus 4 Build/LMY48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36
+E/RovioShelf(10837): Can not find sprite BACKGROUND
+W/RovioShelf(10837): Unable to create assets: Missing common UI element
+D/ConnectivityService(  588): listenForNetwork for NetworkRequest [ id=20, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  588): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  588): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(10837): CM callback handler got msg 524290
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.607.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:33.607><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.607.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.755.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:33.755><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.755.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.858.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:33.858><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:33.858.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:34.870.jpg
+I/org.umd.logging(10837): Api > 631 java.lang.Thread.start(java.lang.Thread@746694454<thread=653>)
+I/org.umd.logging(10837): Api < 631 java.lang.Thread.start()
+I/org.umd.logging(10837): Method > 653 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$1.run(com.rovio.fusion.payment.google.GooglePlayPaymentProvider$1@265037732)
+D/GooglePlayPaymentProvider(10837): bindToService()
+W/ContextImpl(10837): Implicit intents with startService are not safe: Intent { act=com.android.vending.billing.InAppBillingService.BIND } android.content.ContextWrapper.bindService:539 com.rovio.fusion.payment.google.GooglePlayPaymentProvider.a:-1 com.rovio.fusion.payment.google.GooglePlayPaymentProvider.access$1200:-1 
+I/org.umd.logging(10837): Method < 653 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$1.run()
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:34.870><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:34.870.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:34.983.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:34.983><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:34.983.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:35.090.jpg
+E/Ads/Ad  (10837): track/image called with an empty id
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:35.090><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:35.090.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+D/GooglePlayPaymentProvider(10837): onServiceConnected()
+I/Finsky  ( 1524): [114] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+D/GooglePlayPaymentProvider(10837): runRequest(): running immediately
+I/org.umd.logging(10837): Api > 1 java.lang.Thread.start(java.lang.Thread@1010368706<thread=654>)
+I/org.umd.logging(10837): Api < 1 java.lang.Thread.start()
+I/org.umd.logging(10837): Method > 654 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest.run(com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest@276175376)
+I/Finsky  ( 1524): [115] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 1524): [165] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 1524): [114] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 1524): [115] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 1524): [165] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 1524): [114] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+W/art     (10837): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging(10837): Method < 654 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest.run()
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=92.19 rxSuccessRate=120.88 targetRoamBSSID=any RSSI=-57
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.167.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:36.167><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.167.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.286.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:36.286><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.286.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.383.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:36.383><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:36.383.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+D/GooglePlayPaymentProvider(10837): runRequest(): running immediately
+I/org.umd.logging(10837): Api > 631 java.lang.Thread.start(java.lang.Thread@475660979<thread=655>)
+I/org.umd.logging(10837): Api < 631 java.lang.Thread.start()
+I/org.umd.logging(10837): Method > 655 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest.run(com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest@900521961)
+D/GooglePlayPaymentProvider(10837): restorePurchases()
+I/Finsky  ( 1524): [115] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/org.umd.logging(10837): Method < 655 com.rovio.fusion.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest.run()
+D/VASTParser(10837): parsing vast complete
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.029.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:38.029><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.029.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[16,tid=10931,Native,Thread*=0xb97e7330,peer=0x12ded520,"Thread-639"]
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.173.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:38.173><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.173.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.273.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:38.273><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.273.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$1.run(com.rovio.skynest.WebViewWrapper$1@434640655)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$1.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$2.run(com.rovio.skynest.WebViewWrapper$2@124424613)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$4.run(com.rovio.skynest.WebViewWrapper$4@781784363)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$4.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$5.run(com.rovio.skynest.WebViewWrapper$5@43492129)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$5.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$7.run(com.rovio.skynest.WebViewWrapper$7@420600071)
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+D/ConnectivityService(  588): listenForNetwork for NetworkRequest [ id=21, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  588): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  588): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(10837): CM callback handler got msg 524290
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+I/art     (10837): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.591.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api > 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@585553555<file=2016-11-22_11:49:38.591><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@159715295)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.591.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.719.jpg
+D/VASTParser(10837): parsing vast complete
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[28,tid=11026,Native,Thread*=0xb99dbe20,peer=0x12c0c280,"Thread-656"]
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api < 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@585553555<file=2016-11-22_11:49:38.719><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:38.719.jpg
+W/cr_media(10837): Requires BLUETOOTH permission
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$7.run()
+I/cr_Ime  (10837): ImeThread is enabled.
+E/libEGL  (10837): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+I/VideoCapabilities(10837): Unsupported profile 4 for video/mp4v-es
+I/art     (10837): Background sticky concurrent mark sweep GC freed 6237(423KB) AllocSpace objects, 7(6MB) LOS objects, 14% free, 34MB/40MB, paused 6.409ms total 29.604ms
+W/        (10837): No TNT spawn rect specified for level
+W/cr_BindingManager(10837): Cannot call determinedVisibility() - never saw a connection for the pid: 10837
+I/chromium(10837): [INFO:CONSOLE(5)] "The key "target-densitydpi" is not supported.", source: https://cloud.rovio.com/ads/1.0/adpage?templ=PauseMenuPromo&did=4C9E04CF6A4BF19F49C40E051FEBD6B8B1B02381&sw=1196&sh=768&vw=956&vh=768&ia=&accessToken=84CCE9F291CA81B249A2DD7307CEE6EF607C3A91C3B4AA55CC203D1A64EE23566684D78638C23B84317C78DA0F9BA9792DE04E4624988F9BC16B66EA150DA86C4ACDC4364FC27CF25230DF99D406E4DC42E206CF71B4273292F8B599C0455DFF89BE0D8622923DF790BCD78871B40EDE65CB59CA17689AD933F0BD925E0D4C745D6198F85389819C1D3977181BCCCE47FCB668A694C883D90CA97619DB9016F233EBF1D615828F9551E9ED42F87B71C19535446FA7FA176CA7EFDF0A4A82041E14D2D1274FACBC3B8476A95AF2DCEE8E8DD0E1D321500AC53E45FB76C8AB249F0ADF5EB1AAB1CF0A5C226CC65082C4CFF6F9A481EBB3A95DD7A3F0D0762CACC4AE9A13EC8D5E289CBAE1A2CDE8EBE6DD673210963FFEF90AEE68653CBB525AA20FA6767C26833581A7AA91996534546E88ADFA16A4A76CEDCB11B92C4D60CB1BBE2E1C91A8B372BFB665917821A7154985405CF8DFB69547F23D63C8F4FFC526DF715D439F81CC96CFB1A756AAFA94956438FC8D9060E6A077B24E0E409790C45FE435954445F3357F7560E7E0BA3E677B5F87B954DC612CA3F1F9EE3F9E87D2F121965060E5D04FC56D8E47CE1C588E2DBAFFA34CA3F90A3919BF6D737E24508A83285E10D59A291C00D7D5D740BA7DFF1F738176187DB52691B931B95AF050D48BF6473658F8F928B966E92148F393718E3C0028CE857D805CFF57B36C60A3&cs=%7B%22ppi%22%3A320%7D (5)
+E/chromium(10837): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$13.run(com.rovio.skynest.WebViewWrapper$13@1014814456)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$13.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$12.run(com.rovio.skynest.WebViewWrapper$12@894530102)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$12.run()
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.233.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.233><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.233.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.389.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.389><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.389.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.506.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.506><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.506.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.623.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.623><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.623.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.740.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.740><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.740.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.857.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.857><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.857.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.973.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:46.973><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:46.973.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.092.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.092><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.092.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.224.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.224><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.224.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.341.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.341><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.341.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.457.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.457><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.457.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.567.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.567><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.567.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.664.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:49:47.664><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:49:47.664.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=4.87 rxSuccessRate=4.63 targetRoamBSSID=any RSSI=-59
+W/FlurryAgent(10837): MaxEventParams exceeded: 17
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.048.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:00.048><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.048.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.190.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:00.190><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.190.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.300.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:00.300><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:00.300.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/        (10837): No TNT spawn rect specified for level
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.482.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:02.482><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.482.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.613.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:02.613><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.613.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.747.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:02.747><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:02.747.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:05.044.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:05.044><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:05.044.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:05.183.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:05.183><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:05.183.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.442.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:08.442><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.442.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.562.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:08.562><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.562.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.679.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:08.679><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.679.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.798.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:08.798><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.798.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.912.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:08.912><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:08.912.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.029.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.029><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.029.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.146.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.146><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.146.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.346.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.346><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.346.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.480.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.480><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.480.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.647.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.647><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.647.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.763.jpg
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.763><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.763.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.897.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:09.897><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:09.897.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.013.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.013><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.013.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.131.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.131><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.131.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.247.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.247><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.247.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.347.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.347><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.347.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.464.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.464><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.464.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.581.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.581><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.581.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.714.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:10.714><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.714.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$1.run(com.rovio.skynest.WebViewWrapper$1@122119611)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$1.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$2.run(com.rovio.skynest.WebViewWrapper$2@67599064)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$4.run(com.rovio.skynest.WebViewWrapper$4@430788145)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$4.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$5.run(com.rovio.skynest.WebViewWrapper$5@662923542)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$5.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$8.run(com.rovio.skynest.WebViewWrapper$8@31812740)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.836.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api > 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@912183603<file=2016-11-22_11:50:10.836><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@159715295)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.836.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.938.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api < 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@912183603<file=2016-11-22_11:50:10.938><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:10.938.jpg
+I/cr_Ime  (10837): ImeThread is enabled.
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$8.run()
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.045.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:11.045><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.045.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.161.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:11.161><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.161.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.257.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:11.257><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:11.257.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/cr_BindingManager(10837): Cannot call determinedVisibility() - never saw a connection for the pid: 10837
+E/chromium(10837): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$13.run(com.rovio.skynest.WebViewWrapper$13@254527516)
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$10.run(com.rovio.skynest.WebViewWrapper$10@1021968890)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$13.run()
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$10.run()
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[35,tid=11147,Native,Thread*=0xb864fb18,peer=0x12d0d0a0,"Thread-665"]
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.129.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:15.129><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.129.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/art     (10837): Background sticky concurrent mark sweep GC freed 2757(156KB) AllocSpace objects, 3(7MB) LOS objects, 3% free, 37MB/38MB, paused 7.202ms total 40.195ms
+I/art     (10837): WaitForGcToComplete blocked for 19.746ms for cause HeapTrim
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.250.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:15.250><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.250.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.393.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:15.393><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:15.393.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=57.70 rxSuccessRate=58.32 targetRoamBSSID=any RSSI=-60
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:17.831.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:17.831><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:17.831.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:17.972.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:17.972><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:17.972.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/art     (10837): Background sticky concurrent mark sweep GC freed 2130(126KB) AllocSpace objects, 2(7MB) LOS objects, 3% free, 37MB/38MB, paused 6.287ms total 26.583ms
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.105.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.105><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.105.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.259.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.259><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.259.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.389.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.389><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.389.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.505.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.505><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.505.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.622.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.622><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.622.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.736.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.736><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.736.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.853.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:18.853><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:18.853.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$11.run(com.rovio.skynest.WebViewWrapper$11@818299846)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$11.run()
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$16.run(com.rovio.skynest.WebViewWrapper$16@155123380)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$16.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$6.run(com.rovio.skynest.WebViewWrapper$6@433247826)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$6.run()
+W/cr_ScreenOrientation(10837): Removing an inexistent observer!
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.418.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:25.418><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.418.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.531.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:25.531><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.531.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.634.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:25.634><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:25.634.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.602.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:27.602><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.602.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.715.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:27.715><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.715.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.822.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:27.822><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:27.822.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/MtpServerJNI(  766): server is null in send_object_removed
+W/Settings( 5532): Setting stay_on_while_plugged_in has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:32.891.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:32.891.jpg
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:32.891><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:33.001.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:33.001><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:33.001.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:33.112.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:33.112><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:33.112.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.671.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:34.671><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.671.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.811.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:34.811><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.811.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.911.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:34.911><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:34.911.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.04 rxSuccessRate=2.23 targetRoamBSSID=any RSSI=-57
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:38.978.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:38.978><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:38.978.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.110.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.110><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.110.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.227.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.227><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.227.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.327.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.327><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.327.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.444.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.444><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.444.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.561.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.561><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.561.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.678.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.678><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.678.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.794.jpg
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.794><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.794.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.911.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:39.911><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:39.911.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.011.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:40.011><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.011.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.130.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:40.130><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.130.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.245.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:40.245><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.245.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.359.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:40.359><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.359.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.477.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:40.477><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:40.477.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+W/FlurryAgent(10837): MaxEventParams exceeded: 18
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=0.67 rxSuccessRate=0.39 targetRoamBSSID=any RSSI=-56
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.148.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:56.148><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.148.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.262.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:56.262><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.262.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.542.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:56.542><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.542.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.689.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:56.689><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.689.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.805.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:56.805><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:56.805.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.303.jpg
+I/art     (10837): Background partial concurrent mark sweep GC freed 2013(245KB) AllocSpace objects, 7(10MB) LOS objects, 40% free, 16MB/26MB, paused 6.745ms total 55.180ms
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:59.303><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.303.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.421.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:59.421><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.421.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.535.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:50:59.535><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:50:59.535.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$10.run(com.rovio.skynest.WebViewWrapper$10@360026568)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$10.run()
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$15.run(com.rovio.skynest.WebViewWrapper$15@727134598)
+W/art     (10837): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$15.run()
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:00.930.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:00.930><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:00.930.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:01.155.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:01.155><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:01.155.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:01.364.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:01.364><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:01.364.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/FlurryAgent(10837): MaxEventParams exceeded: 16
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$11.run(com.rovio.skynest.WebViewWrapper$11@966324388)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$11.run()
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$16.run(com.rovio.skynest.WebViewWrapper$16@575184397)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$16.run()
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:03.755.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:03.755><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:03.755.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:03.881.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:03.881><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:03.881.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:04.003.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:04.003><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:04.003.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:05.906.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:05.906><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:05.906.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:06.032.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:06.032><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:06.032.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:06.153.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:06.153><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:06.153.jpg
+W/        (10837): No TNT spawn rect specified for level
+I/UsageStatsService(  588): User[0] Flushing usage stats to disk
+W/art     (10837): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[35,tid=11270,Native,Thread*=0xb9952a50,peer=0x12d0d0a0,"Thread-666"]
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$1.run(com.rovio.skynest.WebViewWrapper$1@497478543)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$1.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$2.run(com.rovio.skynest.WebViewWrapper$2@997330460)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$2.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$4.run(com.rovio.skynest.WebViewWrapper$4@361019941)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$4.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$5.run(com.rovio.skynest.WebViewWrapper$5@936949754)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$5.run()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$8.run(com.rovio.skynest.WebViewWrapper$8@347124139)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.094.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api > 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@183130566<file=2016-11-22_11:51:08.094><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@159715295)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.094.jpg
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.235.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Api < 1 android.webkit.WebView.<init>(com.rovio.skynest.AdsWebView@183130566<file=2016-11-22_11:51:08.235><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.235.jpg
+I/cr_Ime  (10837): ImeThread is enabled.
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$8.run()
+W/cr_BindingManager(10837): Cannot call determinedVisibility() - never saw a connection for the pid: 10837
+E/chromium(10837): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$13.run(com.rovio.skynest.WebViewWrapper$13@591922356)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$13.run()
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.534.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:08.534><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.534.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.638.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:08.638><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:08.638.jpg
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$10.run(com.rovio.skynest.WebViewWrapper$10@240191709)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$10.run()
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$15.run(com.rovio.skynest.WebViewWrapper$15@19024978)
+W/art     (10837): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$15.run()
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/MtpServerJNI(  766): server is null in send_object_removed
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:10.769.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:10.769><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:10.769.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:10.984.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:10.984><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:10.984.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:11.226.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:11.226><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:11.226.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/FlurryAgent(10837): MaxEventParams exceeded: 16
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.WebViewWrapper$11.run(com.rovio.skynest.WebViewWrapper$11@276588880)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.WebViewWrapper$11.run()
+I/org.umd.logging(10837): Method > 631 com.rovio.skynest.WebViewWrapper$16.run(com.rovio.skynest.WebViewWrapper$16@820995913)
+I/org.umd.logging(10837): Method < 631 com.rovio.skynest.WebViewWrapper$16.run()
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.325.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:13.325><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.325.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.459.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:13.459><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.459.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.594.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:13.594><x=0><y=0><width=1196><height=768><id=-1>, android.view.MotionEvent@791856120)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:13.594.jpg
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacySurfaceView.onTouchEvent(true)
+W/ResourceType(  742): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  742): Failure retrieving resources for com.rovio.angrybirds: Resource ID #0x0
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/ActivityManager(  588): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10022 on display 0
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.App.onPause(com.rovio.fusion.App@159715295<activity=true>)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:14.277.jpg
+W/ResourceType(10837): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.GLSurfaceView.onPause(com.rovio.fusion.MyLegacySurfaceView@38262701<file=2016-11-22_11:51:14.277><x=0><y=0><width=1196><height=768><id=-1>)
+E/Cataloger( 5532): syncFile:/storage/emulated/0/2016-11-22_11:51:14.277.jpg
+I/org.umd.logging(10837): Method > 631 com.rovio.fusion.MyLegacyRenderer.onPause(com.rovio.fusion.MyLegacyRenderer@409034095)
+I/org.umd.logging(10837): Method < 631 com.rovio.fusion.MyLegacyRenderer.onPause()
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.GLSurfaceView.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.MyLegacyRenderer$1.onPause(com.rovio.fusion.MyLegacyRenderer$1@882580439)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.MyLegacyRenderer$1.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.VideoPlayerBridge.onPause(com.rovio.fusion.VideoPlayerBridge@902700119)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.VideoPlayerBridge.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.RemoteNotificationsClientWrapper.onPause(com.rovio.fusion.RemoteNotificationsClientWrapper@1065356333)
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.RemoteNotificationsClientWrapper.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.FacebookService.onPause(com.rovio.skynest.socialnetwork.FacebookService@892217075)
+I/org.umd.logging(10837): Method > 1 com.facebook.UiLifecycleHelper.onPause(com.facebook.UiLifecycleHelper@855522857)
+I/org.umd.logging(10837): Method < 1 com.facebook.UiLifecycleHelper.onPause()
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.FacebookService.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.socialnetwork.SinaWeiboService.onPause(com.rovio.skynest.socialnetwork.SinaWeiboService@74528476)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.socialnetwork.SinaWeiboService.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.fusion.payment.google.GooglePlayPaymentProvider.onPause(com.rovio.fusion.payment.google.GooglePlayPaymentProvider@987302157)
+D/GooglePlayPaymentProvider(10837): onPause(): unbind
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.payment.google.GooglePlayPaymentProvider.onPause()
+I/org.umd.logging(10837): Method > 1 com.rovio.skynest.VideoPlayerBridge.onPause(com.rovio.skynest.VideoPlayerBridge@952467819)
+I/org.umd.logging(10837): Method < 1 com.rovio.skynest.VideoPlayerBridge.onPause()
+I/org.umd.logging(10837): Method < 1 com.rovio.fusion.App.onPause()
+W/InputMethodManagerService(  588): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@3c6efac9 (uid=10222 pid=10837)
+W/ResourceType(  742): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  742): Failure retrieving resources for com.rovio.angrybirds: Resource ID #0x0
+I/ActivityManager(  588): Killing 10837:com.rovio.angrybirds/u0a222 (adj 9): remove task
+I/WindowState(  588): WIN DEATH: Window{1efceb40 u0 com.rovio.angrybirds/com.rovio.fusion.App}
+W/WindowManager(  588): Force-removing child win Window{d9d13be u0 SurfaceView} from container Window{1efceb40 u0 com.rovio.angrybirds/com.rovio.fusion.App}
+D/ConnectivityService(  588): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=21, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@256fdcef)
+D/ConnectivityService(  588): releasing NetworkRequest NetworkRequest [ id=21, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+E/ConnectivityService(  588): RemoteException caught trying to send a callback msg for NetworkRequest [ id=21, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  588): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=20, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@c2035ce)
+D/ConnectivityService(  588): releasing NetworkRequest NetworkRequest [ id=20, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+E/ConnectivityService(  588): RemoteException caught trying to send a callback msg for NetworkRequest [ id=20, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+W/WindowManager(  588): Failed looking up window
+W/WindowManager(  588): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@34ddda79 does not exist
+W/WindowManager(  588): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8539)
+W/WindowManager(  588): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8530)
+W/WindowManager(  588): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1142)
+W/WindowManager(  588): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:551)
+I/WindowState(  588): WIN DEATH: null
+E/WifiStateMachine(  588): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=104.11 rxSuccessRate=194.28 targetRoamBSSID=any RSSI=-62
+I/ActivityManager(  588): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from uid 10022 on display 0
+I/ActivityManager(  588): Config changes=480 {1.0 310mcc?mnc en_US ?layoutDir sw384dp w384dp h567dp 320dpi nrml port finger -keyb/v/h -nav/h s.9}
+V/ActivityManager(  588): Display changed displayId=0
+I/InputReader(  588): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  588): Device reconfigured: id=6, name='touch_dev', size 768x1280, orientation 0, mode 1, display id 0
+D/skia    (  742): --- SkImageDecoder::Factory returned null
+D/TaskPersister(  588): removeObsoleteFile: deleting file=47_task.xml
+D/TaskPersister(  588): removeObsoleteFile: deleting file=47_task_thumbnail.png
+W/IInputConnectionWrapper(  742): showStatusIcon on inactive InputConnection
+I/WindowManager(  588): Screen frozen for +437ms due to Window{381d42b5 u0 com.android.systemui.ImageWallpaper}
+W/OpenGLRenderer(  980): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer(  980): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/art     (  588): Explicit concurrent mark sweep GC freed 37601(1964KB) AllocSpace objects, 4(64KB) LOS objects, 33% free, 22MB/33MB, paused 1.709ms total 130.138ms
+I/PlayCommon( 1524): [135] com.google.android.play.a.g.e(862): Preparing logs for uploading
+I/PlayCommon( 1524): [135] com.google.android.play.a.g.a(1002): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/PlayCommon( 1524): [135] com.google.android.play.a.g.a(1077): Successfully uploaded logs.
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/DeviceStateChecker( 7744): screenOn: true, isCharging: true
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+I/DownloadManagerWrapper(  884): onReceive() : Charging = true
+E/MtpServerJNI(  766): server is null in send_object_removed
+W/Settings( 5532): Setting stay_on_while_plugged_in has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
