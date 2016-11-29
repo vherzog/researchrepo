@@ -167,3 +167,7 @@ November 15 - 5 hours
 - wrote automated program (C++) to read textfiles of redexer logging output and logcat output of running application
 - Finished analysis of __ # of apps
 - slides for tomorrow
+
+Week 10:
+November 29: 2 hours
+- 
