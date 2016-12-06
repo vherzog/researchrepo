@@ -182,5 +182,19 @@ December 1: 4 hours
 - found that there ARE differences in # of method calls between recorded run and 'identical' replay run
 - started testing more applications
 
-December 2: 3 hour
+December 2: 3 hours
+- began analysis of more applications 
+- debugging comparison program (python)
+
+Week 11:
+December 6: 3 hours
+- continued analysis of more applications
+  - APP LIST:
+    1. 2048
+    2. Solitaire
+    3. Angry Birds
+    4. CNN
+    5. Fruit Ninja
+    6. Bubble Bee
+    ...
 - 
