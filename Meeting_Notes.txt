@@ -93,6 +93,7 @@ Meeting with Onur: (11/10)
 
 Meeting 8: (11/30)
 - check fb originally 
-comparison not in c++
-10 applications!!
-look broader into other apps for no determinsims
+- the issues in the login applications may be due to self-checking capabilities in those apps
+- do not write analysis programs in c++ (python better)
+- analysis should have at least 10 applications
+- look broader into other apps for non-determinisms (other than 2048)
