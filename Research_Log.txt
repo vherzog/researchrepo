@@ -190,13 +190,17 @@ Week 11:
 December 6: 3 hours
 - continued analysis of more applications
   - APP LIST:
-    1. 2048
-    2. Solitaire
-    3. Angry Birds
-    4. CNN
-    5. Fruit Ninja
-    6. Bubble Bee
-    7. StickBMX
-    8. Archery King
-    9. 
-- 
+    1.  2048
+    2.  Solitaire
+    3.  Angry Birds
+    4.  CNN
+    5.  Ninja Jump
+    6.  Bubble Bee
+    7.  StickBMX
+    8.  Archery King
+    9.  Rolling Sky
+    10. Color Switch
+
+December 8: 5 hours
+- added Monkey analysis component to 10 apps
+- started writing up tutorial for future researcher (about redexer/reran/my analysis program)
