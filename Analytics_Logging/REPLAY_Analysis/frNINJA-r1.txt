@@ -1,0 +1,333 @@
+--------- beginning of main
+E/WifiStateMachine(  601): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.83 rxSuccessRate=0.73 targetRoamBSSID=any RSSI=-52
+--------- beginning of system
+I/ActivityManager(  601): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.halfbrick.fruitninjafree cmp=com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameLauncherActivity bnds=[40,385][200,585] (has extras)} from uid 10014 on display 0
+D/audio_hw_primary(  188): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  188): ACDB -> send_afe_cal
+D/audio_hw_primary(  188): enable_snd_device: snd_device(2: speaker)
+V/WindowManager(  601): addAppToken: AppWindowToken{c2a4899 token=Token{e5bbde0 ActivityRecord{14d62fe3 u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameLauncherActivity t26}}} to stack=1 task=26 at 0
+D/audio_hw_primary(  188): enable_audio_route: apply and update mixer path: low-latency-playback
+V/WindowManager(  601): Adding window Window{242b5436 u0 Starting com.halfbrick.fruitninjafree} at 4 of 9 (after Window{267b3005 u0 com.noshufou.android.su/com.noshufou.android.su.Su})
+I/ActivityManager(  601): Start proc 27745:com.halfbrick.fruitninjafree/u0a115 for activity com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameLauncherActivity
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/WindowManager(  601): Screenshot max retries 4 of Token{e5bbde0 ActivityRecord{14d62fe3 u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameLauncherActivity t26 f}} appWin=Window{242b5436 u0 Starting com.halfbrick.fruitninjafree} drawState=4
+I/ActivityManager(  601): START u0 {cmp=com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity} from uid 10115 on display 0
+V/WindowManager(  601): addAppToken: AppWindowToken{29dc5a0d token=Token{30761ca4 ActivityRecord{31df7f37 u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity t27}}} to stack=1 task=27 at 0
+V/WindowManager(  601): Adding window Window{4de5c3c u0 Starting com.halfbrick.fruitninjafree} at 5 of 10 (after Window{242b5436 u0 Starting com.halfbrick.fruitninjafree})
+I/ActivityManager(  601): Config changes=480 {1.0 310mcc?mnc en_US ?layoutDir sw384dp w598dp h359dp 320dpi nrml land finger -keyb/v/h -nav/h s.10}
+E/SurfaceFlinger(  172): rejecting buffer: bufWidth=768, bufHeight=1280, front.active.{w=1, h=1}
+I/InputReader(  601): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  601): Device reconfigured: id=6, name='touch_dev', size 768x1280, orientation 1, mode 1, display id 0
+I/InputReader(  601): Reconfiguring input devices.  changes=0x00000004
+V/ActivityManager(  601): Display changed displayId=0
+I/JNI     (27745): Trying to load libmortargame.so
+I/JNI     (27745): Successfully loaded libmortargame.so
+V/halfbrick.Mortar(27745): Loading native lib, result: true
+I/JNI     (27745): Trying to load libmortargame.so
+I/JNI     (27745): Successfully loaded libmortargame.so
+V/halfbrick.Mortar(27745): Loading native lib, result: true
+D/OpenUDID(27745): OpenUDID: d7a6658b0c374c37
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.SamsungIAPManager
+I/Version SDK(27745): 22
+I/Setting (27745): fullscreen
+I/halfbrick.MortarGameView(27745): Rendererer constructor
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.AndroidLocationService
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.AndroidLocationService
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.AmazonAppStoreUtils
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.SkyNet_BricknetIAP
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.GameCircleManager
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.KakaoAndroid
+W/PopupManager(27745): You have not specified a View to use as content view for popups. Falling back to the Activity content view. Note that this may not work as expected in multi-screen environments
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bricknet.FortumoBillingManager
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): setActivity
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): onCreate
+D/com.halfbrick.mortar.OtherLevelsManager(27745): onCreate
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.bluetoothle.BTLEController
+I/halfbrick.Mortar(27745): Created AndroidGameControllerManager
+I/halfbrick.Mortar(27745): Failed to create MogaController
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.Provider_FlurryBackend
+W/GeneralUtilities.private.CallClassMethodAndReturn(27745): Method onResume not found! java.lang.NoSuchMethodException: onResume []
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.GameCircleManager
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): onResume
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.MortarAmazonIAP
+D/OpenGLRenderer(27745): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   (27745): Validating map...
+V/WindowManager(  601): Adding window Window{933f11f u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity} at 4 of 10 (before Window{4de5c3c u0 Starting com.halfbrick.fruitninjafree})
+I/Adreno-EGL(27745): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/OpenGLRenderer(27745): Initialized EGL, version 1.4
+D/OpenGLRenderer(27745): Enabling debug mode 0
+V/WindowManager(  601): Adding window Window{2cd4a235 u0 SurfaceView} at 4 of 11 (before Window{933f11f u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity})
+W/GamesServiceBroker( 6798): Client connected with SDK 8487000, Services 10084236, and Games 39080036
+V/WindowManager(  601): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  601): Layouts looping: loop number 4, mPendingLayoutChanges = 0x0
+V/WindowManager(  601): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  601): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+I/halfbrick.Mortar(27745): Touch has gained focus
+V/WindowManager(  601): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  601): Layouts looping: loop number 5, mPendingLayoutChanges = 0x0
+V/WindowManager(  601): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  601): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+E/WindowManager(  601): Performed 6 layouts in a row. Skipping
+I/ActivityManager(  601): Displayed com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity: +1s80ms (total +2s441ms)
+W/GamesServiceBroker( 6798): Client connected with SDK 8487000, Services 10084236, and Games 39080036
+D/halfbrick.MortarGameView(27745): game.SystemInit complete from Java
+W/IInputConnectionWrapper( 6361): showStatusIcon on inactive InputConnection
+I/WindowManager(  601): Screen frozen for +1s128ms due to Window{4de5c3c u0 Starting com.halfbrick.fruitninjafree}
+I/halfbrick.Mortar.SplashScreen(27745): Created shader program successfully
+I/halfbrick.Mortar.SplashScreen(27745): Uniform matrixWorld: 3
+I/halfbrick.Mortar.SplashScreen(27745): Uniform matrixView:  2
+I/halfbrick.Mortar.SplashScreen(27745): Uniform matrixProj:  1
+I/halfbrick.Mortar.SplashScreen(27745): Uniform diffuseMap:  4
+I/halfbrick.Mortar.SplashScreen(27745): Attribute pos:        0
+I/halfbrick.Mortar.SplashScreen(27745): Attribute uv:         1
+I/halfbrick.Mortar.SplashScreen(27745): Attribute vertColour: -1
+W/AppOps  (  601): Bad call: specified package com.google.android.play.games under uid 10115 but it is really 10071
+D/halfbrick.Mortar(27745): Calling HBSupport::GetAdvertisingId()
+D/halfbrick.Mortar(27745): Calling GooglePlayServicesUtility::GetAdvertisingId()
+W/GamesServiceBroker( 6798): Client connected with SDK 8487000, Services 10084236, and Games 39080036
+D/halfbrick.Mortar(27745): GetAdvertisingId: GooglePlayServices Available
+I/art     (27745): Background partial concurrent mark sweep GC freed 2212(140KB) AllocSpace objects, 1(36KB) LOS objects, 40% free, 17MB/29MB, paused 7.233ms total 60.338ms
+D/halfbrick.MortarGameView(27745): game.SystemInit complete from Java
+D/halfbrick.MortarGameView(27745): game.SystemInit complete from Java
+D/halfbrick.Mortar(27745): Retrieved advertising id: 229d4aea-d76e-47c3-ad88-1eafdf3529f0
+I/halfbrick.Mortar(27745): Country is US
+D/halfbrick.MortarGameView(27745): game.SystemInit complete from Java
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/halfbrick.Mortar.info(27745): Save file dir:  /data/data/com.halfbrick.fruitninjafree/files/
+I/halfbrick.Mortar.info(27745): Cache file dir: /data/data/com.halfbrick.fruitninjafree/cache/
+I/halfbrick.Mortar.info(27745): External storage dir: /storage/emulated/0/
+I/Crashlytics(27745): Initialise()
+W/AppOps  (  601): Bad call: specified package com.google.android.play.games under uid 10115 but it is really 10071
+W/AppOps  (  601): Bad call: specified package com.google.android.play.games under uid 10115 but it is really 10071
+D/libcrashlytics(27745): Initializing libcrashlytics version 1.1.2
+D/libcrashlytics(27745): Attempting to load unwinder...
+D/libcrashlytics(27745): Done; using libunwind
+D/libcrashlytics(27745): Attempting to register signal handler...
+D/libcrashlytics(27745): Signal handler registered.
+D/libcrashlytics(27745): Initializing native crash handling successful.
+I/CrashlyticsCore(27745): Initializing Crashlytics 2.3.6.92
+I/Crashlytics(27745): --- Initialise Done ---
+D/audio_hw_primary(  188): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  188): disable_snd_device: snd_device(2: speaker)
+I/halfbrick.Mortar(27745): Current Language: en
+W/libOpenSLES(27745): class Engine interface 1 requested but unavailable MPH=9
+W/AudioTrack(27745): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/halfbrick.MortarGameView(27745): game.SystemInit complete from Java
+D/halfbrick.MortarGameView(27745): Splash finished.  GameInit
+D/audio_hw_primary(  188): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  188): ACDB -> send_afe_cal
+D/audio_hw_primary(  188): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  188): enable_audio_route: apply and update mixer path: low-latency-playback
+I/halfbrick.MortarGameView(27745): Checking intent for launch from Notification, preGameInit
+I/halfbrick.MortarGameView(27745): Checking intent for launch from Url, postGameInit
+I/halfbrick.MortarGameView(27745): launchuri is null
+I/art     (  601): Explicit concurrent mark sweep GC freed 13374(624KB) AllocSpace objects, 3(794KB) LOS objects, 33% free, 24MB/37MB, paused 2.258ms total 105.844ms
+W/ProcessCpuTracker(  601): Skipping unknown process pid 27854
+W/ProcessCpuTracker(  601): Skipping unknown process pid 27856
+W/ProcessCpuTracker(  601): Skipping unknown process pid 27857
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+D/Provider_ChartboostBackend(27745): Chartboost Initialise(554a9fda04b0162ef68d4c36 : e7361fcdfb5143d0fe93dc3be11a2bb5d68bf616)
+D/Provider_UnityAdsBackend(27745): UnityAds Initialise
+D/AppsFlyer(27745): Initialise with appKey: qeTeopo64mv6at9MnGhkeH, id: hdid-76159cd3c3023868e111c3562a4cc5e950a5636e
+D/com.halfbrick.bricknet.GooglePlayBillingService(27745): Constructing billing service
+D/com.halfbrick.bricknet.GooglePlayBillingService(27745): Created GooglePlayBillingService
+D/com.halfbrick.bricknet.GooglePlayBillingService(27745): AdWords tracking is enabled
+D/com.halfbrick.bricknet.GooglePlayBillingService(27745): Setting AdWords config. conversionID: 964688129 label: ZS7_CLbE-VkQgfL_ywM
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): Init
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): s_carnivalSdkKey = 7a77139ce93bb18a, s_clientId = r0j30lh89a, s_clientSecret = 86E53F1D509CD8F8147EADEFADC52E4F, carnivalEnv = live
+W/System.err(27745): java.lang.Exception: SDK Initialization error. SDK seems to be not initialized properly, check for any integration issues
+W/System.err(27745): 	at com.chartboost.sdk.c.t(SourceFile:488)
+W/System.err(27745): 	at com.chartboost.sdk.c.a(SourceFile:316)
+W/System.err(27745): 	at com.chartboost.sdk.Chartboost$17.run(SourceFile:1133)
+W/System.err(27745): 	at com.chartboost.sdk.Chartboost.a(SourceFile:1447)
+W/System.err(27745): 	at com.chartboost.sdk.Chartboost.setLoggingLevel(SourceFile:1130)
+W/System.err(27745): 	at com.halfbrick.mortar.Provider_ChartboostBackend$1.run(Provider_ChartboostBackend.java:48)
+W/System.err(27745): 	at android.os.Handler.handleCallback(Handler.java:739)
+W/System.err(27745): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err(27745): 	at android.os.Looper.loop(Looper.java:135)
+W/System.err(27745): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+W/System.err(27745): 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err(27745): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/System.err(27745): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+W/System.err(27745): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+D/### CarnivalApiClient(27745): Setting Carnival SDK environment to LIVE
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): OnQuestsParsed
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): Failed to connect to Carnival. Details: SDK disabled if carnival not installed
+D/com.halfbrick.bricknet.AndroidWebViewService(27745): Initialising AndroidWebViewService
+D/com.halfbrick.mortar.OtherLevelsManager(27745): SetAppKey
+E/OtherLevels-SDK(27745): The "ServiceReceiver" receiver was not found in the manifest: com.otherlevels.android.sdk.ServiceReceiver
+E/OtherLevels-SDK(27745): com.otherlevels.android.sdk.exception.LibraryException: The "ServiceReceiver" receiver was not found in the manifest: com.otherlevels.android.sdk.ServiceReceiver
+E/OtherLevels-SDK(27745): 	at com.otherlevels.android.sdk.OlAndroidLibrary.init(OlAndroidLibrary.java:124)
+E/OtherLevels-SDK(27745): 	at com.halfbrick.mortar.OtherLevelsManager.SetAppKey(OtherLevelsManager.java:262)
+E/OtherLevels-SDK(27745): 	at com.halfbrick.mortar.NativeGameLib.native_step(Native Method)
+E/OtherLevels-SDK(27745): 	at com.halfbrick.mortar.NativeGameLib.step(NativeGameLib.java:167)
+E/OtherLevels-SDK(27745): 	at com.halfbrick.mortar.GameManager.Render(GameManager.java:244)
+E/OtherLevels-SDK(27745): 	at com.halfbrick.mortar.MortarGameView$Renderer.onDrawFrame(MortarGameView.java:625)
+E/OtherLevels-SDK(27745): 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1522)
+E/OtherLevels-SDK(27745): 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1239)
+W/System.err(27745): com.otherlevels.android.sdk.exception.LibraryException: The "ServiceReceiver" receiver was not found in the manifest: com.otherlevels.android.sdk.ServiceReceiver
+W/System.err(27745): 	at com.otherlevels.android.sdk.OlAndroidLibrary.init(OlAndroidLibrary.java:124)
+W/System.err(27745): 	at com.halfbrick.mortar.OtherLevelsManager.SetAppKey(OtherLevelsManager.java:262)
+W/System.err(27745): 	at com.halfbrick.mortar.NativeGameLib.native_step(Native Method)
+W/System.err(27745): 	at com.halfbrick.mortar.NativeGameLib.step(NativeGameLib.java:167)
+W/System.err(27745): 	at com.halfbrick.mortar.GameManager.Render(GameManager.java:244)
+W/System.err(27745): 	at com.halfbrick.mortar.MortarGameView$Renderer.onDrawFrame(MortarGameView.java:625)
+W/System.err(27745): 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1522)
+W/System.err(27745): 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1239)
+D/com.halfbrick.mortar.OtherLevelsManager(27745): CheckAllRegistrationChoices
+D/com.halfbrick.mortar.OtherLevelsManager(27745): choice id: default, 2
+D/com.halfbrick.mortar.OtherLevelsManager(27745): SetBricknetId - 003-D9BEA888-73DB-4E2D-04F8-3308B24ADCF3
+D/com.halfbrick.mortar.OtherLevelsManager(27745): AttemptToRegisterUser
+D/com.halfbrick.mortar.OtherLevelsManager(27745): Unable to register yet
+D/com.halfbrick.mortar.OtherLevelsManager(27745): OptInForRegistration
+D/com.halfbrick.mortar.OtherLevelsManager(27745): SetDefaultRegistrationChoiceIfNone
+D/com.halfbrick.mortar.OtherLevelsManager(27745): AttemptToRegisterUser
+D/com.halfbrick.mortar.OtherLevelsManager(27745): Unable to register yet
+D/com.halfbrick.mortar.OtherLevelsManager(27745): OptInForRegistration
+D/com.halfbrick.mortar.OtherLevelsManager(27745): SetDefaultRegistrationChoiceIfNone
+D/com.halfbrick.mortar.OtherLevelsManager(27745): AttemptToRegisterUser
+D/com.halfbrick.mortar.OtherLevelsManager(27745): Unable to register yet
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/.adId
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/.adId
+D/halfbrick.mortar(27745): HandleAttribution called
+I/installedViaCampaign.txt(27745): No attribution file found /data/data/com.halfbrick.fruitninjafree/files/engine/installedViaCampaign.txt
+D/AppLovinSdkImpl(27745): SDK has not been updated since last run. Continuing...
+D/Provider_AppLovinBackend(27745): AppLovin: Initialisation complete
+I/AdColony(27745): ==== Configuring AdColony 2.3.5 with app/zone ids: ====
+I/AdColony(27745): app2356def8605d4134b1be9b
+I/AdColony(27745): vz15f98aac9d6f45faada97d
+D/Provider_AdColonyBackend(27745): Adcolony: configure finished
+D/Provider_UnityAdsBackend(27745): UnityAds Initialise(63938)
+I/UnityAds(27745): com.unity3d.ads.android.UnityAds.init() (line:474) :: Initializing Unity Ads version 1506 with gameId 63938
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+I/AppsFlyer_3.0(27745): setCustomerUserId = hdid-76159cd3c3023868e111c3562a4cc5e950a5636e
+I/AppsFlyer_3.0(27745): Start tracking package: com.halfbrick.fruitninjafree
+I/AppsFlyer_3.0(27745): AsendTrackingWithEvent from activity: com.halfbrick.mortar.MortarApplication
+I/AppsFlyer_3.0-698047509(27745): ******* sendTrackingWithEvent: Launch
+E/ActivityThread(27745): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/UnityAds(27745): com.unity3d.ads.android.webapp.UnityAdsWebData.initCampaigns() (line:223) :: Requesting Unity Ads ad plan from https://impact.applifier.com/mobile/campaigns?platform=android&trackingEnabled=1&advertisingTrackingId=7301a265623e38c1cf6f1c2529f1e785&rawAdvertisingTrackingId=229d4aea-d76e-47c3-ad88-1eafdf3529f0&gameId=63938&sdkVersion=1506&softwareVersion=22&hardwareVersion=LGE+Nexus+4&deviceType=268435538&connectionType=wifi&screenSize=268435538&screenDensity=320&encrypted=true
+I/AppsFlyer_3.0(27745): AppsFlyer: first launch date: 2016-10-04_1026-0400
+I/System.out(27745): AppsFlyerLib.sendTrackingWithEvent
+I/AppsFlyer_3.0-698047509(27745): url: https://t.appsflyer.com/api/v3/androidevent?buildnumber=3.0&app_id=com.halfbrick.fruitninjafree
+I/AppsFlyer_(27745): data: device=mako&firstLaunchDate=2016-10-04_1026-0400&installDate=2016-10-04_1025-0400&sdk=22&referrer=utm_source%3Dgoogle-play%26utm_medium%3Dorganic&carrier=&date1=2016-10-04_1025-0400&af_preinstalled=false&advertiserIdEnabled=true&iaecounter=0&lang_code=en&appsflyerKey=qe****************hkeH&imei=353918052133903&installer_package=com.android.vending&app_version_name=2.4.2.436758&lang=English&timepassedsincelastlaunch=76&dkh=qeTeopo6&android_id=d7a6658b0c374c37&advertiserId=229d4aea-d76e-47c3-ad88-1eafdf3529f0&appUserId=hdid-76159cd3c3023868e111c3562a4cc5e950a5636e&deviceType=user&af_v=23f12c2f53ef94eadea17d79dc4d4e197d47c699&app_version_code=436758&platformextension=android_native&network=WIFI&operator=&country=US&date2=2016-11-08_1219-0500&brand=google&af_timestamp=1480698047509&uid=1475591152548-734282181470828331&isFirstCall=false&counter=7&model=Nexus+4&product=occam
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/Halfbrick/KeyStore.dat
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/html/e149acede4939ff9637ceed7e83d1edb2345161f-1894489192
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/html/e149acede4939ff9637ceed7e83d1edb2345161f-1894489192
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/html/230fe2b002751becbc80b9d9d3bcfa171e572cf5-1302023992
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/html/230fe2b002751becbc80b9d9d3bcfa171e572cf5-1302023992
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/html/static-diablo--596705296
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/html/static-diablo--596705296
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/html/static-etna-800461004
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/html/static-etna-800461004
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/.adId
+E/Cataloger( 7263): need not sync path:/storage/emulated/0/.chartboost/.adId
+I/AppsFlyer_3.0-698047509(27745): response code: 200
+I/Finsky  (26924): [1374] com.google.android.finsky.billing.iab.s.a(5211): com.halfbrick.fruitninjafree: Account determined from installer data - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  (26924): [1345] com.google.android.finsky.billing.iab.s.a(5211): com.halfbrick.fruitninjafree: Account determined from installer data - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/UnityAds(27745): com.unity3d.ads.android.webapp.UnityAdsWebData.campaignDataReceived() (line:684) :: Unity Ads initialized with 23 campaigns and 1 zones
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Android/data/com.halfbrick.fruitninjafree/cache/UnityAdsVideoCache/UnityAds-583df8cb535682000a963c6b-m31-1000.mp4
+I/WebViewFactory(27745): Loading com.google.android.webview version 54.0.2840.85 (code 284008500)
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/cr_LibraryLoader(27745): Time to load native libraries: 1 ms (timestamps 2248-2249)
+I/cr_LibraryLoader(27745): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/cr_LibraryLoader(27745): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/chromium(27745): [INFO:library_loader_hooks.cc(151)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_BrowserStartup(27745): Initializing chromium process, singleProcess=true
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+D/ConnectivityService(  601): listenForNetwork for NetworkRequest [ id=45, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  601): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  601): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(27745): CM callback handler got msg 524290
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+I/art     (27745): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+W/cr_media(27745): Requires BLUETOOTH permission
+I/cr_Ime  (27745): ImeThread is enabled.
+D/ConnectivityService(  601): listenForNetwork for NetworkRequest [ id=46, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  601): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  601): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(27745): CM callback handler got msg 524290
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/videos/5810ed7d43150f60bbf16159_568-1477504381.mp4
+E/libEGL  (27745): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+E/Cataloger( 7263): syncFile:/storage/emulated/0/.chartboost/videos/5810ed7d43150f60bbf16159_568-1477504381.mp4
+I/VideoCapabilities(27745): Unsupported profile 4 for video/mp4v-es
+W/cr_BindingManager(27745): Cannot call determinedVisibility() - never saw a connection for the pid: 27745
+E/chromium(27745): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/chromium(27745): [INFO:CONSOLE(5186)] "Resize handler called", source: http://cdn-highwinds.unityads.unity3d.com/impact/webview/production/impact/index.html?version=355d07711ebe2b50428210d9faa943e8ed31b253 (5186)
+D/Provider_UnityAdsBackend(27745): UnityAds has successfully cached an ad
+I/chromium(27745): [INFO:CONSOLE(4674)] "true", source: http://cdn-highwinds.unityads.unity3d.com/impact/webview/production/impact/index.html?version=355d07711ebe2b50428210d9faa943e8ed31b253 (4674)
+I/chromium(27745): [INFO:CONSOLE(5169)] "Hiding all views", source: http://cdn-highwinds.unityads.unity3d.com/impact/webview/production/impact/index.html?version=355d07711ebe2b50428210d9faa943e8ed31b253 (5169)
+I/chromium(27745): [INFO:CONSOLE(5167)] "Showing: none", source: http://cdn-highwinds.unityads.unity3d.com/impact/webview/production/impact/index.html?version=355d07711ebe2b50428210d9faa943e8ed31b253 (5167)
+D/Provider_AppLovinBackend(27745): Applovin successfully loaded ad with request id 20379349168674135
+E/Cataloger( 7263): syncFile:/storage/emulated/0/Android/data/com.halfbrick.fruitninjafree/cache/UnityAdsVideoCache/UnityAds-57a0fb2ed769de2c086cd39b-m31-1000.mp4
+I/Choreographer(27745): Skipped 76 frames!  The application may be doing too much work on its main thread.
+I/org.umd.logging(24057): Method > 1349 com.turner.android.aspen.AspenLogger$4.run(com.turner.android.aspen.AspenLogger$4@108142777)
+V/Aspen   (24057): ------------postingThread.run invoked
+V/Aspen   (24057): postEvents|appName=cvp|sessionId=8fb636d6847c7044ade72d9e4bccb98018d18da8~cvp~android~cnn~25~1480692317107|size=0
+I/org.umd.logging(24057): Api > 1349 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@853728067)
+I/org.umd.logging(24057): Api < 1349 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@817731477)
+V/Aspen   (24057): postingThread.sleep for 45000 msec
+E/WifiStateMachine(  601): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=377.95 rxSuccessRate=686.57 targetRoamBSSID=any RSSI=-53
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+I/DownloadManagerWrapper( 6250): onReceive() : Charging = true
+W/ResourceType( 5970): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 5970): Failure retrieving resources for com.halfbrick.fruitninjafree: Resource ID #0x0
+I/ActivityManager(  601): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10022 on display 0
+I/AdColony(27745): [ADC] AdColony pause called.
+W/GeneralUtilities.private.CallClassMethodAndReturn(27745): Method onPause not found! java.lang.NoSuchMethodException: onPause []
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.GameCircleManager
+D/com.halfbrick.mortar.SamsungCarnivalManager(27745): onPause
+D/Provider_AdColonyBackend(27745): AdColony onPause
+W/GeneralUtilities.private.CallClassMethodAndReturn(27745): Method onSaveInstanceState not found! java.lang.NoSuchMethodException: onSaveInstanceState [class android.os.Bundle]
+W/GeneralUtilities.ClassFromName(27745): Class not found! java.lang.ClassNotFoundException: com.halfbrick.mortar.Provider_FlurryBackend
+W/InputMethodManagerService(  601): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@3abff854 (uid=10115 pid=27745)
+I/halfbrick.Mortar(27745): Touch has lost focus
+W/ResourceType( 5970): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 5970): Failure retrieving resources for com.halfbrick.fruitninjafree: Resource ID #0x0
+I/ActivityManager(  601): Killing 27745:com.halfbrick.fruitninjafree/u0a115 (adj 11): remove task
+I/WindowState(  601): WIN DEATH: Window{933f11f u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity}
+D/ConnectivityService(  601): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=46, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@265e83fd)
+D/ConnectivityService(  601): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=45, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@352378f2)
+D/ConnectivityService(  601): releasing NetworkRequest NetworkRequest [ id=45, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+W/WindowManager(  601): Force-removing child win Window{2cd4a235 u0 SurfaceView} from container Window{933f11f u0 com.halfbrick.fruitninjafree/com.halfbrick.mortar.MortarGameActivity}
+E/ConnectivityService(  601): RemoteException caught trying to send a callback msg for NetworkRequest [ id=45, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  601): releasing NetworkRequest NetworkRequest [ id=46, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+E/ConnectivityService(  601): RemoteException caught trying to send a callback msg for NetworkRequest [ id=46, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+W/WindowManager(  601): Failed looking up window
+W/WindowManager(  601): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@1b8f4c6c does not exist
+W/WindowManager(  601): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8539)
+W/WindowManager(  601): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8530)
+W/WindowManager(  601): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1142)
+W/WindowManager(  601): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:551)
+I/WindowState(  601): WIN DEATH: null
+I/ActivityManager(  601): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from uid 10022 on display 0
+V/ActivityManager(  601): Display changed displayId=0
+I/ActivityManager(  601): Config changes=480 {1.0 310mcc?mnc en_US ?layoutDir sw384dp w384dp h567dp 320dpi nrml port finger -keyb/v/h -nav/h s.11}
+I/InputReader(  601): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  601): Device reconfigured: id=6, name='touch_dev', size 768x1280, orientation 0, mode 1, display id 0
+W/IInputConnectionWrapper( 5970): showStatusIcon on inactive InputConnection
+I/WindowManager(  601): Screen frozen for +238ms due to Window{2f67495a u0 NavigationBar}
+D/TaskPersister(  601): removeObsoleteFile: deleting file=27_task.xml
+D/TaskPersister(  601): removeObsoleteFile: deleting file=27_task_thumbnail.png
+W/OpenGLRenderer( 6361): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 6361): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/audio_hw_primary(  188): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  188): disable_snd_device: snd_device(2: speaker)
