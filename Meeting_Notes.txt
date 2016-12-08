@@ -97,3 +97,9 @@ Meeting 8: (11/30)
 - do not write analysis programs in c++ (python better)
 - analysis should have at least 10 applications
 - look broader into other apps for non-determinisms (other than 2048)
+
+Meeting 9: (12/07)
+- verify whether all methods are being tagged with Redexer - try to understand why?
+- Add analysis with Monkey for 10 applications
+- Create tutorial document for next researcher
+  - how to set up redexer, how to use my analysis program, ex...
