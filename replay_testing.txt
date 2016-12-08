@@ -1,8 +1,0 @@
-This is an account of replay tests on Android Nexus 4 phone.
-
-September 27:
-APPS:
-- Facebook:
-  - Recorded opening Fb, posting a status, and closing app; Post could not be successfully duplicated because Fb app does not allow the reposting of the exact same status; Suggested searches are different (ordering) every play, so not able to successfully replay suggested search
-  - AUDIO: Recorded opening Google and using "Okay, Google" voice command to prompt question; replay did not register audio and therefore did not play back the interaction with Google
-
