@@ -169,25 +169,25 @@ November 15 - 5 hours
 - slides for tomorrow
 
 Week 10:
-November 29: 2 hours
+November 29 - 2 hours
 - wrote program (RERAN) to record app AND log
 - troubleshooting android phone issues
 
-November 30: 1 hour
+November 30 - 1 hour
 - resolved nexus phone issues
 - took more data (replays) of new apps
 
-December 1: 4 hours
+December 1 - 4 hours
 - wrote PYTHON program to compare 2 runs (record & replay run - RERAN) of an app, and base method calls on logging list provided by redexer
 - found that there ARE differences in # of method calls between recorded run and 'identical' replay run
 - started testing more applications
 
-December 2: 3 hours
+December 2 - 3 hours
 - began analysis of more applications 
 - debugging comparison program (python)
 
 Week 11:
-December 6: 3 hours
+December 6 - 3 hours
 - continued analysis of more applications
   - APP LIST:
     1.  2048
@@ -201,6 +201,12 @@ December 6: 3 hours
     9.  Rolling Sky
     10. Color Switch
 
-December 8: 5 hours
-- added Monkey analysis component to 10 apps
+December 8 - 5 hours
+- began adding Monkey analysis component to the 10 apps
+  - running into issues: Monkey turns on Android music/opens drop down menu
 - started writing up tutorial for future researcher (about redexer/reran/my analysis program)
+
+
+Week 12:
+December 12 - 2 hours
+- 
