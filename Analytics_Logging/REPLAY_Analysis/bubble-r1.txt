@@ -1,0 +1,774 @@
+--------- beginning of main
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+D/PhoneStatusBar(  738): disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock search >
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+D/PhoneStatusBar(  738): disable: < expand icons* alerts system_info* back home recent clock search >
+--------- beginning of system
+W/InputMethodManagerService(  594): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@871581e attribute=null, token = android.os.BinderProxy@1c885d8e
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=0.00 rxSuccessRate=0.00 targetRoamBSSID=any RSSI=-44
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/ActivityManager(  594): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.xbubble.bubbleisland2/.MainActivity (has extras)} from uid 10014 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{22837d15 token=Token{385746cc ActivityRecord{264fd8ff u0 com.xbubble.bubbleisland2/.MainActivity t42}}} to stack=1 task=42 at 0
+V/WindowManager(  594): Based on layer: Adding window Window{2653061b u0 Starting com.xbubble.bubbleisland2} at 3 of 9
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/ActivityManager(  594): Start proc 13454:com.xbubble.bubbleisland2/u0a224 for activity com.xbubble.bubbleisland2/.MainActivity
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onCreate(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>, null)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onCreate(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>, null)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onCreateView(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onCreateView(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=0><height=0><id=-1>)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onCreate()
+W/ResourcesManager(13454): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+W/ResourcesManager(13454): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+D/DynamitePackage(13454): Instantiated singleton DynamitePackage.
+D/DynamitePackage(13454): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/DynamiteModule(13454): Considering local module com.google.android.gms.piccard.dynamite:0 and remote module com.google.android.gms.piccard.dynamite:9
+I/DynamiteModule(13454): Selected remote version of com.google.android.gms.piccard.dynamite, version >= 9
+E/DynamiteModule(13454): Failed to load DynamiteLoader: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader" on path: DexPathList[[zip file "/data/app/com.xbubble.bubbleisland2-1/base.apk"],nativeLibraryDirectories=[/data/app/com.xbubble.bubbleisland2-1/lib/arm, /vendor/lib, /system/lib]]
+W/DynamiteModule(13454): Failed to load remote module: Failed to get module context
+W/DynamiteModule(13454): Failed to load module via fast routeajo: Remote load failed. No local fallback found.
+I/DynamiteModule(13454): Considering local module com.google.android.gms.piccard.dynamite:0 and remote module com.google.android.gms.piccard.dynamite:9
+I/DynamiteModule(13454): Selected remote version of com.google.android.gms.piccard.dynamite, version >= 9
+I/WebViewFactory(13454): Loading com.google.android.webview version 54.0.2840.85 (code 284008500)
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/cr_LibraryLoader(13454): Time to load native libraries: 1 ms (timestamps 8989-8990)
+I/cr_LibraryLoader(13454): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/cr_LibraryLoader(13454): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/chromium(13454): [INFO:library_loader_hooks.cc(151)] Chromium logging enabled: level = 0, default verbosity = 0
+I/dex2oat (13505): /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=div --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --dex-file=/data/data/com.xbubble.bubbleisland2/cache/1470286953684.jar --oat-fd=25 --oat-location=/data/data/com.xbubble.bubbleisland2/cache/1470286953684.dex --runtime-arg -Xms64m --runtime-arg -Xmx512m
+I/cr_BrowserStartup(13454): Initializing chromium process, singleProcess=true
+I/VideoCapabilities(13454): Unsupported profile 4 for video/mp4v-es
+I/Adreno-EGL(13454): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/Ads     (13454): Starting ad request.
+I/Ads     (13454): Use AdRequest.Builder.addTestDevice("1F480C9603A7924489313051413E5A68") to get test ads on this device.
+I/Ads     (13454): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+I/dex2oat (13505): dex2oat took 147.566ms (threads: 4) arena alloc=179KB java alloc=24KB native alloc=1174KB free=25KB
+D/DynamitePackage(13454): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     (13454): Starting ad request.
+I/Ads     (13454): Use AdRequest.Builder.addTestDevice("1F480C9603A7924489313051413E5A68") to get test ads on this device.
+I/Ads     (13454): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+D/DynamitePackage(13454): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads     (13454): Starting ad request.
+I/Ads     (13454): Use AdRequest.Builder.addTestDevice("1F480C9603A7924489313051413E5A68") to get test ads on this device.
+I/Ads     (13454): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onCreate()
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onStart(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onStart(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onStart()
+W/ActivityManager(  594): getRunningAppProcesses: caller 10224 does not hold REAL_GET_TASKS; limiting output
+I/org.umd.logging(13454): Api > 1 android.os.HandlerThread.start(android.os.HandlerThread@347401704<thread=2189>)
+I/org.umd.logging(13454): Api < 1 android.os.HandlerThread.start()
+W/ActivityManager(  594): getRunningAppProcesses: caller 10224 does not hold REAL_GET_TASKS; limiting output
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@40433790)
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@836526559)
+W/ActivityManager(  594): getRunningAppProcesses: caller 10224 does not hold REAL_GET_TASKS; limiting output
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$1@870422870)
+W/FlurryAgent(13454): Start session with context: com.xbubble.bubbleisland2.MainActivity@187a01f8 count:0
+I/org.umd.logging(13454): Api > 1 android.location.LocationManager.getBestProvider(android.location.LocationManager@101562052, android.location.Criteria@1064695010, true)
+I/org.umd.logging(13454): Api < 1 android.location.LocationManager.getBestProvider(null)
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onStart()
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onResume(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onResume(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxHelper.onResume()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxHelper.onResume()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onResume(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=0><height=0><id=-1>)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$3.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$3@721583406)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onResume()
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$3.run()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onResume()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onResume()
+D/OpenGLRenderer(13454): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   (13454): Validating map...
+V/WindowManager(  594): Adding window Window{7a97a65 u0 com.xbubble.bubbleisland2/com.xbubble.bubbleisland2.MainActivity} at 3 of 10 (before Window{2653061b u0 Starting com.xbubble.bubbleisland2})
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=70, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(13454): CM callback handler got msg 524290
+I/org.umd.logging(13454): Method > 1 com.flurry.sdk.ev.onReceive(com.flurry.sdk.ev@841076268, android.app.Application@933697552, android.content.Intent@207195202<action=android.net.conn.CONNECTIVITY_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-1172645946><networkInfo=None><networkType=None><inetCondition=None><extraInfo=None><umd_Intent_key=None>)
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@980953742)
+I/org.umd.logging(13454): Method < 1 com.flurry.sdk.ev.onReceive()
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$2@580581052)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$3@416309658)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$4@327074472)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$5@306380134)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$1@1028012285)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$3@1040951363)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$2@172124153)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$3@1032475454)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2203 com.flurry.sdk.ff.run(com.flurry.sdk.eg$1$1@382568855)
+I/org.umd.logging(13454): Method < 2203 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2203 com.flurry.sdk.ff.run(com.flurry.sdk.el@607685301)
+I/org.umd.logging(13454): Api > 2203 java.net.URL.openConnection(java.net.URL@1032849390<URL=https://data.flurry.com/aap.do>)
+I/org.umd.logging(13454): Api < 2203 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@98572724)
+I/OpenGLRenderer(13454): Initialized EGL, version 1.4
+D/OpenGLRenderer(13454): Enabling debug mode 0
+V/WindowManager(  594): Adding window Window{3bfe2906 u0 SurfaceView} at 3 of 11 (before Window{7a97a65 u0 com.xbubble.bubbleisland2/com.xbubble.bubbleisland2.MainActivity})
+I/ActivityManager(  594): Displayed com.xbubble.bubbleisland2/.MainActivity: +1s35ms
+W/Ads     ( 1667): App does not have the required permissions to get location
+I/Ads     ( 1667): Received log message: <Google:HTML> You are using version 4.5 of the Google Play services Ads SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. See http://goo.gl/r2TRzC for instructions on how to get the latest version of Google Play services.
+D/Device Model(13454): Nexus 4
+W/Ads     ( 1667): App does not have the required permissions to get location
+I/Ads     ( 1667): Received log message: <Google:HTML> You are using version 4.5 of the Google Play services Ads SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. See http://goo.gl/r2TRzC for instructions on how to get the latest version of Google Play services.
+W/Adreno-ES20(13454): <core_glHint:84>: GL_INVALID_ENUM
+W/Ads     ( 1667): App does not have the required permissions to get location
+W/FlurryAgent(13454): FlurryDataSender: report 0b542af3-813c-48e1-8740-4df8331a5410 sent. HTTP response: 200
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dd$2@303619197)
+I/org.umd.logging(13454): Method < 2203 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2203 com.flurry.sdk.ff.run(com.flurry.sdk.eg$1$2@902543299)
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$4@6013817)
+I/org.umd.logging(13454): Method < 2203 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.de$3@87509182)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=71, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler(13454): CM callback handler got msg 524290
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+I/art     (13454): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+W/cr_media(13454): Requires BLUETOOTH permission
+I/cr_Ime  (13454): ImeThread is enabled.
+I/cr_Ime  (13454): ImeThread is enabled.
+I/cr_Ime  (13454): ImeThread is enabled.
+E/libEGL  (13454): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "postData", args, "(Ljava/lang/String;Ljava/lang/String;)V") SUCCESS
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity$6.run(com.xbubble.bubbleisland2.MainActivity$6@272126883)
+I/org.umd.logging(13454): Method > 1 com.engine.network.AsyncHttpPost.onPreExecute(com.engine.network.AsyncHttpPost@275542617<atask=true>)
+I/org.umd.logging(13454): Method < 1 com.engine.network.AsyncHttpPost.onPreExecute()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity$6.run()
+I/org.umd.logging(13454): Method > 2216 com.engine.network.AsyncHttpPost.doInBackground(com.engine.network.AsyncHttpPost@275542617<atask=true>, [Ljava.lang.String;@644406037)
+I/org.umd.logging(13454): Api > 2216 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@155941304)
+I/org.umd.logging(13454): Api < 2216 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@155941304)
+E/MediaPlayer(13454): Should have subtitle controller already set
+E/MediaPlayer(13454): Should have subtitle controller already set
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.stop(android.media.MediaPlayer@24752886)
+D/NuPlayerDriver(  190): stop(0xb7a266f0)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.stop()
+E/MediaPlayer(13454): Should have subtitle controller already set
+E/MediaPlayer(13454): Should have subtitle controller already set
+D/NuPlayerDriver(  190): seekTo(0xb7a266f0) 0 ms
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.start(android.media.MediaPlayer@24752886)
+D/NuPlayerDriver(  190): start(0xb7a266f0)
+I/GenericSource(  190): start
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.start()
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: deep-buffer-playback
+I/org.umd.logging(13454): Method < 2216 com.engine.network.AsyncHttpPost.doInBackground(null)
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/art     (13454): Background sticky concurrent mark sweep GC freed 43399(2MB) AllocSpace objects, 24(1382KB) LOS objects, 0% free, 23MB/23MB, paused 3.937ms total 106.149ms
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@11889555)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@973185993)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@306261487)
+D/NuPlayerDriver(  190): start(0xb79f5ba0)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb79f5ba0)
+W/ALooperRoster(  190): failed to deliver message. Target handler 232 registered, but object gone.
+D/NuPlayerDriver(  190): notifyResetComplete(0xb79f5ba0)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "postData", args, "(Ljava/lang/String;Ljava/lang/String;)V") SUCCESS
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity$6.run(com.xbubble.bubbleisland2.MainActivity$6@445130202)
+I/org.umd.logging(13454): Method > 1 com.engine.network.AsyncHttpPost.onPreExecute(com.engine.network.AsyncHttpPost@672971275<atask=true>)
+I/org.umd.logging(13454): Method < 1 com.engine.network.AsyncHttpPost.onPreExecute()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity$6.run()
+I/org.umd.logging(13454): Method > 2218 com.engine.network.AsyncHttpPost.doInBackground(com.engine.network.AsyncHttpPost@672971275<atask=true>, [Ljava.lang.String;@545587969)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/org.umd.logging(13454): Api > 2218 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@861062566)
+I/org.umd.logging(13454): Api < 2218 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@861062566)
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging(13454): Method < 2218 com.engine.network.AsyncHttpPost.doInBackground(null)
+E/chromium(13454): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+E/chromium(13454): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/Ads     (13454): Ad finished loading.
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+E/chromium(13454): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "showBannerAd", args, "(Z)V") SUCCESS
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "isTextInterstitialADReady", args, "()Z") SUCCESS
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity$3.run(com.xbubble.bubbleisland2.MainActivity$3@1002294845)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "showTextInterstitialAD", args, "(Ljava/lang/String;)V") SUCCESS
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity$3.run()
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity$4.run(com.xbubble.bubbleisland2.MainActivity$4@1063280515)
+I/cr_Ime  (13454): ImeThread is enabled.
+I/ActivityManager(  594): START u0 {cmp=com.xbubble.bubbleisland2/com.google.android.gms.ads.AdActivity (has extras)} from uid 10224 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{3eb3b69a token=Token{13480f45 ActivityRecord{2cc703bc u0 com.xbubble.bubbleisland2/com.google.android.gms.ads.AdActivity t42}}} to stack=1 task=42 at 1
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity$4.run()
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onPause(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onPause(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxHelper.onPause()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxHelper.onPause()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onPause(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onPause()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onPause()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onPause()
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$4.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$4@514712662)
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "renameFile", args, "(Ljava/lang/String;Ljava/lang/String;)Z") SUCCESS
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.pause(android.media.MediaPlayer@24752886)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.pause()
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$4.run()
+D/DynamitePackage(13454): Instantiating com.google.android.gms.ads.ChimeraAdOverlayCreatorImpl
+I/Ads     (13454): Ad opening.
+V/WindowManager(  594): Adding window Window{28de9fa8 u0 com.xbubble.bubbleisland2/com.google.android.gms.ads.AdActivity} at 5 of 11 (after Window{7a97a65 u0 com.xbubble.bubbleisland2/com.xbubble.bubbleisland2.MainActivity})
+I/ActivityManager(  594): Displayed com.xbubble.bubbleisland2/com.google.android.gms.ads.AdActivity: +127ms
+I/org.umd.logging(13454): Api > 1 android.location.LocationManager.getBestProvider(android.location.LocationManager@101562052, android.location.Criteria@2628075, true)
+I/org.umd.logging(13454): Api < 1 android.location.LocationManager.getBestProvider(null)
+W/FlurryAgent(13454): End session with context: com.xbubble.bubbleisland2.MainActivity@187a01f8 count:0
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$9@10229217)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$7@609082356)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/Ads     (13454): Scheduling ad refresh 517000 milliseconds from now.
+I/Ads     (13454): Ad finished loading.
+I/Ads     (13454): Ad finished loading.
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+I/PlayCommon(11901): [2120] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/art     (  594): Explicit concurrent mark sweep GC freed 83865(4MB) AllocSpace objects, 23(3MB) LOS objects, 33% free, 26MB/40MB, paused 1.709ms total 131.573ms
+I/PlayCommon(11901): [2120] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/chromium(13454): [INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.appcache", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+I/chromium(13454): [INFO:CONSOLE(0)] "Application Cache Checking event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+E/chromium(13454): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+W/ActivityManager(  594): Duplicate finish request for ActivityRecord{2cc703bc u0 com.xbubble.bubbleisland2/com.google.android.gms.ads.AdActivity t42 f}
+I/Ads     (13454): Ad closing.
+I/Ads     (13454): Starting ad request.
+I/Ads     (13454): Use AdRequest.Builder.addTestDevice("1F480C9603A7924489313051413E5A68") to get test ads on this device.
+I/Ads     (13454): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onStart(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onStart(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onStart()
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+W/ActivityManager(  594): getRunningAppProcesses: caller 10224 does not hold REAL_GET_TASKS; limiting output
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@796533973)
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1073267946)
+W/FlurryAgent(13454): Start session with context: com.xbubble.bubbleisland2.MainActivity@187a01f8 count:0
+I/org.umd.logging(13454): Api > 1 android.location.LocationManager.getBestProvider(android.location.LocationManager@101562052, android.location.Criteria@1072124891, true)
+I/org.umd.logging(13454): Api < 1 android.location.LocationManager.getBestProvider(null)
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onStart()
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onResume(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onResume(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxHelper.onResume()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxHelper.onResume()
+W/Ads     ( 1667): App does not have the required permissions to get location
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onResume(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$3.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$3@356948412)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onResume()
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.start(android.media.MediaPlayer@24752886)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onResume()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onResume()
+D/NuPlayerDriver(  190): start(0xb7a266f0)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.start()
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$3.run()
+I/art     (13454): Background sticky concurrent mark sweep GC freed 16352(863KB) AllocSpace objects, 4(6MB) LOS objects, 12% free, 37MB/42MB, paused 7.294ms total 46.085ms
+W/Herrevad( 1667): Invalid mccmnc 
+W/Herrevad( 1667): Invalid mccmnc 
+I/org.umd.logging(13454): Method > 1 com.flurry.sdk.ev.onReceive(com.flurry.sdk.ev@841076268, android.app.Application@933697552, android.content.Intent@894364997<action=android.net.conn.CONNECTIVITY_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-1172645946><networkInfo=None><networkType=None><inetCondition=None><extraInfo=None><umd_Intent_key=None>)
+I/org.umd.logging(13454): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@140525699)
+I/org.umd.logging(13454): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@121912474)
+I/org.umd.logging(13454): Method < 1 com.flurry.sdk.ev.onReceive()
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/cr_ScreenOrientation(13454): Removing an inexistent observer!
+I/PlayCommon(11901): [2120] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/chromium(13454): [INFO:CONSOLE(0)] "Application Cache NoUpdate event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+I/ExoPlayerImpl(13454): Init 1.3.1
+E/kickstart(  631): Wrote to /sys/power/wake_lock
+I/cr_Ime  (13454): ImeThread is enabled.
+W/cr_BindingManager(13454): Cannot call determinedVisibility() - never saw a connection for the pid: 13454
+E/kickstart(  631): Received file "/dev/block/platform/msm_sdcc.1/by-name/m9kefs1"
+E/kickstart(  631): 786432 bytes transferred in 0.147s (5.11 MBps)
+E/kickstart(  631): Successfully downloaded files from target 
+E/kickstart(  631): Wrote to /sys/power/wake_unlock
+E/kickstart(  631): Sahara protocol completed
+E/chromium(13454): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/Ads     (13454): Ad finished loading.
+I/OMXClient(13454): Using client-side OMX mux.
+E/OMXMaster(13454): A component of name 'OMX.qcom.audio.decoder.aac' already exists, ignoring this one.
+I/SoftAAC2(13454): Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@614718395)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@878295256)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@798340145)
+D/NuPlayerDriver(  190): start(0xb7a09b40)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a09b40)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a09b40)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@780850966)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@262830231)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@941460100)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@182477421)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+I/art     (13454): Background sticky concurrent mark sweep GC freed 2380(121KB) AllocSpace objects, 2(6MB) LOS objects, 4% free, 41MB/44MB, paused 7.996ms total 36.899ms
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@215305890)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "postData", args, "(Ljava/lang/String;Ljava/lang/String;)V") SUCCESS
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity$6.run(com.xbubble.bubbleisland2.MainActivity$6@672401203)
+I/org.umd.logging(13454): Method > 1 com.engine.network.AsyncHttpPost.onPreExecute(com.engine.network.AsyncHttpPost@791333616<atask=true>)
+I/org.umd.logging(13454): Method < 1 com.engine.network.AsyncHttpPost.onPreExecute()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity$6.run()
+I/org.umd.logging(13454): Method > 2148 com.engine.network.AsyncHttpPost.doInBackground(com.engine.network.AsyncHttpPost@791333616<atask=true>, [Ljava.lang.String;@78493801)
+I/org.umd.logging(13454): Api > 2148 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@912110318)
+I/org.umd.logging(13454): Api < 2148 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@912110318)
+I/org.umd.logging(13454): Method < 2148 com.engine.network.AsyncHttpPost.doInBackground(null)
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "getADHeight", args, "()I") SUCCESS
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.release(android.media.MediaPlayer@24752886)
+D/NuPlayerDriver(  190): reset(0xb7a266f0)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a266f0)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.release()
+E/MediaPlayer(13454): Should have subtitle controller already set
+E/MediaPlayer(13454): Should have subtitle controller already set
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.stop(android.media.MediaPlayer@75359119)
+D/NuPlayerDriver(  190): stop(0xb79f1570)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.stop()
+E/MediaPlayer(13454): Should have subtitle controller already set
+E/MediaPlayer(13454): Should have subtitle controller already set
+D/NuPlayerDriver(  190): seekTo(0xb79f1570) 0 ms
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.start(android.media.MediaPlayer@75359119)
+D/NuPlayerDriver(  190): start(0xb79f1570)
+I/GenericSource(  190): start
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.start()
+D/NuPlayerDriver(  190): start(0xb7a12078)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a12078)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a12078)
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@344565276)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+I/art     (13454): Background partial concurrent mark sweep GC freed 3015(143KB) AllocSpace objects, 6(20MB) LOS objects, 31% free, 35MB/51MB, paused 2.502ms total 105.295ms
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@81818149)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@603328506)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@503261611)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@697894920)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@348851105)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/NuPlayerDriver(  190): start(0xb7a30588)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a30588)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a30588)
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/NuPlayerDriver(  190): start(0xb7a1bc10)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a1bc10)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a1bc10)
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/NuPlayerDriver(  190): start(0xb7a16278)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a16278)
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a16278)
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/art     (13454): Background sticky concurrent mark sweep GC freed 2154(110KB) AllocSpace objects, 2(6MB) LOS objects, 5% free, 38MB/40MB, paused 5.188ms total 36.624ms
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@394604998)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@503625095)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@616209588)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@644595933)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+I/art     (13454): Background partial concurrent mark sweep GC freed 1600(108KB) AllocSpace objects, 5(17MB) LOS objects, 33% free, 31MB/47MB, paused 2.044ms total 102.823ms
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@949134418)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@770515747)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=94.38 rxSuccessRate=140.03 targetRoamBSSID=any RSSI=-44
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@515821600)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@325619161)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@764588958)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@610586239)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@722521676)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@264973973)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@1039297450)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@746705819)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@111313720)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@209526545)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@149133430)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@44043895)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@160996068)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@92511053)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@485017090)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/NuPlayerDriver(  190): start(0xb7a20770)
+I/GenericSource(  190): start
+D/NuPlayerDriver(  190): reset(0xb7a20770)
+D/NuPlayerDriver(  190): notifyResetComplete(0xb7a20770)
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@587012883)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@129401168)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@939237193)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@1008812110)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@101995887)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@193618556)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@1003874053)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@425005914)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@112908683)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@408496744)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$6@1028845185)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$6.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$7@432081702)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$7.run()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>, android.view.MotionEvent@865753037)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onTouchEvent(true)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$9@234586983)
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$9.run()
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/AudioTrack(13454): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/ResourceType(  738): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  738): Failure retrieving resources for com.xbubble.bubbleisland2: Resource ID #0x0
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/ActivityManager(  594): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10022 on display 0
+I/org.umd.logging(13454): Method > 1 com.xbubble.bubbleisland2.MainActivity.onPause(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxActivity.onPause(com.xbubble.bubbleisland2.MainActivity@410649080<activity=true>)
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxHelper.onPause()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxHelper.onPause()
+W/ResourceType(13454): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging(13454): Method > 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onPause(org.cocos2dx.lib.Cocos2dxGLSurfaceView@839259446<file=><x=0><y=0><width=768><height=1184><id=-1>)
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxGLSurfaceView.onPause()
+I/org.umd.logging(13454): Method < 1 org.cocos2dx.lib.Cocos2dxActivity.onPause()
+I/org.umd.logging(13454): Method < 1 com.xbubble.bubbleisland2.MainActivity.onPause()
+I/org.umd.logging(13454): Api > 1 android.location.LocationManager.getBestProvider(android.location.LocationManager@101562052, android.location.Criteria@516588820, true)
+I/org.umd.logging(13454): Api < 1 android.location.LocationManager.getBestProvider(null)
+W/FlurryAgent(13454): End session with context: com.xbubble.bubbleisland2.MainActivity@187a01f8 count:0
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$9@306115005)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+I/org.umd.logging(13454): Method > 2189 com.flurry.sdk.ff.run(com.flurry.sdk.dj$7@664974258)
+I/org.umd.logging(13454): Method < 2189 com.flurry.sdk.ff.run()
+W/InputMethodManagerService(  594): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@21a30d38 (uid=10224 pid=13454)
+I/org.umd.logging(13454): Method > 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$4.run(org.cocos2dx.lib.Cocos2dxGLSurfaceView$4@548597507)
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod(lua_State *L)
+W/art     (13454): Call to JNI FindClass with dots in name: "com.xbubble.bubbleisland2.MainActivity"
+D/luajc   (13454): CCLuaJavaBridge::callJavaStaticMethod("com.xbubble.bubbleisland2.MainActivity", "renameFile", args, "(Ljava/lang/String;Ljava/lang/String;)Z") SUCCESS
+I/org.umd.logging(13454): Api > 2131 android.media.MediaPlayer.pause(android.media.MediaPlayer@75359119)
+I/org.umd.logging(13454): Api < 2131 android.media.MediaPlayer.pause()
+I/org.umd.logging(13454): Method < 2131 org.cocos2dx.lib.Cocos2dxGLSurfaceView$4.run()
+D/audio_hw_primary(  190): out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: routing=2
+I/ActivityManager(  594): Killing 13454:com.xbubble.bubbleisland2/u0a224 (adj 9): remove task
+D/ConnectivityService(  594): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=70, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@31c3e111)
+I/WindowState(  594): WIN DEATH: Window{7a97a65 u0 com.xbubble.bubbleisland2/com.xbubble.bubbleisland2.MainActivity}
+D/ConnectivityService(  594): ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=71, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@3203276)
+W/WindowManager(  594): Force-removing child win Window{3bfe2906 u0 SurfaceView} from container Window{7a97a65 u0 com.xbubble.bubbleisland2/com.xbubble.bubbleisland2.MainActivity}
+D/NuPlayerDriver(  190): reset(0xb79f1570)
+D/ConnectivityService(  594): releasing NetworkRequest NetworkRequest [ id=70, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+E/ConnectivityService(  594): RemoteException caught trying to send a callback msg for NetworkRequest [ id=70, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): releasing NetworkRequest NetworkRequest [ id=71, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+E/ConnectivityService(  594): RemoteException caught trying to send a callback msg for NetworkRequest [ id=71, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+W/WindowManager(  594): Failed looking up window
+W/WindowManager(  594): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@30bc57e1 does not exist
+W/WindowManager(  594): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8539)
+W/WindowManager(  594): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8530)
+W/WindowManager(  594): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1142)
+W/WindowManager(  594): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:551)
+I/WindowState(  594): WIN DEATH: null
+D/NuPlayerDriver(  190): notifyResetComplete(0xb79f1570)
+W/AudioFlinger(  190): session id 331 not found for pid 13454
+I/ActivityManager(  594): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from uid 10022 on display 0
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/OpenGLRenderer( 1054): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 1054): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/TaskPersister(  594): removeObsoleteFile: deleting file=42_task.xml
+D/TaskPersister(  594): removeObsoleteFile: deleting file=42_task_thumbnail.png
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=9.28 rxSuccessRate=5.63 targetRoamBSSID=any RSSI=-45
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: deep-buffer-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true

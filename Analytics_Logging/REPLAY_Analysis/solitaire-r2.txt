@@ -1,0 +1,1529 @@
+--------- beginning of main
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+E/native  (  594): do suspend false
+E/WifiStateMachine(  594): Unexpected BatchedScanResults :OK
+I/dhcpcd  ( 9836): sending signal 14 to pid 24779
+I/dhcpcd  (24779): received SIGALRM, renewing
+I/dhcpcd  (24779): wlan0: renewing lease of 155.41.36.90
+I/dhcpcd  (24779): wlan0: acknowledged 155.41.36.90 from 10.127.1.1 `BU DHCP Server #22'
+I/dhcpcd  (24779): wlan0: leased 155.41.36.90 for 3600 seconds
+--------- beginning of system
+D/ConnectivityService(  594): NetworkAgentInfo [WIFI () - 102] EVENT_NETWORK_INFO_CHANGED, going from CONNECTED to CONNECTING
+D/ConnectivityService(  594): NetworkAgentInfo [WIFI () - 102] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTED
+E/WifiStateMachine(  594): WifiStateMachine: Leaving Connected state
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1.onReceive(com.turbochilli.rollingsky.cloud.d$1@201521151, com.turbochilli.rollingsky.GameApp@546721474, android.content.Intent@906181922<action=android.net.wifi.STATE_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-343630553><networkInfo=None><linkProperties=None><umd_Intent_key=None>)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1.onReceive()
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1.onReceive(com.turbochilli.rollingsky.cloud.d$1@201521151, com.turbochilli.rollingsky.GameApp@546721474, android.content.Intent@642618291<action=android.net.wifi.STATE_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-343630553><networkInfo=None><linkProperties=None><bssid=None><umd_Intent_key=None>)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1.onReceive()
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1.onReceive(com.turbochilli.rollingsky.cloud.d$1@201521151, com.turbochilli.rollingsky.GameApp@546721474, android.content.Intent@561683824<action=android.net.wifi.STATE_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-343630553><networkInfo=None><wifiInfo=None><linkProperties=None><umd_Intent_key=None>)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1.onReceive()
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1.onReceive(com.turbochilli.rollingsky.cloud.d$1@201521151, com.turbochilli.rollingsky.GameApp@546721474, android.content.Intent@298670313<action=android.net.wifi.STATE_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-343630553><networkInfo=None><wifiInfo=None><linkProperties=None><bssid=None><umd_Intent_key=None>)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1.onReceive()
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1$1.run(com.turbochilli.rollingsky.cloud.d$1$1@314313070)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1$1.run()
+I/org.umd.logging( 4986): Method > 1 com.turbochilli.rollingsky.cloud.d$1$1.run(com.turbochilli.rollingsky.cloud.d$1$1@1040431119)
+I/org.umd.logging( 4986): Method < 1 com.turbochilli.rollingsky.cloud.d$1$1.run()
+I/ActivityManager(  594): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mobilityware.solitaire/.Solitaire (has extras)} from uid 10014 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{11df9313 token=Token{386a1e02 ActivityRecord{3353534d u0 com.mobilityware.solitaire/.Solitaire t34}}} to stack=1 task=34 at 0
+V/WindowManager(  594): Adding window Window{1f0ed749 u0 Starting com.mobilityware.solitaire} at 3 of 9 (after Window{1c6549af u0 com.android.launcher/com.android.launcher2.Launcher})
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/ActivityManager(  594): Start proc 9877:com.mobilityware.solitaire/u0a216 for activity com.mobilityware.solitaire/.Solitaire
+I/art     (  594): Explicit concurrent mark sweep GC freed 63781(3MB) AllocSpace objects, 7(858KB) LOS objects, 33% free, 26MB/39MB, paused 1.617ms total 168.289ms
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.SolitaireApplication.onCreate(com.mobilityware.solitaire.SolitaireApplication@410649080)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.SolitaireApplication.onCreate()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire.onCreate(com.mobilityware.solitaire.Solitaire@839259446<activity=true>, null)
+I/org.umd.logging( 9877): Api > 1 android.content.Intent.<init>(android.content.Intent@424232356, "android.intent.action.VIEW", android.net.Uri$StringUri@403363027<URI=market://details?id=com.mobilityware.solitaire>)
+I/org.umd.logging( 9877): Api < 1 android.content.Intent.<init>(android.content.Intent@424232356)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.PlayServices.onCreate(com.mobilityware.solitaire.PlayServices@131747593, com.mobilityware.solitaire.Solitaire@839259446, com.mobilityware.solitaire.Solitaire@839259446, true)
+W/PopupManager( 9877): You have not specified a View to use as content view for popups. Falling back to the Activity content view which may not work properly in future versions of the API. Use setViewForPopups() to set your content view.
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.PlayServices.onCreate()
+I/org.umd.logging( 9877): Api > 1 java.lang.Thread.start(com.mobilityware.advertising.AdParams@162533671<thread=2083>)
+I/org.umd.logging( 9877): Api < 1 java.lang.Thread.start()
+I/org.umd.logging( 9877): Method > 2083 com.mobilityware.advertising.AdParams.onResume(com.mobilityware.advertising.AdParams@162533671<thread=2083>)
+D/AdParams( 9877): download url:http://ads.mobilityware.com/adparams/AndroidSolitaire.xml
+I/org.umd.logging( 9877): Api > 2083 java.net.URL.openConnection(java.net.URL@538088829<URL=http://ads.mobilityware.com/adparams/AndroidSolitaire.xml>)
+I/org.umd.logging( 9877): Api < 2083 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpURLConnectionImpl@784358846)
+I/org.umd.logging( 9877): Api > 2083 java.net.URLConnection.getInputStream(com.android.okhttp.internal.http.HttpURLConnectionImpl@784358846)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire.onCreate()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire.onStart(com.mobilityware.solitaire.Solitaire@839259446<activity=true>)
+I/Solitaire( 9877): onStart
+I/org.umd.logging( 9877): Api > 1 android.os.HandlerThread.start(android.os.HandlerThread@959041969<thread=2087>)
+I/org.umd.logging( 9877): Api < 1 android.os.HandlerThread.start()
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@2088560)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1039664617)
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.dg$1@4331429)
+I/org.umd.logging( 9877): Api > 1 android.location.LocationManager.getBestProvider(android.location.LocationManager@832244523, android.location.Criteria@409045281, true)
+I/org.umd.logging( 9877): Api < 1 android.location.LocationManager.getBestProvider(null)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.PlayServices.onStart(com.mobilityware.solitaire.PlayServices@131747593)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.PlayServices.onStart()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire.onStart()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire.onResume(com.mobilityware.solitaire.Solitaire@839259446<activity=true>)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire.onResume()
+D/OpenGLRenderer( 9877): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   ( 9877): Validating map...
+V/WindowManager(  594): Adding window Window{f6ca9bd u0 com.mobilityware.solitaire/com.mobilityware.solitaire.Solitaire} at 3 of 10 (before Window{1f0ed749 u0 Starting com.mobilityware.solitaire})
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.flurry.sdk.es.onReceive(com.flurry.sdk.es@798863982, com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@703837347<action=android.net.conn.CONNECTIVITY_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-1172645946><networkInfo=None><networkType=None><inetCondition=None><extraInfo=None><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@920634272)
+I/org.umd.logging( 9877): Method < 1 com.flurry.sdk.es.onReceive()
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.dg$2@1016173342)
+I/org.umd.logging( 9877): Api > 2087 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@319650252)
+I/org.umd.logging( 9877): Api < 2087 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.dg$3@717210410)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.dg$4@1064172689)
+I/Adreno-EGL( 9877): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/OpenGLRenderer( 9877): Initialized EGL, version 1.4
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.dg$5@933881847)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$1@203001218)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$3@968578256)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$2@1045888974)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$3@877649647)
+D/OpenGLRenderer( 9877): Enabling debug mode 0
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2089 com.flurry.sdk.fc.run(com.flurry.sdk.ed$1$1@452340737)
+I/org.umd.logging( 9877): Method < 2089 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2089 com.flurry.sdk.fc.run(com.flurry.sdk.ei@635914970)
+I/org.umd.logging( 9877): Api > 2089 java.net.URL.openConnection(java.net.URL@334413031<URL=https://data.flurry.com/aap.do>)
+I/org.umd.logging( 9877): Api < 2089 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@915965757)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/ActivityManager(  594): Displayed com.mobilityware.solitaire/.Solitaire: +614ms
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.da$2@653278143)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method < 2089 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$4@489913813)
+I/org.umd.logging( 9877): Method > 2089 com.flurry.sdk.fc.run(com.flurry.sdk.ed$1$2@309777627)
+I/org.umd.logging( 9877): Method < 2089 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 2087 com.flurry.sdk.fc.run(com.flurry.sdk.db$3@232098680)
+I/org.umd.logging( 9877): Method < 2087 com.flurry.sdk.fc.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Api < 2083 java.net.URLConnection.getInputStream(com.android.okio.RealBufferedSource$1@453239735)
+D/AdParams( 9877): downloaded in 1 secs
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+D/AdParams( 9877): Cached file read successfully
+I/org.umd.logging( 9877): Method < 2083 com.mobilityware.advertising.AdParams.onResume()
+D/AdParams( 9877): Thread wait
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire$1.run(com.mobilityware.solitaire.Solitaire$1@1017943645)
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/org.umd.logging( 9877): Api > 1 java.lang.Thread.start(com.mobilityware.solitaire.WinDeal@998508561<thread=2092>)
+I/org.umd.logging( 9877): Api < 1 java.lang.Thread.start()
+I/org.umd.logging( 9877): Method > 2092 com.mobilityware.solitaire.WinDeal.run(com.mobilityware.solitaire.WinDeal@998508561<thread=2092>)
+I/org.umd.logging( 9877): Api > 2092 java.net.URL.openStream(java.net.URL@533908854<URL=http://apps.mobilityware.com/Solitaire/VerifiedA.php?&v=0&d=3&g=0&z=190&statRows=10&statTabs=3&signature=8bc888937df44c1e387ca90fb0a86a08>)
+I/AdControl( 9877): Version=1.0.5
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire$1.run()
+I/Choreographer( 9877): Skipped 48 frames!  The application may be doing too much work on its main thread.
+D/Solitaire.MWView( 9877): w=768 h=1184 oldw=0 oldh=0 tolerance=20
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$22.run(com.mobilityware.solitaire.MWView$22@635013284)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$22.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$23.run(com.mobilityware.solitaire.MWView$23@907004354)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$23.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$24.run(com.mobilityware.solitaire.MWView$24@1007830537)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$24.run()
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:19.606.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:19.606><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:19.606.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:19.942.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:19.942><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:19.942.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:20.209.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:20.209><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:20.209.jpg
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@206913575)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@902543299)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@87509182)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/MediaPlayer( 9877): Should have subtitle controller already set
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@1032271980)
+D/NuPlayerDriver(  190): start(0xb7a3ea08)
+I/GenericSource(  190): start
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/Choreographer( 9877): Skipped 31 frames!  The application may be doing too much work on its main thread.
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.advertising.AdControl$5.run(com.mobilityware.advertising.AdControl$5@1004891992)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.advertising.AdControl$1.run(com.mobilityware.advertising.AdControl$1@262254998)
+I/WebViewFactory( 9877): Loading com.google.android.webview version 54.0.2840.85 (code 284008500)
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/cr_LibraryLoader( 9877): Time to load native libraries: 1 ms (timestamps 1594-1595)
+I/cr_LibraryLoader( 9877): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/cr_LibraryLoader( 9877): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/chromium( 9877): [INFO:library_loader_hooks.cc(151)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_BrowserStartup( 9877): Initializing chromium process, singleProcess=true
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=58, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler( 9877): CM callback handler got msg 524290
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+I/art     ( 9877): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:20.803.jpg
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api > 1 android.webkit.WebView.<init>(com.greystripe.sdk.core.AdWebView@952065672<file=2016-12-13_05:15:20.803><x=0><y=0><width=0><height=0><id=-1>, com.mobilityware.solitaire.SolitaireApplication@410649080)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:20.803.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.030.jpg
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api < 1 android.webkit.WebView.<init>(com.greystripe.sdk.core.AdWebView@952065672<file=2016-12-13_05:15:21.030><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.030.jpg
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@644406037)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@346283562)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@905090075)
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.onPreExecute(com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask@277418897<atask=true>)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.onPreExecute()
+I/org.umd.logging( 9877): Method > 2110 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.doInBackground(com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask@277418897<atask=true>, [Ljava.lang.Void;@865753037)
+I/org.umd.logging( 9877): Api > 1 java.lang.Thread.start(java.lang.Thread@74236136<thread=2111>)
+I/org.umd.logging( 9877): Api < 1 java.lang.Thread.start()
+I/org.umd.logging( 9877): Method > 2111 com.mopub.common.GpsHelper$1.run(com.mopub.common.GpsHelper$1@383445991)
+I/org.umd.logging( 9877): Api > 1 android.location.LocationManager.getLastKnownLocation(android.location.LocationManager@180421524, "gps")
+I/org.umd.logging( 9877): Method > 2111 com.mopub.common.util.Reflection$MethodBuilder.execute(com.mopub.common.util.Reflection$MethodBuilder@81106482)
+I/org.umd.logging( 9877): Method > 1 com.tapsense.android.publisher.TapSenseAds.start(com.mobilityware.solitaire.Solitaire@839259446<activity=true>, "mobilityware", "com.mobilityware.solitaire", "42b8dfb005")
+I/org.umd.logging( 9877): Api > 1 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@524477310, org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@887457781, org.apache.http.params.BasicHttpParams@215235579)
+I/org.umd.logging( 9877): Api < 1 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@524477310)
+I/org.umd.logging( 9877): Api > 1 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@283687593, org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@598550574, org.apache.http.params.BasicHttpParams@881610703)
+I/org.umd.logging( 9877): Api < 1 org.apache.http.impl.client.DefaultHttpClient.<init>(org.apache.http.impl.client.DefaultHttpClient@283687593)
+I/org.umd.logging( 9877): Method > 1 com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask.onPreExecute(com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask@677992549<atask=true>)
+I/org.umd.logging( 9877): Method < 1 com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask.onPreExecute()
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@2628075)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1069208392)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@2628075)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@505810694)
+I/org.umd.logging( 9877): Api > 1 android.location.LocationManager.getLastKnownLocation(android.location.LocationManager@180421524, "gps")
+I/org.umd.logging( 9877): Api > 1 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@325872071)
+I/org.umd.logging( 9877): Api < 1 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+I/org.umd.logging( 9877): Api > 1 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@325872071)
+I/org.umd.logging( 9877): Api < 1 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+W/Settings( 9877): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/org.umd.logging( 9877): Api > 1 android.net.wifi.WifiManager.getConnectionInfo(android.net.wifi.WifiManager@14888733)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.408.jpg
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api > 1 android.webkit.WebView.<init>(android.webkit.WebView@713596953<file=2016-12-13_05:15:21.408><x=0><y=0><width=0><height=0><id=-1>, com.mobilityware.solitaire.Solitaire@839259446)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.408.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.654.jpg
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api < 1 android.webkit.WebView.<init>(android.webkit.WebView@713596953<file=2016-12-13_05:15:21.654><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.654.jpg
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@2628075)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@692713694)
+I/org.umd.logging( 9877): Api > 1 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@325872071)
+I/org.umd.logging( 9877): Api < 1 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+I/org.umd.logging( 9877): Api > 1 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@325872071)
+I/org.umd.logging( 9877): Api < 1 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+W/Settings( 9877): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/org.umd.logging( 9877): Api > 1 android.net.wifi.WifiManager.getConnectionInfo(android.net.wifi.WifiManager@14888733)
+I/org.umd.logging( 9877): Method < 1 com.tapsense.android.publisher.TapSenseAds.start()
+I/org.umd.logging( 9877): Method > 2114 com.ts.loopj.android.http.AsyncHttpRequest.run(com.ts.loopj.android.http.AsyncHttpRequest@796533973)
+I/org.umd.logging( 9877): Method < 2114 com.ts.loopj.android.http.AsyncHttpRequest.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.970.jpg
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api > 1 android.webkit.WebView.<init>(android.webkit.WebView@952449361<file=2016-12-13_05:15:21.970><x=0><y=0><width=0><height=0><id=-1>, com.mobilityware.solitaire.Solitaire@839259446)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:21.970.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:22.230.jpg
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Api < 1 android.webkit.WebView.<init>(android.webkit.WebView@952449361<file=2016-12-13_05:15:22.230><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:22.230.jpg
+W/cr_media( 9877): Requires BLUETOOTH permission
+I/cr_Ime  ( 9877): ImeThread is enabled.
+E/libEGL  ( 9877): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+I/VideoCapabilities( 9877): Unsupported profile 4 for video/mp4v-es
+I/org.umd.logging( 9877): Api > 1 android.os.HandlerThread.start(android.os.HandlerThread@894364997<thread=2120>)
+I/org.umd.logging( 9877): Api < 1 android.os.HandlerThread.start()
+I/org.umd.logging( 9877): Method > 2121 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run(com.vungle.publisher.async.ScheduledPriorityExecutor$a$a@77972722)
+I/org.umd.logging( 9877): Method > 2121 com.vungle.publisher.db.DatabaseHelper$1.run(com.vungle.publisher.db.DatabaseHelper$1@964129216)
+I/org.umd.logging( 9877): Method < 2121 com.vungle.publisher.db.DatabaseHelper$1.run()
+I/org.umd.logging( 9877): Method < 2121 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run()
+I/org.umd.logging( 9877): Method > 2122 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run(com.vungle.publisher.async.ScheduledPriorityExecutor$a$a@798340145)
+I/org.umd.logging( 9877): Method > 2122 com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable.run(com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable@262830231)
+I/org.umd.logging( 9877): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@2628075)
+I/org.umd.logging( 9877): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@348851105)
+D/AdSettings( 9877): Test mode device hash: fb6e0265c5a72a8ae7ff02137d92e922
+D/AdSettings( 9877): When testing your app with Facebook's ad units you must specify the device hashed ID to ensure the delivery of test ads, add the following code before loading an ad: AdSettings.addTestDevice("fb6e0265c5a72a8ae7ff02137d92e922");
+I/org.umd.logging( 9877): Method > 1 com.facebook.ads.internal.AdRequest.executeAsync(com.facebook.ads.internal.AdRequest@503625095)
+I/org.umd.logging( 9877): Method > 1 com.facebook.ads.internal.AdRequest$1.onPreExecute(com.facebook.ads.internal.AdRequest$1@770515747<atask=true>)
+I/org.umd.logging( 9877): Method < 1 com.facebook.ads.internal.AdRequest$1.onPreExecute()
+I/org.umd.logging( 9877): Method < 1 com.facebook.ads.internal.AdRequest.executeAsync(com.facebook.ads.internal.AdRequest$1@770515747<atask=true>)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.advertising.AdControl$1.run()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.advertising.AdControl$5.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:22.844.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:22.844><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:22.844.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/qcom_sensors_hal(  594): hal_process_report_ind: Bad item quality: 11 
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:23.104.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:23.104><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:23.104.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:23.323.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:23.323><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@764588958)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:23.323.jpg
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@264973973)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@111313720)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@44043895)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@485017090)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@1032271980)
+D/NuPlayerDriver(  190): start(0xb7a3ea08)
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+E/MediaPlayer( 9877): Should have subtitle controller already set
+I/Choreographer( 9877): Skipped 185 frames!  The application may be doing too much work on its main thread.
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=59, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler( 9877): CM callback handler got msg 524290
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdModel$1.run(com.greystripe.sdk.core.AdModel$1@193618556)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdModel$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 2111 com.mopub.common.util.Reflection$MethodBuilder.execute(com.google.android.gms.ads.identifier.AdvertisingIdClient$Info@425005914)
+I/org.umd.logging( 9877): Method > 2111 com.mopub.common.util.Reflection$MethodBuilder.execute(com.mopub.common.util.Reflection$MethodBuilder@112908683)
+I/org.umd.logging( 9877): Method < 2111 com.mopub.common.util.Reflection$MethodBuilder.execute("229d4aea-d76e-47c3-ad88-1eafdf3529f0")
+I/org.umd.logging( 9877): Method > 2111 com.mopub.common.util.Reflection$MethodBuilder.execute(com.mopub.common.util.Reflection$MethodBuilder@408496744)
+I/org.umd.logging( 9877): Method < 2111 com.mopub.common.util.Reflection$MethodBuilder.execute(false)
+I/org.umd.logging( 9877): Method < 2110 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.doInBackground(true)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.ts.loopj.android.http.AsyncHttpResponseHandler.onStart(com.tapsense.android.publisher.TapSenseAdsPinger@234586983)
+I/org.umd.logging( 9877): Method < 1 com.ts.loopj.android.http.AsyncHttpResponseHandler.onStart()
+I/org.umd.logging( 9877): Method < 2111 com.mopub.common.GpsHelper$1.run()
+I/org.umd.logging( 9877): Method > 2127 com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask.doInBackground(com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask@677992549<atask=true>, [Landroid.content.Context;@306115005)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method < 2122 com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable.run()
+I/org.umd.logging( 9877): Method < 2122 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run()
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.onPostExecute(com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask@277418897<atask=true>, true)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdModel$RetrieveGooglePlayServiceTask.onPostExecute()
+I/org.umd.logging( 9877): Method < 2127 com.tapsense.android.publisher.TapSenseAdsUtils$AdvertisingIdTask.doInBackground(null)
+I/org.umd.logging( 9877): Method > 2129 com.facebook.ads.internal.AdRequest$1.doInBackground(com.facebook.ads.internal.AdRequest$1@770515747<atask=true>, [Ljava.lang.Void;@273997440)
+I/org.umd.logging( 9877): Method > 2129 com.facebook.ads.internal.AdRequest.executeConnectionAndWait(com.facebook.ads.internal.AdRequest@503625095)
+I/org.umd.logging( 9877): Api > 2129 java.net.URL.openConnection(java.net.URL@653126841<URL=https://graph.facebook.com/network_ads>)
+I/org.umd.logging( 9877): Api < 2129 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@562321662)
+I/org.umd.logging( 9877): Api > 2129 android.content.ContentResolver.query(android.app.ContextImpl$ApplicationContentResolver@1056414581, android.net.Uri$StringUri@843646730<URI=content://com.facebook.katana.provider.AttributionIdProvider>, [Ljava.lang.String;@95648241, null, null, null)
+E/ActivityThread( 9877): Failed to find provider info for com.facebook.katana.provider.AttributionIdProvider
+I/org.umd.logging( 9877): Api < 2129 android.content.ContentResolver.query(null)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdWebView$1.run(com.greystripe.sdk.core.AdWebView$1@777393239)
+I/cr_Ime  ( 9877): ImeThread is enabled.
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdWebView$1.run()
+W/cr_BindingManager( 9877): Cannot call determinedVisibility() - never saw a connection for the pid: 9877
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+E/chromium( 9877): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Api > 2129 java.net.HttpURLConnection.connect(com.android.okhttp.internal.http.HttpsURLConnectionImpl@562321662)
+I/org.umd.logging( 9877): Api < 2129 java.net.HttpURLConnection.connect()
+W/cr_BindingManager( 9877): Cannot call determinedVisibility() - never saw a connection for the pid: 9877
+I/chromium( 9877): [INFO:CONSOLE(3)] "The value "device-width;" for key "width" is invalid, and has been ignored.", source: http://adsx.greystripe.com/openx/www/delivery/ia.php?z=1481667323666&s=fs&source=saveimage%20port%20wifi%20Android-5.1.1%20asdk-2.4.2%20land&guid=28c67532-a45d-4129-a14f-96cf44bc81e3&screen_size=768x1184&gaid=229d4aea-d76e-47c3-ad88-1eafdf3529f0&res=2.0&lang=en (3)
+I/chromium( 9877): [INFO:CONSOLE(3)] "The value "1.0;" for key "initial-scale" was truncated to its numeric prefix.", source: http://adsx.greystripe.com/openx/www/delivery/ia.php?z=1481667323666&s=fs&source=saveimage%20port%20wifi%20Android-5.1.1%20asdk-2.4.2%20land&guid=28c67532-a45d-4129-a14f-96cf44bc81e3&screen_size=768x1184&gaid=229d4aea-d76e-47c3-ad88-1eafdf3529f0&res=2.0&lang=en (3)
+I/chromium( 9877): [INFO:CONSOLE(3)] "The value "1.0;" for key "maximum-scale" was truncated to its numeric prefix.", source: http://adsx.greystripe.com/openx/www/delivery/ia.php?z=1481667323666&s=fs&source=saveimage%20port%20wifi%20Android-5.1.1%20asdk-2.4.2%20land&guid=28c67532-a45d-4129-a14f-96cf44bc81e3&screen_size=768x1184&gaid=229d4aea-d76e-47c3-ad88-1eafdf3529f0&res=2.0&lang=en (3)
+I/chromium( 9877): [INFO:CONSOLE(3)] "The value "0;" for key "user-scalable" was truncated to its numeric prefix.", source: http://adsx.greystripe.com/openx/www/delivery/ia.php?z=1481667323666&s=fs&source=saveimage%20port%20wifi%20Android-5.1.1%20asdk-2.4.2%20land&guid=28c67532-a45d-4129-a14f-96cf44bc81e3&screen_size=768x1184&gaid=229d4aea-d76e-47c3-ad88-1eafdf3529f0&res=2.0&lang=en (3)
+I/chromium( 9877): [INFO:CONSOLE(3)] "Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead.", source: http://adsx.greystripe.com/openx/www/delivery/ia.php?z=1481667323666&s=fs&source=saveimage%20port%20wifi%20Android-5.1.1%20asdk-2.4.2%20land&guid=28c67532-a45d-4129-a14f-96cf44bc81e3&screen_size=768x1184&gaid=229d4aea-d76e-47c3-ad88-1eafdf3529f0&res=2.0&lang=en (3)
+I/org.umd.logging( 9877): Method < 2129 com.facebook.ads.internal.AdRequest.executeConnectionAndWait(com.facebook.ads.internal.AdRequest$AdRequestResponse@827062635)
+I/org.umd.logging( 9877): Method < 2129 com.facebook.ads.internal.AdRequest$1.doInBackground(com.facebook.ads.internal.AdRequest$AdRequestResponse@827062635)
+I/org.umd.logging( 9877): Method > 1 com.facebook.ads.internal.AdRequest$1.onPostExecute(com.facebook.ads.internal.AdRequest$1@770515747<atask=true>, com.facebook.ads.internal.AdRequest$AdRequestResponse@827062635)
+I/org.umd.logging( 9877): Method < 1 com.facebook.ads.internal.AdRequest$1.onPostExecute()
+E/chromium( 9877): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdWebView$1.run(com.greystripe.sdk.core.AdWebView$1@734380385)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdWebView$1.run()
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=4.97 rxSuccessRate=3.60 targetRoamBSSID=any RSSI=-44
+E/WifiStateMachine(  594): WifiStateMachine L2Connected CMD_START_SCAN source -2 5314, 5315 -> obsolete
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdModel$2.run(com.greystripe.sdk.core.AdModel$2@531546439)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdModel$2.run()
+I/org.umd.logging( 9877): Method > 1 com.greystripe.sdk.core.AdModel$3.run(com.greystripe.sdk.core.AdModel$3@263983773)
+I/org.umd.logging( 9877): Method < 1 com.greystripe.sdk.core.AdModel$3.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.advertising.AdControl$4.run(com.mobilityware.advertising.AdControl$4@747383523)
+W/ResourcesManager( 9877): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+W/ResourcesManager( 9877): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+D/DynamitePackage( 9877): Instantiated singleton DynamitePackage.
+D/DynamitePackage( 9877): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/DynamiteModule( 9877): Considering local module com.google.android.gms.piccard.dynamite:0 and remote module com.google.android.gms.piccard.dynamite:9
+I/DynamiteModule( 9877): Selected remote version of com.google.android.gms.piccard.dynamite, version >= 9
+E/DynamiteModule( 9877): Failed to load DynamiteLoader: java.lang.ClassNotFoundException: Didn't find class "com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader" on path: DexPathList[[zip file "/data/app/com.mobilityware.solitaire-1/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+W/DynamiteModule( 9877): Failed to load remote module: Failed to get module context
+W/DynamiteModule( 9877): Failed to load module via fast routeajo: Remote load failed. No local fallback found.
+I/DynamiteModule( 9877): Considering local module com.google.android.gms.piccard.dynamite:0 and remote module com.google.android.gms.piccard.dynamite:9
+I/DynamiteModule( 9877): Selected remote version of com.google.android.gms.piccard.dynamite, version >= 9
+I/Ads     ( 9877): Starting ad request.
+I/Ads     ( 9877): Use AdRequest.Builder.addTestDevice("1F480C9603A7924489313051413E5A68") to get test ads on this device.
+I/Ads     ( 9877): Please set theme of AdActivity to @android:style/Theme.Translucent to enable transparent background interstitial ad.
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.advertising.AdControl$4.run()
+I/dex2oat (10040): /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=div --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --dex-file=/data/data/com.mobilityware.solitaire/cache/1470286953684.jar --oat-fd=131 --oat-location=/data/data/com.mobilityware.solitaire/cache/1470286953684.dex --runtime-arg -Xms64m --runtime-arg -Xmx512m
+I/dex2oat (10040): dex2oat took 99.069ms (threads: 4) arena alloc=178KB java alloc=26KB native alloc=1042KB free=25KB
+W/ActivityManager(  594): getRunningAppProcesses: caller 10216 does not hold REAL_GET_TASKS; limiting output
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 2121 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run(com.vungle.publisher.async.ScheduledPriorityExecutor$a$a@238369531)
+I/org.umd.logging( 9877): Method > 2121 com.vungle.publisher.VunglePubBase$AsyncInitEventListener$1.run(com.vungle.publisher.VunglePubBase$AsyncInitEventListener$1@377892694)
+I/org.umd.logging( 9877): Method > 2122 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run(com.vungle.publisher.async.ScheduledPriorityExecutor$a$a@739412951)
+I/org.umd.logging( 9877): Method > 2122 com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable.run(com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable@1000654765)
+I/org.umd.logging( 9877): Api > 2121 android.content.Context.startService(com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@701185220<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api < 2121 android.content.Context.startService()
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onCreate(com.vungle.publisher.VungleService@537529971)
+I/org.umd.logging( 9877): Api > 2121 android.content.Intent.<init>(android.content.Intent@346120496<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/config><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-559033505><umd_Intent_key=None>, "com.vungle.publisher.VungleService.PROTOCOL", android.net.Uri$StringUri@259207593<URI=http://api.vungle.com/api/v1/config>, com.mobilityware.solitaire.SolitaireApplication@410649080, com.vungle.publisher.VungleService)
+I/org.umd.logging( 9877): Api < 2121 android.content.Intent.<init>(android.content.Intent@346120496<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/config><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-559033505><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api > 2121 android.content.Context.startService(com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@346120496<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/config><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-559033505><umd_Intent_key=None><transaction=None>)
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onCreate()
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStartCommand(com.vungle.publisher.VungleService@537529971, android.content.Intent@6157370<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>, 0, 1)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStart(com.vungle.publisher.VungleService@537529971, android.content.Intent@6157370<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>, 1)
+I/org.umd.logging( 9877): Api < 2121 android.content.Context.startService()
+I/org.umd.logging( 9877): Api > 1 android.os.HandlerThread.start(android.os.HandlerThread@658954475<thread=2179>)
+I/org.umd.logging( 9877): Api < 1 android.os.HandlerThread.start()
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onStartCommand(2)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStartCommand(com.vungle.publisher.VungleService@537529971, android.content.Intent@271944<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/config><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-559033505><umd_Intent_key=None><transaction=None>, 0, 2)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStart(com.vungle.publisher.VungleService@537529971, android.content.Intent@271944<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/config><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-559033505><umd_Intent_key=None><transaction=None>, 2)
+I/org.umd.logging( 9877): Api > 2179 android.content.Intent.<init>(android.content.Intent@657987783<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionStart><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1259389943><umd_Intent_key=None>, "com.vungle.publisher.VungleService.PROTOCOL", android.net.Uri$StringUri@995712756<URI=http://api.vungle.com/api/v1/sessionStart>, com.mobilityware.solitaire.SolitaireApplication@410649080, com.vungle.publisher.VungleService)
+I/org.umd.logging( 9877): Api < 2179 android.content.Intent.<init>(android.content.Intent@657987783<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionStart><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1259389943><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api > 2179 android.content.Context.startService(com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@657987783<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionStart><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1259389943><umd_Intent_key=None><transaction=None>)
+I/org.umd.logging( 9877): Api < 2179 android.content.Context.startService()
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onStartCommand(2)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStartCommand(com.vungle.publisher.VungleService@537529971, android.content.Intent@755683474<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionStart><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1259389943><umd_Intent_key=None><transaction=None>, 0, 3)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStart(com.vungle.publisher.VungleService@537529971, android.content.Intent@755683474<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionStart><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1259389943><umd_Intent_key=None><transaction=None>, 3)
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onStartCommand(2)
+I/org.umd.logging( 9877): Api > 2180 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Method < 2122 com.vungle.publisher.env.AdvertisingDeviceIdStrategy$FetchAdvertisingPreferencesRunnable.run()
+I/org.umd.logging( 9877): Method < 2122 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run()
+I/org.umd.logging( 9877): Api < 2180 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@471038563)
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bt$a.run(com.vungle.publisher.bt$a@136238873)
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bx.run(com.vungle.publisher.bx@96033215)
+I/org.umd.logging( 9877): Api > 2180 java.net.URL.openConnection(java.net.URL@301832332<URL=http://api.vungle.com/api/v1/config>)
+I/org.umd.logging( 9877): Api < 2180 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpURLConnectionImpl@305246584)
+W/VungleFile( 9877): could not delete: /storage/emulated/0/Android/data/com.mobilityware.solitaire/files/.vungle/5768656694604ed45c000109_58014ae2d3ebbc8a26000081_datasci--primary--success
+W/VungleDatabase( 9877): unable to delete files for {ad:: id: 5768656694604ed45c000109|58014ae2d3ebbc8a26000081|datasci--primary--success, type: local} attempt 1
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bx.run()
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bt$a.run()
+I/org.umd.logging( 9877): Api > 2180 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 2180 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@568565901)
+I/Ads     ( 1667): Received log message: <Google:HTML> You are using version 4.2 of the Google Play services Ads SDK. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. See http://goo.gl/r2TRzC for instructions on how to get the latest version of Google Play services.
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bt$a.run(com.vungle.publisher.bt$a@48529986)
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bx.run(com.vungle.publisher.bx@470270547)
+I/org.umd.logging( 9877): Api > 2180 java.net.URL.openConnection(java.net.URL@733296528<URL=http://api.vungle.com/api/v1/sessionStart>)
+I/org.umd.logging( 9877): Api < 2180 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpURLConnectionImpl@477542537)
+I/org.umd.logging( 9877): Method < 2121 com.vungle.publisher.VunglePubBase$AsyncInitEventListener$1.run()
+I/org.umd.logging( 9877): Method < 2121 com.vungle.publisher.async.ScheduledPriorityExecutor$a$a.run()
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bx.run()
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bt$a.run()
+I/ActivityManager(  594): Start proc 10088:com.creativemobile.dragracingbe/u0a230 for broadcast com.creativemobile.dragracingbe/com.getjar.sdk.data.metadata.PackageMonitor
+I/org.umd.logging(10088): Method > 1 com.getjar.sdk.data.metadata.PackageMonitor.onReceive(com.getjar.sdk.data.metadata.PackageMonitor@410649080, android.app.ReceiverRestrictedContext@80849975, android.content.Intent@546721474<action=null><data=null><package=null><component=com.creativemobile.dragracingbe/com.getjar.sdk.data.metadata.PackageMonitor><type=null><filter_hashcode=673338452><umd_Intent_key=None><usageMonitoringAlarm=None><android.intent.extra.ALARM_COUNT=None>)
+D/GetJar SDK(10088): OS_ENTRY_POINT: PackageMonitor: onReceive(): START
+I/org.umd.logging(10088): Api > 1 java.lang.Thread.start(java.lang.Thread@933697552<thread=2086>)
+I/org.umd.logging(10088): Api < 1 java.lang.Thread.start()
+I/org.umd.logging(10088): Method < 1 com.getjar.sdk.data.metadata.PackageMonitor.onReceive()
+I/org.umd.logging(10088): Method > 2086 com.getjar.sdk.data.metadata.PackageMonitor$1.run(com.getjar.sdk.data.metadata.PackageMonitor$1@100570382)
+D/GetJar SDK(10088): OS_ENTRY_POINT: PackageMonitor: doOnReceive(): START
+I/GetJar SDK(10088): STORAGE: DBCache: Opened caching database 'google.play.launch.cache'
+D/GetJar SDK(10088): STORAGE: database:GetJarDBApplicationKey
+D/GetJar SDK(10088): STORAGE: database:GetJarDBApplicationKey-journal
+D/GetJar SDK(10088): STORAGE: database:authCache
+D/GetJar SDK(10088): STORAGE: database:authCache-journal
+D/GetJar SDK(10088): STORAGE: database:settings
+D/GetJar SDK(10088): STORAGE: database:settings-journal
+D/GetJar SDK(10088): STORAGE: database:androidAccountUserAuthCache
+D/GetJar SDK(10088): STORAGE: database:androidAccountUserAuthCache-journal
+D/GetJar SDK(10088): STORAGE: database:commResultCache
+D/GetJar SDK(10088): STORAGE: database:commResultCache-journal
+D/GetJar SDK(10088): STORAGE: database:Quantcast.db
+D/GetJar SDK(10088): STORAGE: database:Quantcast.db-journal
+I/cr_Ime  ( 9877): ImeThread is enabled.
+V/GetJar SDK(10088): STORAGE: ApplicationTokenDatabase: getApplicationToken() [58de12ef-de22-4893-b6ce-4ab70f6c4474]
+W/cr_BindingManager( 9877): Cannot call determinedVisibility() - never saw a connection for the pid: 9877
+V/GetJar SDK(10088): STORAGE: ApplicationTokenDatabase: getApplicationToken() [58de12ef-de22-4893-b6ce-4ab70f6c4474]
+V/GetJar SDK(10088): COMM: CommManager: createContext() [thread:2086] Calling configureAppenders()
+V/GetJar SDK(10088): LOGGING: LogCatAppender: configureAppender() START
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() GetJarConfig.getInstance() start
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig()::getInstance() -- creating a new GetJarConfig instance
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: _initialize() -- OK: config is ready (using DEFAULTS)..
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): STORAGE: ApplicationTokenDatabase: getApplicationToken() [58de12ef-de22-4893-b6ce-4ab70f6c4474]
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: CommContext: creating DeviceMetadata instance
+I/org.umd.logging(10088): Api > 2086 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@366753766)
+I/org.umd.logging(10088): Api < 2086 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() START
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() checking overrides
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() checking shared prefs
+I/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: WebKit User Agent value: 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 4 Build/LMY48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() FINISHED
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() START
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: UserAgentValuesManager: getWebKitUserAgent() FINISHED
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: CommContext: calling UserAgentValuesManager.getSdkUserAgent()
+I/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: SDK User Agent value: 'GetJarSDK/20140421.03 (16) com.creativemobile.dragracingbe/1001017 android/5.1.1 (google; occam; Nexus 4)'
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): COMM: CommManager: createContextForAuth() [thread:2086] Created a NEW CommContext for Auth from com.getjar.sdk.comm.auth.AuthManager.<init>() [PID:10088] [AppToken:58de12ef-de22-4893-b6ce-4ab70f6c4474] [CommContext.Id:a38448a7-44e9-4562-8a42-4084be53f376]
+I/GetJar SDK [com.creativemobile.dragracingbe](10088): STORAGE: DBCache: Opened caching database 'authCache'
+I/GetJar SDK [com.creativemobile.dragracingbe](10088): STORAGE: DBCache: Opened caching database 'claimsAndCapsCache'
+I/GetJar SDK [com.creativemobile.dragracingbe](10088): STORAGE: DBCache: Opened caching database 'settings'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): AUTH: AuthFlow: AuthManager initialized [userAuthProviderFilter:null authToken:null userAccessId:null userDeviceId:null authTTL:0 authTimestamp:0]
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): AUTH: registerCallbacks() registered 'bacf2814-18e7-4edf-831f-f2e1b5f5c41c'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() GetJarConfig.getInstance() finished
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() START [key='logging.logcat.enabled']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() Using CONFIG value: 'logging.logcat.enabled' = 'true'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() FINISHED [key='logging.logcat.enabled']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() got enabled = true
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() START [key='logging.logcat.level']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() Using CONFIG value: 'logging.logcat.level' = 'WARN'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() FINISHED [key='logging.logcat.level']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() got levelStr = WARN
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() START [key='logging.logcat.areas']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() Using CONFIG value: 'logging.logcat.areas' = 'ALL'
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): CONFIG: GetJarConfig getDirectiveValue() FINISHED [key='logging.logcat.areas']
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() got areasStr = ALL
+V/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING: LogCatAppender: configureAppender() calling AppenderBase.configureAppender()
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING|CONFIG: AppenderBase: configureAppender() Appender com.getjar.sdk.logging.LogCatAppender configured [enabled=true level=WARN areas=ALL]
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING|CONFIG: AppenderBase: configureAppender() Appender com.getjar.sdk.logging.RemoteAppender configured [enabled=false level=WARN areas=ALL]
+I/org.umd.logging(10088): Api > 2086 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@366753766)
+I/org.umd.logging(10088): Api < 2086 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+I/org.umd.logging(10088): Api > 2086 android.accounts.AccountManager.getAccountsByType(android.accounts.AccountManager@784358846, "com.google")
+I/org.umd.logging(10088): Api < 2086 android.accounts.AccountManager.getAccountsByType([Landroid.accounts.Account;@1067710261)
+I/org.umd.logging(10088): Method > 2088 com.getjar.sdk.comm.auth.AuthManager$AuthFlow.run(com.getjar.sdk.comm.auth.AuthManager$AuthFlow@721446404)
+I/org.umd.logging(10088): Method > 1 com.getjar.sdk.comm.NetworkStateReceiver.onReceive(com.getjar.sdk.comm.NetworkStateReceiver@882402966, android.app.Application@959041969, android.content.Intent@2088560<action=android.net.conn.CONNECTIVITY_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-1172645946><networkInfo=None><networkType=None><inetCondition=None><extraInfo=None><umd_Intent_key=None>)
+I/org.umd.logging(10088): Api > 1 java.lang.Thread.start(java.lang.Thread@1048342940<thread=2089>)
+I/org.umd.logging(10088): Api < 1 java.lang.Thread.start()
+I/org.umd.logging(10088): Method < 1 com.getjar.sdk.comm.NetworkStateReceiver.onReceive()
+I/org.umd.logging(10088): Method > 2089 com.getjar.sdk.comm.NetworkStateReceiver$1.run(com.getjar.sdk.comm.NetworkStateReceiver$1@771131258)
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING|CONFIG: AppenderBase: configureAppender() Appender com.getjar.sdk.logging.LogCatAppender configured [enabled=true level=WARN areas=ALL]
+D/GetJar SDK [com.creativemobile.dragracingbe](10088): LOGGING|CONFIG: AppenderBase: configureAppender() Appender com.getjar.sdk.logging.RemoteAppender configured [enabled=false level=WARN areas=ALL]
+I/org.umd.logging(10088): Api > 2089 android.telephony.TelephonyManager.getDeviceId(android.telephony.TelephonyManager@366753766)
+I/org.umd.logging(10088): Api < 2089 android.telephony.TelephonyManager.getDeviceId("353918052133903")
+I/org.umd.logging(10088): Api > 2088 java.lang.Thread.start(java.lang.Thread@832244523<thread=2090>)
+I/org.umd.logging(10088): Api < 2088 java.lang.Thread.start()
+I/art     (10088): Note: end time exceeds epoch: 
+I/art     (10088): Note: end time exceeds epoch: 
+I/org.umd.logging(10088): Api > 2091 org.apache.http.impl.client.DefaultHttpClient.<init>(com.getjar.sdk.comm.GetJarHttpClient@1017943645, org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@920634272, org.apache.http.params.BasicHttpParams@201521151)
+I/org.umd.logging(10088): Api < 2091 org.apache.http.impl.client.DefaultHttpClient.<init>(com.getjar.sdk.comm.GetJarHttpClient@1017943645)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): AUTH: AuthFlow: authorizeApplication() failed
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): com.getjar.sdk.exceptions.CommunicationException: java.util.concurrent.ExecutionException: org.apache.http.conn.HttpHostConnectException: Connection to https://auth20120430.getjar.com:443 refused
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager.waitOnOperation(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.Operation.get(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.auth.AppAuthProvider.authorizeApplication(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.auth.AuthManager$AuthFlow.performAuth(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.auth.AuthManager$AuthFlow.run(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.lang.Thread.run(Thread.java:818)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): Caused by: java.util.concurrent.ExecutionException: org.apache.http.conn.HttpHostConnectException: Connection to https://auth20120430.getjar.com:443 refused
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.util.concurrent.FutureTask.report(FutureTask.java:93)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.util.concurrent.FutureTask.get(FutureTask.java:163)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	... 8 more
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): Caused by: org.apache.http.conn.HttpHostConnectException: Connection to https://auth20120430.getjar.com:443 refused
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:188)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:365)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:560)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:492)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:470)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager.processesRequest(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager.processesRequestWithRetries(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager.access$200(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager$RequestCallable.call(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at com.getjar.sdk.comm.CommManager$RequestCallable.call(SourceFile)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	... 3 more
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): Caused by: java.net.ConnectException: failed to connect to /67.227.166.193 (port 443) after 30000ms: isConnected failed: ECONNREFUSED (Connection refused)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at java.net.Socket.connect(Socket.java:882)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:124)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:149)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	... 15 more
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): 	... 22 more
+I/org.umd.logging(10088): Method < 2088 com.getjar.sdk.comm.auth.AuthManager$AuthFlow.run()
+E/GetJar SDK [com.creativemobile.dragracingbe](10088): OS_ENTRY_POINT: PackageMonitor: doOnReceive() AuthFlowState = FAILED after _authFlowEvent.waitForOpen()
+I/org.umd.logging(10088): Method < 2086 com.getjar.sdk.data.metadata.PackageMonitor$1.run()
+W/GetJar SDK [com.creativemobile.dragracingbe](10088): AUTH|COMM|TRANSACTION: NetworkStateReceiver: onReceive() not yet authed [AuthFlowState = FAILED after _authFlowEvent.waitForOpen()]
+I/org.umd.logging(10088): Method < 2089 com.getjar.sdk.comm.NetworkStateReceiver$1.run()
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.315.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.315.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:27.315><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.544.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:27.544><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.544.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.769.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:27.769><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@709543677)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@562930880)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@384213919)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@484547402)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@330517297)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@1032271980)
+D/NuPlayerDriver(  190): start(0xb7a3ea08)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/Choreographer( 9877): Skipped 43 frames!  The application may be doing too much work on its main thread.
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:27.769.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+E/chromium( 9877): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/Ads     ( 9877): Ad finished loading.
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:29.657.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:29.657><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:29.657.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:29.910.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:29.910><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:29.910.jpg
+I/ExoPlayerImpl( 9877): Init 1.3.1
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.148.jpg
+I/OMXClient( 9877): Using client-side OMX mux.
+E/OMXMaster( 9877): A component of name 'OMX.qcom.audio.decoder.aac' already exists, ignoring this one.
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:30.148><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.148.jpg
+I/SoftAAC2( 9877): Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.373.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:30.373><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.373.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.617.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:30.617><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@235351913)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:30.617.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=237.12 rxSuccessRate=401.82 targetRoamBSSID=any RSSI=-39
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.462.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:32.462><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.462.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.710.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:32.710><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.710.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.958.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:32.958><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@515861242)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@855401121)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:32.958.jpg
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@880877492)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@343654947)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@271392414)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@1032271980)
+D/NuPlayerDriver(  190): start(0xb7a3ea08)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.224.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:34.224><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.224.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.499.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:34.499><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.499.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.741.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:34.741><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.741.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.985.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:34.985><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@747427221)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:34.985.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:35.922.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:35.922><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:35.922.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:36.160.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:36.160><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:36.160.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:36.375.jpg
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:36.375><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@489788984)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@247233911)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@25641218)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:36.375.jpg
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@224171593)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@964494716)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@1032271980)
+D/NuPlayerDriver(  190): start(0xb7a3ea08)
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/NuPlayerDecoder(  190): [OMX.google.vorbis.decoder] resubmitting CSD
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+W/SoftVorbis(  190): vorbis_dsp_synthesis returned -135
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:37.598.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:37.598><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:37.598.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:37.836.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:37.836><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:37.836.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.087.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:38.087><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.087.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.362.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:38.362><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.362.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.622.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView.onTouchEvent(com.mobilityware.solitaire.MWView@422459951<file=2016-12-13_05:15:38.622><x=0><y=0><width=768><height=1184><id=2131165254><imagename=mwview>, android.view.MotionEvent@274779930)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@167516299)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:38.622.jpg
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView.onTouchEvent(true)
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:40.580.jpg
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bt$a.run(com.vungle.publisher.bt$a@710274738)
+I/org.umd.logging( 9877): Method > 2180 com.vungle.publisher.bt$c.run(com.vungle.publisher.bt$c@324407680)
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bt$c.run()
+I/org.umd.logging( 9877): Method < 2180 com.vungle.publisher.bt$a.run()
+W/ResourceType( 9877): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Toolbar$8.onClick(com.mobilityware.solitaire.Toolbar$8@338073126, android.widget.ImageButton@220084413<file=2016-12-13_05:15:40.580><x=249><y=1082><width=65><height=72><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:40.580.jpg
+V/WindowManager(  594): not Base app: Adding window Window{27dc012b u0 com.mobilityware.solitaire/com.mobilityware.solitaire.Solitaire} at 4 of 10
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Toolbar$8.onClick()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:42.362.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$18.onClick(com.mobilityware.solitaire.MWView$18@1001889908, android.app.AlertDialog@974827026<file=2016-12-13_05:15:42.362><x=0><y=0><width=640><height=822>, 1)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:42.362.jpg
+V/WindowManager(  594): not Base app: Adding window Window{2275f634 u0 com.mobilityware.solitaire/com.mobilityware.solitaire.Solitaire} at 5 of 11
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$18.onClick()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$4.run(com.mobilityware.solitaire.MWView$4@882586314)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$4.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:43.936.jpg
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$19.onClick(com.mobilityware.solitaire.MWView$19@1048351323, android.app.AlertDialog@486816504<file=2016-12-13_05:15:43.936><x=0><y=0><width=704><height=510>, -1)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:15:43.936.jpg
+E/MediaPlayer( 9877): Should have subtitle controller already set
+I/org.umd.logging( 9877): Api > 1 android.media.MediaPlayer.start(android.media.MediaPlayer@949279697)
+D/NuPlayerDriver(  190): start(0xb79f6b08)
+I/GenericSource(  190): start
+I/org.umd.logging( 9877): Api < 1 android.media.MediaPlayer.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$19.onClick()
+E/MediaPlayer( 9877): Should have subtitle controller already set
+W/InputMethodManagerService(  594): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@214159d2 attribute=null, token = android.os.BinderProxy@31bc1d14
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@706703632)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@991352879)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@65045786)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@70474561)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@622094548)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@183629251)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@348724926)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@244345909)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@410555736)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@770334487)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@701056802)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@1042967273)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@894032540)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@250759211)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@575652422)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@406973277)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@585161888)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@740664575)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@324015146)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@905134481)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@871694180)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@43919763)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@874938574)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@829063557)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@207644392)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@839338471)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@909904946)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@215449401)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$1.run(com.mobilityware.solitaire.MWView$1@641360909)
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@463730476)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@200423931)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@191527510)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@656527021)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@271275056)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@48885199)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@522211130)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@308069345)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@659612148)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@759634275)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@105172702)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@536572629)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@1042400376)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@264515767)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@702283074)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@918859657)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@115466172)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@600926155)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@812293734)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@109514237)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@122673088)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@229159583)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@706360906)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Api > 1 android.animation.AnimatorSet.start(android.animation.AnimatorSet@764207665)
+I/org.umd.logging( 9877): Api < 1 android.animation.AnimatorSet.start()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.AnimationManager$1.run(com.mobilityware.solitaire.AnimationManager$1@129401168)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.AnimationManager$1.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.advertising.AdControl$6.run(com.mobilityware.advertising.AdControl$6@61411460)
+I/cr_Ime  ( 9877): ImeThread is enabled.
+I/ActivityManager(  594): START u0 {cmp=com.mobilityware.solitaire/com.google.android.gms.ads.AdActivity (has extras)} from uid 10216 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{16add7cc token=Token{1e920dff ActivityRecord{e37411e u0 com.mobilityware.solitaire/com.google.android.gms.ads.AdActivity t34}}} to stack=1 task=34 at 1
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.advertising.AdControl$6.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.Solitaire.onPause(com.mobilityware.solitaire.Solitaire@839259446<activity=true>)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VunglePub.onPause(com.vungle.publisher.VunglePub@916015046)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VunglePubBase.onPause(com.vungle.publisher.VunglePub@916015046)
+I/org.umd.logging( 9877): Api > 1 android.content.Context.startService(com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@1011225479<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityPauseMillis=None><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api < 1 android.content.Context.startService()
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VunglePubBase.onPause()
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VunglePub.onPause()
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.Solitaire.onPause()
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStartCommand(com.vungle.publisher.VungleService@537529971, android.content.Intent@624140980<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityPauseMillis=None><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>, 0, 4)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStart(com.vungle.publisher.VungleService@537529971, android.content.Intent@624140980<action=com.vungle.publisher.VungleService.SESSION><data=null><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-2112753303><activityPauseMillis=None><activityEvent=None><sessionStartMillis=None><umd_Intent_key=None>, 4)
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onStartCommand(2)
+D/DynamitePackage( 9877): Instantiating com.google.android.gms.ads.ChimeraAdOverlayCreatorImpl
+I/Ads     ( 9877): Ad opening.
+V/WindowManager(  594): Adding window Window{1c12512a u0 com.mobilityware.solitaire/com.google.android.gms.ads.AdActivity} at 4 of 10 (after Window{f6ca9bd u0 com.mobilityware.solitaire/com.mobilityware.solitaire.Solitaire})
+W/Ads     ( 9877): Unknown video action: mimetype
+I/OMXClient( 9877): Using client-side OMX mux.
+I/ActivityManager(  594): Displayed com.mobilityware.solitaire/com.google.android.gms.ads.AdActivity: +171ms
+W/cr_BindingManager( 9877): Cannot call determinedVisibility() - never saw a connection for the pid: 9877
+E/OMX-VDEC-1080P(  190): Extension: OMX.google.android.index.storeMetaDataInBuffers not implemented
+E/OMXNodeInstance(  190): getExtensionIndex(40:qcom.decoder.avc, OMX.google.android.index.storeMetaDataInBuffers) ERROR: NotImplemented(0x80001006)
+E/ACodec  ( 9877): [OMX.qcom.video.decoder.avc] storeMetaDataInBuffers failed w/ err -2147483648
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): GET_MV_BUFFER_SIZE returned: Size: 24576 and alignment: 8192
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): GET_MV_BUFFER_SIZE returned: Size: 24576 and alignment: 8192
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+E/        (  190): 
+E/        (  190):  not in avi mode
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  No color conversion required
+I/MediaFocusControl(  594):  AudioFocus  requestAudioFocus() from android.media.AudioManager@18292e76com.google.android.gms.ads.internal.overlay.bd@3af4ec77 req=2flags=0x0
+I/chromium( 9877): [INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.appcache", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+I/chromium( 9877): [INFO:CONSOLE(0)] "Application Cache Checking event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+I/Solitaire( 9877): onStop early exit
+I/chromium( 9877): [INFO:CONSOLE(0)] "Application Cache NoUpdate event", source: https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html (0)
+E/chromium( 9877): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/MediaFocusControl(  594):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@18292e76com.google.android.gms.ads.internal.overlay.bd@3af4ec77
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/ActivityManager(  594): getRunningAppProcesses: caller 10216 does not hold REAL_GET_TASKS; limiting output
+W/Ads     ( 9877): JS: Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/. (https://imasdk.googleapis.com/admob/sdkloader/video_ctd_v5_si.js:120)
+I/chromium( 9877): [INFO:CONSOLE(120)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: https://imasdk.googleapis.com/admob/sdkloader/video_ctd_v5_si.js (120)
+I/ActivityManager(  594): START u0 {act=android.intent.action.VIEW dat=market://details?id=net.peakgames.amy&referrer=adsplayload=CAE&ai=CvEzK83JQWIX6F8eOpgPbrqCYB6Czg7RH7M-46fID_Pvtyp0CEAEgnunhImDJhu2IhKTsD6ABiYzzwAOoAwHIAwiqBLQBT9C55PiQjmTBRGymX5b3hjWVMm6lzc9OtdJ1yjeo1SAHCYidu9jVqd0tNBv4l5D3RO7ggnMKewWkBmC7x1xpCdt-jwEKB7Zi7L4_PIsSrZV2GANSkUcJDGMGs2j0GN-w0anskn4DaZYgBLHHAmqewuKHSLuUdqPxoEiuatblJUuGCsifQD0-VpXsN0dr6QcflUfd3Fh6KfhxEp6PVagvB-6DjEESLNwb5qVun41JltDXj5jdiAXGv57PApAGAaAGHLAGAYAH3_OMP5gHAagHpr4buAfg3syg-sacrgzAB4rVA8AH6NQD2AcB-gcRbmV0LnBlYWtnYW1lcy5hbXmwCAK4CAHSCAUIgAEQAbgTsQM&gclid=CNbLv_yY8tACFcSCswodMS4KBQ&conv=941409801&network=d cmp=com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity} from uid 10216 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{370d52d0 token=Token{280e4293 ActivityRecord{276fdb82 u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity t34}}} to stack=1 task=34 at 2
+I/Ads     ( 9877): Ad leaving application.
+D/OpenGLRenderer( 7489): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   ( 7489): Validating map...
+V/WindowManager(  594): Adding window Window{2ff1d285 u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity} at 5 of 11 (after Window{1c12512a u0 com.mobilityware.solitaire/com.google.android.gms.ads.AdActivity})
+E/Finsky  ( 7489): [1] com.google.android.finsky.activities.LaunchUrlHandlerActivity.a(229): Launch URL without continue URL
+I/ActivityManager(  594): START u0 {act=android.intent.action.VIEW dat=http://market.android.com/details?id=net.peakgames.amy&referrer=adsplayload=CAE&ai=CvEzK83JQWIX6F8eOpgPbrqCYB6Czg7RH7M-46fID_Pvtyp0CEAEgnunhImDJhu2IhKTsD6ABiYzzwAOoAwHIAwiqBLQBT9C55PiQjmTBRGymX5b3hjWVMm6lzc9OtdJ1yjeo1SAHCYidu9jVqd0tNBv4l5D3RO7ggnMKewWkBmC7x1xpCdt-jwEKB7Zi7L4_PIsSrZV2GANSkUcJDGMGs2j0GN-w0anskn4DaZYgBLHHAmqewuKHSLuUdqPxoEiuatblJUuGCsifQD0-VpXsN0dr6QcflUfd3Fh6KfhxEp6PVagvB-6DjEESLNwb5qVun41JltDXj5jdiAXGv57PApAGAaAGHLAGAYAH3_OMP5gHAagHpr4buAfg3syg-sacrgzAB4rVA8AH6NQD2AcB-gcRbmV0LnBlYWtnYW1lcy5hbXmwCAK4CAHSCAUIgAEQAbgTsQM&gclid=CNbLv_yY8tACFcSCswodMS4KBQ&conv=941409801&network=d cmp=com.android.vending/com.google.android.finsky.activities.MainActivity (has extras)} from uid 10018 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{2e88abe8 token=Token{38d9710b ActivityRecord{2ff958da u0 com.android.vending/com.google.android.finsky.activities.MainActivity t35}}} to stack=1 task=35 at 0
+V/WindowManager(  594): Adding window Window{61cf683 u0 Starting com.android.vending} at 6 of 12 (after Window{2ff1d285 u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity})
+I/Adreno-EGL( 7489): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/OpenGLRenderer( 7489): Initialized EGL, version 1.4
+D/OpenGLRenderer( 7489): Enabling debug mode 0
+W/Finsky  ( 7489): [1] com.google.android.finsky.b.s.a(263): No LoggingContext in the bundle, which breaks event chain!. Creating a new logging context.
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  Error in ioctl read next msg
+E/        (  190): 
+E/        (  190):  Destroy C2D instance
+E/        (  190): 
+E/        (  190):  Destroy C2D instance
+W/Ads     ( 9877): Received non-success response code 301 from pinging URL: http://app.adjust.io/hgf1ag?google_network=d&google_placement=mobileapp%3A%3A2-com.mobilityware.solitaire&campaign=tb_and_ggl_disp-vid_all_0-100b_interest_us_all_all_cpi&adgroup=mobileapp%3A%3A2-com.mobilityware.solitaire&creative=smplegmply-colorbrick-peak-13s_1080x1920_all_vid_en&lpurl=http://play.google.com/store/apps/details%3Fid%3Dnet.peakgames.amy&tracker_limit=100000&gclid=CNbLv_yY8tACFcSCswodMS4KBQ&referrer=adsplayload%3DCAE%26ai%3DCvEzK83JQWIX6F8eOpgPbrqCYB6Czg7RH7M-46fID_Pvtyp0CEAEgnunhImDJhu2IhKTsD6ABiYzzwAOoAwHIAwiqBLQBT9C55PiQjmTBRGymX5b3hjWVMm6lzc9OtdJ1yjeo1SAHCYidu9jVqd0tNBv4l5D3RO7ggnMKewWkBmC7x1xpCdt-jwEKB7Zi7L4_PIsSrZV2GANSkUcJDGMGs2j0GN-w0anskn4DaZYgBLHHAmqewuKHSLuUdqPxoEiuatblJUuGCsifQD0-VpXsN0dr6QcflUfd3Fh6KfhxEp6PVagvB-6DjEESLNwb5qVun41JltDXj5jdiAXGv57PApAGAaAGHLAGAYAH3_OMP5gHAagHpr4buAfg3syg-sacrgzAB4rVA8AH6NQD2AcB-gcRbmV0LnBlYWtnYW1lcy5hbXmwCAK4CAHSCAUIgAEQAbgTsQM%26gclid%3DCNbLv_yY8tACFcSCswodMS4KBQ%26conv%3D941409801%26network%3Dd&urlloadedinbrowser=false
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.di.a(1045): Starting LocationRefresher
+V/WindowManager(  594): Adding window Window{47269a9 u0 com.android.vending/com.google.android.finsky.activities.MainActivity} at 6 of 13 (before Window{61cf683 u0 Starting com.android.vending})
+I/Finsky  ( 7489): [1] com.google.android.finsky.selfupdate.f.a(165): Skipping DFE self-update. Local Version [80721300] >= Server Version [-1]
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.ji.a(101): TOS is accepted (pref)
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=16.45 rxSuccessRate=19.76 targetRoamBSSID=any RSSI=-41
+I/Finsky  ( 7489): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 MarketWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/Finsky  ( 7489): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 RecommendedWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/Finsky  ( 7489): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 NowPlayingWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/ActivityManager(  594): Displayed com.android.vending/com.google.android.finsky.activities.MainActivity: +573ms (total +728ms)
+W/Settings( 7489): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/Settings( 7489): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Finsky  ( 7489): [1] com.google.android.finsky.b.s.a(263): No LoggingContext in the bundle, which breaks event chain!. Creating a new logging context.
+W/ResourceType(  738): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  738): Failure retrieving resources for com.android.vending: Resource ID #0x0
+I/ActivityManager(  594): START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10022 on display 0
+W/ResourceType(  738): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  738): Failure retrieving resources for com.mobilityware.solitaire: Resource ID #0x0
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.dl.a(70): Connection with LocationServices established
+W/GCoreFlp( 1301): No location to return for getLastLocation()
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.dl.a(97): Requesting Location Updates; Interval: 300000
+I/Finsky  ( 7489): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+W/GCoreFlp( 1301): No location to return for getLastLocation()
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.di.b(2059): Stopping LocationRefresher
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.do.onTrimMemory(17): Memory trim requested to level 20
+I/Finsky  ( 7489): [1] com.google.android.finsky.utils.do.onTrimMemory(21): Flushing in-memory image cache
+W/InputMethodManagerService(  594): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@30fe6769 (uid=10018 pid=7489)
+I/Finsky  ( 7489): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+I/Finsky  ( 7489): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+I/art     (  594): Explicit concurrent mark sweep GC freed 29565(1376KB) AllocSpace objects, 6(1688KB) LOS objects, 33% free, 25MB/38MB, paused 1.770ms total 107.858ms
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(855): No file ready to send
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+W/Herrevad( 1667): Invalid mccmnc 
+W/Herrevad( 1667): Invalid mccmnc 
+I/Scheduler( 1301): Cleaning up unwanted schedulers, if there are any.
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(855): No file ready to send
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 7489): [2075] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/ActivityManager(  594): Killing 7489:com.android.vending/u0a18 (adj 9): remove task
+I/WindowState(  594): WIN DEATH: Window{47269a9 u0 com.android.vending/com.google.android.finsky.activities.MainActivity}
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+I/org.umd.logging( 9877): Api > 2179 android.content.Intent.<init>(android.content.Intent@77347304<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionEnd><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1784864382><umd_Intent_key=None>, "com.vungle.publisher.VungleService.PROTOCOL", android.net.Uri$StringUri@26839041<URI=http://api.vungle.com/api/v1/sessionEnd>, com.mobilityware.solitaire.SolitaireApplication@410649080, com.vungle.publisher.VungleService)
+I/org.umd.logging( 9877): Api < 2179 android.content.Intent.<init>(android.content.Intent@77347304<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionEnd><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1784864382><umd_Intent_key=None>)
+I/org.umd.logging( 9877): Api > 2179 android.content.Context.startService(com.mobilityware.solitaire.SolitaireApplication@410649080, android.content.Intent@77347304<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionEnd><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1784864382><umd_Intent_key=None><transaction=None>)
+I/org.umd.logging( 9877): Api < 2179 android.content.Context.startService()
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStartCommand(com.vungle.publisher.VungleService@537529971, android.content.Intent@664102566<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionEnd><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1784864382><umd_Intent_key=None><transaction=None>, 0, 5)
+I/org.umd.logging( 9877): Method > 1 com.vungle.publisher.VungleService.onStart(com.vungle.publisher.VungleService@537529971, android.content.Intent@664102566<action=com.vungle.publisher.VungleService.PROTOCOL><data=http://api.vungle.com/api/v1/sessionEnd><package=null><component=com.mobilityware.solitaire/com.vungle.publisher.VungleService><type=null><filter_hashcode=-1784864382><umd_Intent_key=None><transaction=None>, 5)
+I/org.umd.logging( 9877): Method < 1 com.vungle.publisher.VungleService.onStartCommand(2)
+I/org.umd.logging( 9877): Api > 2286 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@36278807)
+I/org.umd.logging( 9877): Api < 2286 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@820972692)
+I/org.umd.logging( 9877): Method > 2286 com.vungle.publisher.bt$a.run(com.vungle.publisher.bt$a@974496573)
+I/org.umd.logging( 9877): Method > 2286 com.vungle.publisher.bx.run(com.vungle.publisher.bx@287393586)
+I/org.umd.logging( 9877): Api > 2286 java.net.URL.openConnection(java.net.URL@831044739<URL=http://api.vungle.com/api/v1/sessionEnd>)
+I/org.umd.logging( 9877): Api < 2286 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpURLConnectionImpl@284843520)
+I/org.umd.logging( 9877): Method < 2286 com.vungle.publisher.bx.run()
+I/org.umd.logging( 9877): Method < 2286 com.vungle.publisher.bt$a.run()
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/org.umd.logging( 9877): Method > 1 com.mobilityware.solitaire.MWView$8.run(com.mobilityware.solitaire.MWView$8@588817534)
+I/org.umd.logging( 9877): Method < 1 com.mobilityware.solitaire.MWView$8.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+E/MtpServerJNI(  761): server is null in send_object_removed
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
+E/SQLiteLog( 1301): (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI
