@@ -1,0 +1,1124 @@
+--------- beginning of main
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=8.50 rxSuccessRate=6.69 targetRoamBSSID=any RSSI=-37
+--------- beginning of system
+I/ActivityManager(  594): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.rovio.angrybirds/com.rovio.fusion.App (has extras)} from uid 10014 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{1e643d1d token=Token{1e1261f4 ActivityRecord{1af747c7 u0 com.rovio.angrybirds/com.rovio.fusion.App t23}}} to stack=1 task=23 at 0
+V/WindowManager(  594): Adding window Window{c73fb8c u0 Starting com.rovio.angrybirds} at 3 of 9 (after Window{1c6549af u0 com.android.launcher/com.android.launcher2.Launcher})
+D/audio_hw_primary(  190): select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+D/ACDB-LOADER(  190): ACDB -> send_afe_cal
+D/audio_hw_primary(  190): enable_snd_device: snd_device(2: speaker)
+D/audio_hw_primary(  190): enable_audio_route: apply and update mixer path: low-latency-playback
+I/ActivityManager(  594): Start proc 4238:com.rovio.angrybirds/u0a245 for activity com.rovio.angrybirds/com.rovio.fusion.App
+V/ActivityManager(  594): Display changed displayId=0
+I/ActivityManager(  594): Config changes=480 {1.0 310mcc?mnc en_US ?layoutDir sw384dp w598dp h359dp 320dpi nrml land finger -keyb/v/h -nav/h s.8}
+I/InputReader(  594): Reconfiguring input devices.  changes=0x00000004
+I/InputReader(  594): Device reconfigured: id=6, name='touch_dev', size 768x1280, orientation 1, mode 1, display id 0
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App.onCreate(com.rovio.fusion.App@410649080<activity=true>, null)
+W/linker  ( 4238): libAngryBirdsClassic.so: unused DT entry: type 0x6ffffffe arg 0x1509c
+W/linker  ( 4238): libAngryBirdsClassic.so: unused DT entry: type 0x6fffffff arg 0x3
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App.onCreate()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App.onStart(com.rovio.fusion.App@410649080<activity=true>)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals.onStart()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.ActivityListener.onStart(com.rovio.fusion.Globals$CompatWrapper@500016444)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.ActivityListener.onStart()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.ActivityListener.onStart(com.rovio.fusion.MyInputHandler@177402906)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.ActivityListener.onStart()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals.onStart()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App.onStart()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App.onResume(com.rovio.fusion.App@410649080<activity=true>)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals.onResume()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onResume(com.rovio.fusion.Globals$CompatWrapper@500016444)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.HockeyAppWrapper.onResume(com.rovio.fusion.HockeyAppWrapper@366753766)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.HockeyAppWrapper.onResume()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onResume()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.ActivityListener.onResume(com.rovio.fusion.MyInputHandler@177402906)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.ActivityListener.onResume()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals.onResume()
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onResume(com.rovio.fusion.MySurfaceView@811294676<file=><x=0><y=0><width=0><height=0><id=-1>)
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.MySurfaceView$2.run(com.rovio.fusion.MySurfaceView$2@757329010)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onResume()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.MyRenderer.onResume(com.rovio.fusion.MyRenderer@939042112)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App.onResume()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.SingleThreadWrapper.onResume(com.rovio.fusion.SingleThreadWrapper@784358846)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.SingleThreadWrapper.onResume()
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.MyRenderer.onResume()
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.MySurfaceView$2.run()
+D/OpenGLRenderer( 4238): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   ( 4238): Validating map...
+V/WindowManager(  594): Adding window Window{2f7bb0b7 u0 com.rovio.angrybirds/com.rovio.fusion.App} at 3 of 10 (before Window{c73fb8c u0 Starting com.rovio.angrybirds})
+I/Adreno-EGL( 4238): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/OpenGLRenderer( 4238): Initialized EGL, version 1.4
+D/OpenGLRenderer( 4238): Enabling debug mode 0
+V/WindowManager(  594): Adding window Window{37b3a78d u0 SurfaceView} at 3 of 11 (before Window{2f7bb0b7 u0 com.rovio.angrybirds/com.rovio.fusion.App})
+V/WindowManager(  594): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  594): Layouts looping: loop number 4, mPendingLayoutChanges = 0x0
+V/WindowManager(  594): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  594): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+V/WindowManager(  594): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+V/WindowManager(  594): Layouts looping: loop number 5, mPendingLayoutChanges = 0x0
+V/WindowManager(  594): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+V/WindowManager(  594): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+E/WindowManager(  594): Performed 6 layouts in a row. Skipping
+W/IInputConnectionWrapper( 1054): showStatusIcon on inactive InputConnection
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App$1.onSystemUiVisibilityChange(com.rovio.fusion.App$1@123917676, 6)
+I/ActivityManager(  594): Displayed com.rovio.angrybirds/com.rovio.fusion.App: +597ms (total +25s211ms)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App$1.onSystemUiVisibilityChange()
+I/WindowManager(  594): Screen frozen for +574ms due to Window{c73fb8c u0 Starting com.rovio.angrybirds}
+W/art     ( 4238): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[17,tid=4279,Native,Thread*=0xb9239fa0,peer=0x12e370a0,"Thread-2026"]
+W/GraphicsThread( 4267): type=1400 audit(0.0:32): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/EventProcessor( 4238): doListen: unnamed event, id = 81
+W/EventProcessor( 4238): doListen: unnamed event, id = 80
+I/org.umd.logging( 4238): Api > 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@710696251)
+I/org.umd.logging( 4238): Api < 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@721446404)
+W/EventProcessor( 4238): doListen: unnamed event, id = 92
+W/Thread-2027( 4277): type=1400 audit(0.0:33): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/EventProcessor( 4238): doListen: unnamed event, id = 81
+W/EventProcessor( 4238): doListen: unnamed event, id = 80
+W/EventProcessor( 4238): doListen: unnamed event, id = 91
+W/EventProcessor( 4238): doListen: unnamed event, id = 94
+W/EventProcessor( 4238): doListen: unnamed event, id = 85
+W/EventProcessor( 4238): doListen: unnamed event, id = 80
+I/org.umd.logging( 4238): Method > 2028 com.facebook.internal.Utility$1.run(com.facebook.internal.Utility$1@690698419)
+I/org.umd.logging( 4238): Method > 2030 com.facebook.internal.NativeProtocol$1.run(com.facebook.internal.NativeProtocol$1@1048342940)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeAndWait(com.facebook.GraphRequest@832244523)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeAndWait(com.facebook.GraphRequest@832244523)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeBatchAndWait([Lcom.facebook.GraphRequest;@409045281)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeBatchAndWait(java.util.Arrays$ArrayList@969627700)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeBatchAndWait(com.facebook.GraphRequestBatch@339381202)
+I/org.umd.logging( 4238): Api > 2028 java.net.URL.openConnection(java.net.URL@920634272<URL=https://graph.facebook.com/v2.6/771488262881983?fields=supports_implicit_sdk_logging%2Cgdpv4_nux_content%2Cgdpv4_nux_enabled%2Cgdpv4_chrome_custom_tabs_enabled%2Candroid_dialog_configs%2Candroid_sdk_error_categories%2Capp_events_session_timeout&format=json&sdk=android>)
+D/FACEBOOK( 4238): applicationId: 771488262881983
+W/EventProcessor( 4238): doListen: unnamed event, id = 95
+W/EventProcessor( 4238): doListen: unnamed event, id = 3
+W/EventProcessor( 4238): doListen: unnamed event, id = 4
+I/org.umd.logging( 4238): Api < 2028 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@319650252)
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.executeConnectionAndWait(com.android.okhttp.internal.http.HttpsURLConnectionImpl@319650252, com.facebook.GraphRequestBatch@339381202)
+I/org.umd.logging( 4238): Method > 2035 com.facebook.appevents.AppEventsLogger$3.run(com.facebook.appevents.AppEventsLogger$3@375705805)
+I/org.umd.logging( 4238): Method < 2035 com.facebook.appevents.AppEventsLogger$3.run()
+I/org.umd.logging( 4238): Method > 2036 com.facebook.appevents.AppEventQueue$3.run(com.facebook.appevents.AppEventQueue$3@613092499)
+I/org.umd.logging( 4238): Method < 2036 com.facebook.appevents.AppEventQueue$3.run()
+I/org.umd.logging( 4238): Method > 2028 com.facebook.GraphRequest.runCallbacks(com.facebook.GraphRequestBatch@339381202, java.util.ArrayList@932856745)
+I/org.umd.logging( 4238): Method < 2028 com.facebook.GraphRequest.runCallbacks()
+I/org.umd.logging( 4238): Method < 2028 com.facebook.GraphRequest.executeBatchAndWait(java.util.ArrayList@932856745)
+I/org.umd.logging( 4238): Method < 2028 com.facebook.GraphRequest.executeBatchAndWait(java.util.ArrayList@932856745)
+I/org.umd.logging( 4238): Method < 2028 com.facebook.GraphRequest.executeBatchAndWait(java.util.ArrayList@932856745)
+I/org.umd.logging( 4238): Method < 2028 com.facebook.GraphRequest.executeAndWait(com.facebook.GraphResponse@298287311)
+I/org.umd.logging( 4238): Method < 2028 com.facebook.internal.Utility$1.run()
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+I/org.umd.logging( 4238): Api > 2023 android.os.HandlerThread.start(android.os.HandlerThread@685096673<thread=2039>)
+I/org.umd.logging( 4238): Api < 2023 android.os.HandlerThread.start()
+I/org.umd.logging( 4238): Api > 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@884783815)
+I/org.umd.logging( 4238): Api > 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@841898228)
+I/org.umd.logging( 4238): Method > 1 com.flurry.sdk.jk.onReceive(com.flurry.sdk.jk@1019828882, android.app.Application@1032742941, android.content.Intent@653278143<action=android.net.conn.CONNECTIVITY_CHANGE><data=null><package=null><component=null><type=null><filter_hashcode=-1172645946><networkInfo=None><networkType=None><inetCondition=None><extraInfo=None><umd_Intent_key=None>)
+I/org.umd.logging( 4238): Api > 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 1 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@117549546)
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.je$2@232098680)
+I/org.umd.logging( 4238): Method < 1 com.flurry.sdk.jk.onReceive()
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$2@76580421)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$4@630368971)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.if$9@574112193)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.if$10@312420519)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kq$3@1028012285)
+W/FlurryAgent( 4238): Flurry session started for context:com.rovio.fusion.App@187a01f8
+W/FlurryAgent( 4238): Flurry session resumed for context:com.rovio.fusion.App@187a01f8
+W/FlurryAgent( 4238): 'init' method is deprecated.
+W/FlurryAgent( 4238): 'setLocationCriteria' method is deprecated.
+W/FlurryAgent( 4238): 'setCaptureUncaughtExceptions' method is deprecated.
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@1032475454)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.if$3@820479724)
+W/FlurryAgent( 4238): Event count started: Customer String
+W/FlurryAgent( 4238): 'onEvent' method is deprecated.
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@607685301)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@592733514)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@587717819)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@54273496)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@288628017)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@956009494)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.je$1$1@389662596)
+W/GraphicsThread( 4267): type=1400 audit(0.0:34): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@639390626)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@752298035)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@810407920)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.jq$3@1032849390)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$11@424706844)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$12@343454970)
+W/GraphicsThread( 4267): type=1400 audit(0.0:35): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/GraphicsThread( 4267): type=1400 audit(0.0:36): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$13@275821832)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$14@1041049286)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$15@98572724)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$16@941943122)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@775586851)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$3@561993433)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$4@344213662)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kq$4@452613275)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2041 com.flurry.sdk.lw.run(com.flurry.sdk.ke$1$1@998508561)
+I/org.umd.logging( 4238): Method < 2041 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2041 com.flurry.sdk.lw.run(com.flurry.sdk.kl@29944652)
+I/org.umd.logging( 4238): Api > 2041 java.net.URL.openConnection(java.net.URL@647995255<URL=https://data.flurry.com/aap.do>)
+I/org.umd.logging( 4238): Api < 2041 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@563566564)
+I/art     (  594): Explicit concurrent mark sweep GC freed 12386(607KB) AllocSpace objects, 1(252KB) LOS objects, 33% free, 24MB/36MB, paused 1.709ms total 175.858ms
+W/FlurryAgent( 4238): Event count started: Loading time - boot to splash
+W/FlurryAgent( 4238): 'onEvent' method is deprecated.
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.ja$7.run(com.flurry.sdk.ja$7@836151369)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.ja$7.run()
+D/RemoteNotificationsClientWrapper( 4238): setEnabled()true
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.RemoteNotificationsClientWrapper.start()
+D/RemoteNotificationsClientWrapper( 4238): start()
+D/RemoteNotificationsClientWrapper( 4238): Already registered: APA91bFIn3dnqYjsUtAvHVIjXZJIRn7YH9McNSfwBoRK_Wa0Zu5R6VV4FVaD1-wNtgxi5F5ZaGlBwTyx3g07VtTnUn7-2nRoTth5jpdNiCgEyMI5j2gRSSo_1aPELez13tw8EROJfIao
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.Globals.runOnGLThread(com.rovio.fusion.RemoteNotificationsClientWrapper$1@911541871)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.Globals.runOnGLThread()
+D/RemoteNotificationsClientWrapper( 4238): checkStoredRemoteNotificationPayload()
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.RemoteNotificationsClientWrapper.start()
+W/FlurryAgent( 4238): Analytics report sent.
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ix$2@853049349)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$7@953522827)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$4@445339496)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method < 2041 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2041 com.flurry.sdk.lw.run(com.flurry.sdk.ke$1$2@694648870)
+I/org.umd.logging( 4238): Method < 2041 com.flurry.sdk.lw.run()
+D/audio_hw_primary(  190): disable_audio_route: reset and update mixer path: low-latency-playback
+D/audio_hw_primary(  190): disable_snd_device: snd_device(2: speaker)
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+E/LocalNotifications( 4238): removeNotification() java exception: Expected type: Object, got: Null
+W/io      ( 4238): Failed to open /data/data/com.rovio.angrybirds/files/assets_service/remote_configuration_server.zip with errno 00000002 (No such file or directory)
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.RemoteNotificationsClientWrapper$1.run(com.rovio.fusion.RemoteNotificationsClientWrapper$1@911541871)
+W/art     ( 4238): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.RemoteNotificationsClientWrapper$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.apptrack.AppTrackSdk$1.run(com.rovio.rcs.apptrack.AppTrackSdk$1@913474068)
+I/org.umd.logging( 4238): Api > 1 java.lang.Thread.start(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Api < 1 java.lang.Thread.start()
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ag@652504574, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ag@652504574, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ag@652504574, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.e@141819820, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.e@141819820, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.e@141819820, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.h@907373578, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.h@907373578, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.h@907373578, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@581320406)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.ag.run(com.comscore.analytics.ag@652504574)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.d@402090648, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.d@402090648, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.d@402090648, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.m@994351172, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.m@994351172, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.m@994351172, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ac@161444450, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ac@161444450, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ac@161444450, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.apptrack.AppTrackSdk$1.run()
+I/org.umd.logging( 4238): Api > 2043 java.lang.Thread.start(java.lang.Thread@387249328<thread=2045>)
+I/org.umd.logging( 4238): Api < 2043 java.lang.Thread.start()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.ag.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@376858703)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.e.run(com.comscore.analytics.e@141819820)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.e.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@541895644)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.h.run(com.comscore.analytics.h@907373578)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.h.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@623535333)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.d.run(com.comscore.analytics.d@402090648)
+I/org.umd.logging( 4238): Method > 2045 com.comscore.utils.d.run(com.comscore.utils.d@503730862)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.d.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@736684986)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.m.run(com.comscore.analytics.m@994351172)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.m.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@903559787)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.ac.run(com.comscore.analytics.ac@161444450)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.af.run(com.comscore.analytics.af@430008929)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.applications.KeepAlive.start(com.comscore.applications.KeepAlive@74519111, 3000)
+D/KeepAlive( 4238): cancel()
+D/KeepAlive( 4238): start(3000)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.applications.KeepAlive@74519111, 3000, true, 86400000, null, null)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.applications.KeepAlive.start()
+I/org.umd.logging( 4238): Api > 1 android.net.ConnectivityManager.getNetworkInfo(android.net.ConnectivityManager@710696251, 1)
+I/org.umd.logging( 4238): Api < 1 android.net.ConnectivityManager.getNetworkInfo(android.net.NetworkInfo@170478493)
+I/org.umd.logging( 4238): Api > 1 android.net.ConnectivityManager.getNetworkInfo(android.net.ConnectivityManager@710696251, 1)
+I/org.umd.logging( 4238): Api < 1 android.net.ConnectivityManager.getNetworkInfo(android.net.NetworkInfo@17643538)
+I/org.umd.logging( 4238): Api > 1 android.net.wifi.WifiManager.getConnectionInfo(android.net.wifi.WifiManager@359066080)
+I/org.umd.logging( 4238): Api < 1 android.net.wifi.WifiManager.getConnectionInfo(android.net.wifi.WifiInfo@250086207)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.utils.a@248992085, 30000, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.utils.a@248992085, 30000, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.measurement.a@316904539, false)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.measurement.a.run(com.comscore.measurement.a@316904539)
+I/org.umd.logging( 4238): Api > 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.ConnectivityManager@710696251, 1)
+I/org.umd.logging( 4238): Api < 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.NetworkInfo@997987576)
+I/org.umd.logging( 4238): Api > 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.ConnectivityManager@710696251, 1)
+I/org.umd.logging( 4238): Api < 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.NetworkInfo@302558673)
+I/org.umd.logging( 4238): Api > 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.ConnectivityManager@710696251, 1)
+I/org.umd.logging( 4238): Api < 2043 android.net.ConnectivityManager.getNetworkInfo(android.net.NetworkInfo@323870774)
+I/org.umd.logging( 4238): Api > 2043 java.net.URL.openConnection(java.net.URL@305994551<URL=http://b.scorecardresearch.com/p2?c1=19&c2=19014625&ns_ap_an=com.rovio.angrybirds&ns_ap_pn=android&ns_ap_pv=5.1.1&c12=6af32452e0c5a90b3ae74a3a2cd2e005-cs31&ns_ak=EzSQQcURJg%2BmW9DdQShbaFVlxICyR%2BpGuCABTjoqwLjHVWtwMwYHZJIop14EpunIT%2B0d05aDnSApAIpWuPx1fsqfA2%2BaGLsr8aNa9bz7S%2BoYDqfFmiRZadc0rJHavkrSUXtihV8Y7RPj%2BDe2aiIOaQluEVZMdLFWZdmnAEzqzp0%3D&name=start&ns_ap_ec=1&ns_ap_ev=start&ns_ap_device=mako&ns_ap_id=1481666388999&ns_ap_csf=1&ns_ap_bi=com.rovio.angrybirds&ns_ap_pfm=android&ns_ap_pfv=5.1.1&ns_ap_ver=7.0.0&ns_ap_sv=3.1508.28&ns_type=view&ns_radio=wifi&ns_nc=1&ns_ap_gs=1481666196671&ns_ap_jb=0&ns_ap_res=1196x768&ns_ap_install=1481666196671&ns_ap_lastrun=0&ns_ap_cs=2&ns_ap_runs=2&ns_ap_usage=192328&ns_ap_fg=1&ns_ap_ft=58630&ns_ap_dft=58630&ns_ap_bt=0&ns_ap_dbt=0&ns_ap_dit=133639&ns_ap_as=0&ns_ap_das=192268&ns_ap_it=133639&ns_ap_lang=en&ns_ap_ar=armv7l&ns_ts=1481666388999>)
+I/org.umd.logging( 4238): Api < 2043 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpURLConnectionImpl@941184525)
+D/KeepAlive( 4238): cancel()
+D/KeepAlive( 4238): reset:86400000
+I/org.umd.logging( 4238): Method > 2043 com.comscore.applications.KeepAlive.start(com.comscore.applications.KeepAlive@74519111, 0)
+D/KeepAlive( 4238): cancel()
+D/KeepAlive( 4238): start(0)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.applications.KeepAlive@74519111, 86399999, true, 86400000, null, null)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.applications.KeepAlive.start()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.measurement.a.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.af.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.ac.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method < 2045 com.comscore.utils.d.run()
+I/org.umd.logging( 4986): Method > 501 com.a.a.a.a.d.run(com.a.a.a.a.d@98572724)
+I/org.umd.logging( 4986): Method > 501 com.a.a.a.d.o.run(com.a.a.a.d.o@941943122)
+I/org.umd.logging( 4986): Api > 501 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@2088560)
+I/org.umd.logging( 4986): Api < 501 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@641654166)
+I/org.umd.logging( 4986): Method < 501 com.a.a.a.d.o.run()
+I/org.umd.logging( 4986): Method < 501 com.a.a.a.a.d.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+W/EventProcessor( 4238): doListen: unnamed event, id = 96
+W/EventProcessor( 4238): doListen: unnamed event, id = 80
+W/EventProcessor( 4238): doListen: unnamed event, id = 81
+W/EventProcessor( 4238): doListen: unnamed event, id = 97
+W/EventProcessor( 4238): doListen: unnamed event, id = 98
+W/EventProcessor( 4238): doListen: unnamed event, id = 99
+W/EventProcessor( 4238): doListen: unnamed event, id = 100
+W/EventProcessor( 4238): doListen: unnamed event, id = 101
+W/EventProcessor( 4238): doListen: unnamed event, id = 102
+I/WebViewFactory( 4238): Loading com.google.android.webview version 54.0.2840.85 (code 284008500)
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.TokenBindingManagerAdapter>
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.ServiceWorkerControllerAdapter>
+I/cr_LibraryLoader( 4238): Time to load native libraries: 2 ms (timestamps 3072-3074)
+I/cr_LibraryLoader( 4238): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/cr_LibraryLoader( 4238): Expected native library version number "54.0.2840.85", actual native library version number "54.0.2840.85"
+I/chromium( 4238): [INFO:library_loader_hooks.cc(151)] Chromium logging enabled: level = 0, default verbosity = 0
+I/cr_BrowserStartup( 4238): Initializing chromium process, singleProcess=true
+W/EventProcessor( 4238): doListen: unnamed event, id = 103
+W/EventProcessor( 4238): doListen: unnamed event, id = 104
+W/EventProcessor( 4238): doListen: unnamed event, id = 105
+W/EventProcessor( 4238): doListen: unnamed event, id = 106
+W/EventProcessor( 4238): doListen: unnamed event, id = 107
+W/EventProcessor( 4238): doListen: unnamed event, id = 108
+W/EventProcessor( 4238): doListen: unnamed event, id = 109
+W/EventProcessor( 4238): doListen: unnamed event, id = 110
+W/EventProcessor( 4238): doListen: unnamed event, id = 111
+W/EventProcessor( 4238): doListen: unnamed event, id = 112
+W/EventProcessor( 4238): doListen: unnamed event, id = 113
+W/EventProcessor( 4238): doListen: unnamed event, id = 114
+W/EventProcessor( 4238): doListen: unnamed event, id = 115
+W/EventProcessor( 4238): doListen: unnamed event, id = 116
+W/EventProcessor( 4238): doListen: unnamed event, id = 117
+W/EventProcessor( 4238): doListen: unnamed event, id = 118
+W/EventProcessor( 4238): doListen: unnamed event, id = 119
+W/EventProcessor( 4238): doListen: unnamed event, id = 120
+W/EventProcessor( 4238): doListen: unnamed event, id = 121
+W/EventProcessor( 4238): doListen: unnamed event, id = 122
+W/EventProcessor( 4238): doListen: unnamed event, id = 123
+W/EventProcessor( 4238): doListen: unnamed event, id = 124
+W/EventProcessor( 4238): doListen: unnamed event, id = 125
+W/EventProcessor( 4238): doListen: unnamed event, id = 126
+W/EventProcessor( 4238): doListen: unnamed event, id = 127
+W/EventProcessor( 4238): doListen: unnamed event, id = 128
+W/EventProcessor( 4238): doListen: unnamed event, id = 129
+W/EventProcessor( 4238): doListen: unnamed event, id = 130
+W/EventProcessor( 4238): doListen: unnamed event, id = 131
+W/EventProcessor( 4238): doListen: unnamed event, id = 132
+W/EventProcessor( 4238): doListen: unnamed event, id = 133
+W/EventProcessor( 4238): doListen: unnamed event, id = 134
+W/EventProcessor( 4238): doListen: unnamed event, id = 135
+W/EventProcessor( 4238): doListen: unnamed event, id = 136
+W/EventProcessor( 4238): doListen: unnamed event, id = 137
+W/EventProcessor( 4238): doListen: unnamed event, id = 138
+W/EventProcessor( 4238): doListen: unnamed event, id = 139
+W/EventProcessor( 4238): doListen: unnamed event, id = 140
+W/EventProcessor( 4238): doListen: unnamed event, id = 141
+W/EventProcessor( 4238): doListen: unnamed event, id = 142
+W/EventProcessor( 4238): doListen: unnamed event, id = 143
+W/EventProcessor( 4238): doListen: unnamed event, id = 144
+W/EventProcessor( 4238): doListen: unnamed event, id = 145
+W/EventProcessor( 4238): doListen: unnamed event, id = 146
+W/EventProcessor( 4238): doListen: unnamed event, id = 147
+W/EventProcessor( 4238): doListen: unnamed event, id = 148
+W/EventProcessor( 4238): doListen: unnamed event, id = 149
+W/EventProcessor( 4238): doListen: unnamed event, id = 150
+W/EventProcessor( 4238): doListen: unnamed event, id = 151
+W/EventProcessor( 4238): doListen: unnamed event, id = 152
+E/        ( 4238): AssetDownloader::requestAssetPack packFileName == ugc.zip
+E/        ( 4238): AssetDownloader::hasDownloadHandler()
+E/        ( 4238): AssetDownloader::hasDownloadHandler() returning false
+E/        ( 4238): AssetDownloader::requestAssetPack packFileName == league_config.zip
+E/        ( 4238): AssetDownloader::hasDownloadHandler()
+E/        ( 4238): AssetDownloader::hasDownloadHandler() m_downloadHandlers.find(fileName) != m_downloadHandlers.end()
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=45, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler( 4238): CM callback handler got msg 524290
+E/        ( 4238): AssetDownloader::requestAssetPack packFileName == force_update.zip
+E/        ( 4238): AssetDownloader::hasDownloadHandler()
+E/        ( 4238): AssetDownloader::hasDownloadHandler() m_downloadHandlers.find(fileName) != m_downloadHandlers.end()
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+W/FlurryAgent( 4238): Event count started: Loading time - splash to menu
+W/FlurryAgent( 4238): 'onEvent' method is deprecated.
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.ja$7.run(com.flurry.sdk.ja$7@646986181)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.ja$7.run()
+W/EventProcessor( 4238): doListen: unnamed event, id = 36
+W/GraphicsThread( 4267): type=1400 audit(0.0:37): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/GraphicsThread( 4369): type=1400 audit(0.0:38): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/GraphicsThread( 4267): type=1400 audit(0.0:39): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+W/EventProcessor( 4238): doListen: unnamed event, id = 155
+W/EventProcessor( 4238): doListen: unnamed event, id = 157
+W/EventProcessor( 4238): doListen: unnamed event, id = 158
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk$1.run(com.rovio.rcs.ads.AdsSdk$1@7227979)
+I/org.umd.logging( 4238): Method > 1 com.jirbo.adcolony.AdColony$a.onPreExecute(com.jirbo.adcolony.AdColony$a@859811137<atask=true>)
+I/org.umd.logging( 4238): Method < 1 com.jirbo.adcolony.AdColony$a.onPreExecute()
+I/AdColony( 4238): ==== Configuring AdColony 2.3.6 with app/zone ids: ====
+I/AdColony( 4238): app734551e630ab4548ad
+I/AdColony( 4238): vzf314efc2e393442884
+I/AdColony( 4238): vzb9c027a353784470ac
+I/AdColony( 4238): vz71b451063f5a4e0ea6
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk$1.run()
+W/EventProcessor( 4238): doListen: unnamed event, id = 159
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk$1.run(com.rovio.rcs.ads.AdsSdk$1@976012006)
+W/EventProcessor( 4238): doListen: unnamed event, id = 160
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk$1.run(com.rovio.rcs.ads.AdsSdk$1@1057120980)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk$1.run()
+W/EventProcessor( 4238): doListen: unnamed event, id = 161
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk$1.run(com.rovio.rcs.ads.AdsSdk$1@303619197)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$1.run(com.rovio.rcs.ads.WebViewWrapper$1@902543299)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$2.run(com.rovio.rcs.ads.WebViewWrapper$2@6013817)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$2.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$4.run(com.rovio.rcs.ads.WebViewWrapper$4@296226079)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$4.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$5.run(com.rovio.rcs.ads.WebViewWrapper$5@894180917)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$5.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$8.run(com.rovio.rcs.ads.WebViewWrapper$8@30039099)
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+W/art     ( 4238): Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[27,tid=4369,Native,Thread*=0xbad78758,peer=0x12ec10a0,"Thread-2057"]
+D/ConnectivityService(  594): listenForNetwork for NetworkRequest [ id=46, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+D/ConnectivityService(  594): handleRegisterNetworkRequest checking NetworkAgentInfo [WIFI () - 102]
+D/ConnectivityService(  594): apparently satisfied.  currentScore=60
+D/ConnectivityManager.CallbackHandler( 4238): CM callback handler got msg 524290
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+I/art     ( 4238): Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+W/FlurryAgent( 4238): Event count started: Main menu entered
+W/FlurryAgent( 4238): 'onEvent' method is deprecated.
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.ja$7.run(com.flurry.sdk.ja$7@682021232)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.ja$7.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:55.869.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api > 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@578426803<file=2016-12-13_04:59:55.869><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@410649080)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:55.869.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.050.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api < 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@578426803<file=2016-12-13_04:59:56.050><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.050.jpg
+I/cr_Ime  ( 4238): ImeThread is enabled.
+W/cr_media( 4238): Requires BLUETOOTH permission
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$8.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$1.run(com.rovio.rcs.ads.WebViewWrapper$1@164487802)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$2.run(com.rovio.rcs.ads.WebViewWrapper$2@201771563)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$2.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$4.run(com.rovio.rcs.ads.WebViewWrapper$4@952065672)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$4.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$5.run(com.rovio.rcs.ads.WebViewWrapper$5@494460961)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$5.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$8.run(com.rovio.rcs.ads.WebViewWrapper$8@457681990)
+E/libEGL  ( 4238): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.280.jpg
+W/GraphicsThread( 4267): type=1400 audit(0.0:40): avc: denied { read } for name="list_rates" dev="debugfs" ino=1382 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:debugfs:s0 tclass=file
+I/org.umd.logging( 4238): Api > 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@710696251)
+I/org.umd.logging( 4238): Api < 2023 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@306333394)
+W/EventProcessor( 4238): doListen: unnamed event, id = 92
+W/EventProcessor( 4238): doListen: unnamed event, id = 162
+W/EventProcessor( 4238): doListen: unnamed event, id = 163
+W/EventProcessor( 4238): doListen: unnamed event, id = 164
+W/EventProcessor( 4238): doListen: unnamed event, id = 165
+I/VideoCapabilities( 4238): Unsupported profile 4 for video/mp4v-es
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api > 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@828530013<file=2016-12-13_04:59:56.280><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@410649080)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.280.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.487.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api < 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@828530013<file=2016-12-13_04:59:56.487><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.487.jpg
+I/cr_Ime  ( 4238): ImeThread is enabled.
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$8.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$1.run(com.rovio.rcs.ads.WebViewWrapper$1@275542617)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$2.run(com.rovio.rcs.ads.WebViewWrapper$2@316276254)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$2.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$4.run(com.rovio.rcs.ads.WebViewWrapper$4@460490495)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$4.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$5.run(com.rovio.rcs.ads.WebViewWrapper$5@1025465548)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$5.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$8.run(com.rovio.rcs.ads.WebViewWrapper$8@644406037)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.729.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api > 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@155941304<file=2016-12-13_04:59:56.729><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@410649080)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.729.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.893.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api < 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@155941304<file=2016-12-13_04:59:56.893><x=0><y=0><width=0><height=0><id=-1>)
+I/cr_Ime  ( 4238): ImeThread is enabled.
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:56.893.jpg
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$8.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$1.run(com.rovio.rcs.ads.WebViewWrapper$1@11889555)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$1.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$2.run(com.rovio.rcs.ads.WebViewWrapper$2@448251856)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$2.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$4.run(com.rovio.rcs.ads.WebViewWrapper$4@973185993)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$4.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$5.run(com.rovio.rcs.ads.WebViewWrapper$5@688925390)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$5.run()
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.WebViewWrapper$8.run(com.rovio.rcs.ads.WebViewWrapper$8@306261487)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:57.103.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api > 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@445130202<file=2016-12-13_04:59:57.103><x=0><y=0><width=0><height=0><id=-1>, com.rovio.fusion.App@410649080)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:57.103.jpg
+I/org.umd.logging( 4238): Api > 2023 java.lang.Thread.start(java.lang.Thread@74236136<thread=2066>)
+I/org.umd.logging( 4238): Api < 2023 java.lang.Thread.start()
+W/EventProcessor( 4238): doListen: unnamed event, id = 168
+I/org.umd.logging( 4238): Method > 2066 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$2.run(com.rovio.rcs.payment.google.GooglePlayPaymentProvider$2@861062566)
+D/GooglePlayPaymentProvider( 4238): bindToService()
+I/org.umd.logging( 4238): Method < 2066 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$2.run()
+E/Ads/Ad  ( 4238): track/image called with an empty id
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:57.312.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Api < 1 android.webkit.WebView.<init>(com.rovio.rcs.ads.AdsWebView@445130202<file=2016-12-13_04:59:57.312><x=0><y=0><width=0><height=0><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:57.312.jpg
+I/cr_Ime  ( 4238): ImeThread is enabled.
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.WebViewWrapper$8.run()
+I/Choreographer( 4238): Skipped 78 frames!  The application may be doing too much work on its main thread.
+W/cr_BindingManager( 4238): Cannot call determinedVisibility() - never saw a connection for the pid: 4238
+I/org.umd.logging( 4238): Api > 1 java.lang.Thread.start(java.lang.Thread@81106482<thread=2069>)
+I/org.umd.logging( 4238): Api < 1 java.lang.Thread.start()
+W/cr_BindingManager( 4238): Cannot call determinedVisibility() - never saw a connection for the pid: 4238
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+W/cr_BindingManager( 4238): Cannot call determinedVisibility() - never saw a connection for the pid: 4238
+D/GooglePlayPaymentProvider( 4238): onServiceConnected()
+I/Finsky  ( 3464): [2041] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+D/GooglePlayPaymentProvider( 4238): runRequest(): running immediately
+I/org.umd.logging( 4238): Api > 1 java.lang.Thread.start(java.lang.Thread@524477310<thread=2071>)
+I/org.umd.logging( 4238): Api < 1 java.lang.Thread.start()
+E/chromium( 4238): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+E/chromium( 4238): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@574583007)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Method > 2071 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest.run(com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest@887457781)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@296073610)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@215235579)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/Finsky  ( 3464): [2009] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1069954072)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@768847473)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@514712662)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1008770263)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@787904964)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@161726637)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@842788834)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@292040563)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@230911536)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@283687593)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@598550574)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@881610703)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@690568540)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@677992549)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@283613498)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@2628075)
+I/Finsky  ( 3464): [2010] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1069208392)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@10229217)
+I/org.umd.logging( 4238): Api > 2070 java.lang.Thread.start(java.lang.Thread@505810694<thread=2072>)
+I/org.umd.logging( 4238): Api < 2070 java.lang.Thread.start()
+I/org.umd.logging( 4238): Api > 2070 java.lang.Thread.start(java.lang.Thread@325872071<thread=2073>)
+I/org.umd.logging( 4238): Api < 2070 java.lang.Thread.start()
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2073 com.jirbo.adcolony.ADCDownload.run(com.jirbo.adcolony.ADCDownload@14888733)
+I/org.umd.logging( 4238): Api > 2073 java.net.URL.openConnection(java.net.URL@646190482<URL=https://events3alt.adcolony.com/t/5.0/session_start?pl=pKSFvL--MNWR4wGDWQ6zv6lgCN939bQjF48yTvfMYympn-k4WkTaN67w3B8Crkz6qJmowbby0b7p6nFdZKfu8WkORYjBXWihAB0MxXjcv_SPjUT-BjJrDxhdnbzZvPwvx4UBNP1xOTA2dpVHTE5lKsAIyr-bbwBhmXkKt4IHjHcQBvZ1_x1I0Rvoklw0mhEPuDqrM69woLpQ9ytpqr-X7_pMfz_NXeqKj6Cib1wYM-T3JxuKtQLzbw714-e5ZIGa8ksKZoSpm2VS18HyCUw23kOdg8uXf9aQxLhOie73xU6zW_COPStGGUviWI0qD7RTOqQx6y1TqfsO9x2KpLczxJ7r1VotP52wuRsKyPi1KTBTsylrr-nhU5q1gdXlYuB_JBGQXYvjX9W_>)
+I/org.umd.logging( 4238): Api < 2073 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@633068387)
+I/org.umd.logging( 4238): Method > 2072 com.jirbo.adcolony.ADCDownload.run(com.jirbo.adcolony.ADCDownload@526828384)
+I/org.umd.logging( 4238): Api > 2073 java.net.URL.openConnection(java.net.URL@713596953<URL=https://events3alt.adcolony.com/t/5.0/session_start?pl=pKSFvL--MNWR4wGDWQ6zv6lgCN939bQjF48yTvfMYympn-k4WkTaN67w3B8Crkz6qJmowbby0b7p6nFdZKfu8WkORYjBXWihAB0MxXjcv_SPjUT-BjJrDxhdnbzZvPwvx4UBNP1xOTA2dpVHTE5lKsAIyr-bbwBhmXkKt4IHjHcQBvZ1_x1I0Rvoklw0mhEPuDqrM69woLpQ9ytpqr-X7_pMfz_NXeqKj6Cib1wYM-T3JxuKtQLzbw714-e5ZIGa8ksKZoSpm2VS18HyCUw23kOdg8uXf9aQxLhOie73xU6zW_COPStGGUviWI0qD7RTOqQx6y1TqfsO9x2KpLczxJ7r1VotP52wuRsKyPi1KTBTsylrr-nhU5q1gdXlYuB_JBGQXYvjX9W_>)
+I/org.umd.logging( 4238): Api > 2072 java.net.URL.openConnection(java.net.URL@692713694<URL=https://events3.adcolony.com/t/5.0/install?pl=pKSFvL--MNWR4wGDWQ6zv6lgCN939bQjF48yTvfMYympn-k4WkTaN67w3B8Crkz6qJmowbby0b7p6nFdZKfu8WkORYjBXWihAB0MxXjcv_SPjUT-BjJrDxhdnbzZvPwvx4UBNP1xOTA2dpVHTE5lKsAIyr-bbwBhmXkKt4IHjHcQBvZ1_x1I0Rvoklw0mhEPuDqrM69woLpQ9ytpqr-X7_pMfz_NXeqKj6Cib1wYM-T3JxuKtQLzbw714-e5ZIGa8ksKZoSpm2VS18HyCUw23kOdg8uXf9aQxLhOie73xU6zW_COPStGGUviWI0qD7RTOqQx6y1TqfsO9x2KpLczxJ7r1VotP52wuRsKyPi1KTBTsylrr-nhU5q1gdXlYuB_JBGQXYvjX9W_>)
+I/org.umd.logging( 4238): Api < 2072 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@939969215)
+I/org.umd.logging( 4238): Api > 2072 java.net.URL.openConnection(java.net.URL@996455820<URL=https://events3.adcolony.com/t/5.0/install?pl=pKSFvL--MNWR4wGDWQ6zv6lgCN939bQjF48yTvfMYympn-k4WkTaN67w3B8Crkz6qJmowbby0b7p6nFdZKfu8WkORYjBXWihAB0MxXjcv_SPjUT-BjJrDxhdnbzZvPwvx4UBNP1xOTA2dpVHTE5lKsAIyr-bbwBhmXkKt4IHjHcQBvZ1_x1I0Rvoklw0mhEPuDqrM69woLpQ9ytpqr-X7_pMfz_NXeqKj6Cib1wYM-T3JxuKtQLzbw714-e5ZIGa8ksKZoSpm2VS18HyCUw23kOdg8uXf9aQxLhOie73xU6zW_COPStGGUviWI0qD7RTOqQx6y1TqfsO9x2KpLczxJ7r1VotP52wuRsKyPi1KTBTsylrr-nhU5q1gdXlYuB_JBGQXYvjX9W_>)
+I/org.umd.logging( 4238): Api < 2073 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@796533973)
+I/org.umd.logging( 4238): Api < 2072 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@1073267946)
+I/Finsky  ( 3464): [2041] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/Finsky  ( 3464): [2009] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+E/chromium( 4238): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@689325494)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/Finsky  ( 3464): [2010] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/org.umd.logging( 4238): Method < 2072 com.jirbo.adcolony.ADCDownload.run()
+I/org.umd.logging( 4238): Method < 2073 com.jirbo.adcolony.ADCDownload.run()
+W/cr_BindingManager( 4238): Cannot call determinedVisibility() - never saw a connection for the pid: 4238
+I/Finsky  ( 3464): [2041] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+E/chromium( 4238): [ERROR:interface_registry.cc(99)] Failed to locate a binder for interface: autofill::mojom::AutofillDriver
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.WebViewWrapper$13.run(com.rovio.rcs.ads.WebViewWrapper$13@488253988)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.WebViewWrapper$13.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.WebViewWrapper$13.run(com.rovio.rcs.ads.WebViewWrapper$13@416487821)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.WebViewWrapper$13.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.WebViewWrapper$13.run(com.rovio.rcs.ads.WebViewWrapper$13@867764034)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.WebViewWrapper$13.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.WebViewWrapper$13.run(com.rovio.rcs.ads.WebViewWrapper$13@84566867)
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.WebViewWrapper$13.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@887211152)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@627360137)
+I/org.umd.logging( 4238): Api > 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2070 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@399791502)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.AdsSdk$7.run(com.rovio.rcs.ads.AdsSdk$7@356948412)
+W/EventProcessor( 4238): doListen: unnamed event, id = 169
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.AdsSdk$7.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.AdsSdk$7.run(com.rovio.rcs.ads.AdsSdk$7@894364997)
+W/EventProcessor( 4238): doListen: unnamed event, id = 170
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.AdsSdk$7.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.AdsSdk$7.run(com.rovio.rcs.ads.AdsSdk$7@121912474)
+W/EventProcessor( 4238): doListen: unnamed event, id = 171
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.AdsSdk$7.run()
+I/org.umd.logging( 4238): Method > 2023 com.rovio.rcs.ads.AdsSdk$7.run(com.rovio.rcs.ads.AdsSdk$7@463530443)
+W/EventProcessor( 4238): doListen: unnamed event, id = 172
+I/org.umd.logging( 4238): Method < 2023 com.rovio.rcs.ads.AdsSdk$7.run()
+W/art     ( 4238): Attempt to remove local handle scope entry from IRT, ignoring
+I/org.umd.logging( 4238): Method < 2071 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetSkuDetailsRequest.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.190.jpg
+D/GooglePlayPaymentProvider( 4238): runRequest(): running immediately
+I/org.umd.logging( 4238): Api > 2023 java.lang.Thread.start(java.lang.Thread@683775400<thread=2074>)
+I/org.umd.logging( 4238): Api < 2023 java.lang.Thread.start()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2074 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest.run(com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest@60393574)
+D/GooglePlayPaymentProvider( 4238): restorePurchases()
+I/Finsky  ( 3464): [2009] com.google.android.finsky.billing.iab.s.a(196): com.rovio.angrybirds: Account from first account - [H2HZkLhZAwneGgDylh5vNEKO7fg]
+I/org.umd.logging( 4238): Method < 2074 com.rovio.rcs.payment.google.GooglePlayPaymentProvider$GetPurchasesRequest.run()
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_04:59:58.190><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.190.jpg
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.384.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_04:59:58.384><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.384.jpg
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.545.jpg
+I/DeviceStateChecker( 7766): screenOn: true, isCharging: true
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_04:59:58.545><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_04:59:58.545.jpg
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+I/Choreographer( 4238): Skipped 31 frames!  The application may be doing too much work on its main thread.
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api > 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api < 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@964129216)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:01.745.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_05:00:01.745><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:01.745.jpg
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:01.940.jpg
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_05:00:01.940><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:01.940.jpg
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:02.108.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onTouchEvent(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_05:00:02.108><x=0><y=0><width=1280><height=768><id=-1>, android.view.MotionEvent@210403325)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:02.108.jpg
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.InputDelegator.onTouchEvent(com.rovio.fusion.InputDelegator@29542211, android.view.MotionEvent@210403325)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.InputDelegator.onTouchEvent(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onTouchEvent(true)
+I/Choreographer( 4238): Skipped 32 frames!  The application may be doing too much work on its main thread.
+I/org.umd.logging( 4238): Api > 2023 android.content.Intent.<init>(android.content.Intent@323086828, "android.intent.action.VIEW", android.net.Uri$StringUri@1073021002<URI=market://details?id=com.rovio.baba>)
+I/org.umd.logging( 4238): Api < 2023 android.content.Intent.<init>(android.content.Intent@323086828)
+I/ActivityManager(  594): START u0 {act=android.intent.action.VIEW dat=market://details?id=com.rovio.baba cmp=com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity} from uid 10245 on display 0
+V/WindowManager(  594): addAppToken: AppWindowToken{3ea2294d token=Token{3d00a0e4 ActivityRecord{1e2c6c77 u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity t23}}} to stack=1 task=23 at 1
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App.onPause(com.rovio.fusion.App@410649080<activity=true>)
+I/AdColony( 4238): [ADC] AdColony pause called.
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@614718395)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:02.318.jpg
+W/ResourceType( 4238): No known package when getting name for resource number 0xffffffff
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.MySurfaceView.onPause(com.rovio.fusion.MySurfaceView@811294676<file=2016-12-13_05:00:02.318><x=0><y=0><width=1280><height=768><id=-1>)
+E/Cataloger( 6490): syncFile:/storage/emulated/0/2016-12-13_05:00:02.318.jpg
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.MySurfaceView$1.run(com.rovio.fusion.MySurfaceView$1@798340145)
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.MyRenderer.onPause(com.rovio.fusion.MyRenderer@939042112)
+I/org.umd.logging( 4238): Method > 2023 com.rovio.fusion.SingleThreadWrapper.onPause(com.rovio.fusion.SingleThreadWrapper@784358846)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+W/ActivityManager(  594): Activity pause timeout for ActivityRecord{1af747c7 u0 com.rovio.angrybirds/com.rovio.fusion.App t23}
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+D/OpenGLRenderer( 3464): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   ( 3464): Validating map...
+V/WindowManager(  594): Adding window Window{3e59164e u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity} at 5 of 11 (after Window{2f7bb0b7 u0 com.rovio.angrybirds/com.rovio.fusion.App})
+E/Finsky  ( 3464): [1] com.google.android.finsky.activities.LaunchUrlHandlerActivity.a(229): Launch URL without continue URL
+I/ActivityManager(  594): START u0 {act=android.intent.action.VIEW dat=http://market.android.com/details?id=com.rovio.baba cmp=com.android.vending/com.google.android.finsky.activities.MainActivity (has extras)} from uid 10018 on display 0
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+V/WindowManager(  594): addAppToken: AppWindowToken{c783505 token=Token{372d287c ActivityRecord{3f0e736f u0 com.android.vending/com.google.android.finsky.activities.MainActivity t24}}} to stack=1 task=24 at 0
+V/WindowManager(  594): Adding window Window{37400b14 u0 Starting com.android.vending} at 6 of 12 (after Window{3e59164e u0 com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity})
+I/Adreno-EGL( 3464): <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 01/15/15, ab0075f, Id3510ff6dc
+I/OpenGLRenderer( 3464): Initialized EGL, version 1.4
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.SingleThreadWrapper.onPause()
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.MyRenderer.onPause()
+I/org.umd.logging( 4238): Method < 2023 com.rovio.fusion.MySurfaceView$1.run()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.MySurfaceView.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@500016444)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.HockeyAppWrapper.onPause(com.rovio.fusion.HockeyAppWrapper@366753766)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.HockeyAppWrapper.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.ActivityListener.onPause(com.rovio.fusion.MyInputHandler@177402906)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.ActivityListener.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@780850966)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.VideoPlayerBridge.onPause(com.rovio.fusion.VideoPlayerBridge@941460100)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.VideoPlayerBridge.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@182477421)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.LocalNotificationsWrapper.onPause(com.rovio.fusion.LocalNotificationsWrapper@672401203)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.LocalNotificationsWrapper.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@791333616)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.apptrack.AppTrackSdk.onPause(com.rovio.rcs.apptrack.AppTrackSdk@912110318)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.apptrack.AppTrackSdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@75359119)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.socialnetwork.FacebookService.onPause(com.rovio.rcs.socialnetwork.FacebookService@81818149)
+D/FACEBOOK( 4238): onPause
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.socialnetwork.FacebookService.onPause()
+D/OpenGLRenderer( 3464): Enabling debug mode 0
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@603328506)
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.RemoteNotificationsClientWrapper.onPause(com.rovio.fusion.RemoteNotificationsClientWrapper@697894920)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.RemoteNotificationsClientWrapper.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@348851105)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.apptrack.ComScoreSdk$1.onPause(com.rovio.rcs.apptrack.ComScoreSdk$1@503625095)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ad@644595933, true)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ad@644595933, 0, null)
+I/org.umd.logging( 4238): Method > 1 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.ad@644595933, 0, false, 0, null, null)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@949134418)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.ad.run(com.comscore.analytics.ad@644595933)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.af@770515747, 300, null)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskExecutor.execute(com.comscore.utils.task.TaskExecutor@654289792, com.comscore.analytics.af@770515747, 300, false, 0, null, null)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.ad.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.comscore.utils.task.TaskExecutor.execute(true)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.apptrack.ComScoreSdk$1.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@515821600)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk.onPause(com.rovio.rcs.ads.AdsSdk@764588958)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdColonySdk.onPause(com.rovio.rcs.ads.AdColonySdk@722521676)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdColonySdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@264973973)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk.onPause(com.rovio.rcs.ads.AdsSdk@1039297450)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdColonySdk.onPause(com.rovio.rcs.ads.AdColonySdk@746705819)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdColonySdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@111313720)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk.onPause(com.rovio.rcs.ads.AdsSdk@209526545)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdColonySdk.onPause(com.rovio.rcs.ads.AdColonySdk@149133430)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdColonySdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@44043895)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdsSdk.onPause(com.rovio.rcs.ads.AdsSdk@160996068)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.ads.AdColonySdk.onPause(com.rovio.rcs.ads.AdColonySdk@92511053)
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdColonySdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.ads.AdsSdk.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.Globals$CompatWrapper.onPause(com.rovio.fusion.Globals$CompatWrapper@485017090)
+I/org.umd.logging( 4238): Method > 1 com.rovio.rcs.payment.google.GooglePlayPaymentProvider.onPause(com.rovio.rcs.payment.google.GooglePlayPaymentProvider@383445991)
+D/GooglePlayPaymentProvider( 4238): onPause(): unbind
+I/org.umd.logging( 4238): Method < 1 com.rovio.rcs.payment.google.GooglePlayPaymentProvider.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals$CompatWrapper.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.Globals.onPause()
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App.onPause()
+I/Choreographer( 4238): Skipped 38 frames!  The application may be doing too much work on its main thread.
+W/Finsky  ( 3464): [1] com.google.android.finsky.b.s.a(263): No LoggingContext in the bundle, which breaks event chain!. Creating a new logging context.
+I/org.umd.logging( 4238): Method > 1 com.rovio.fusion.App$1.onSystemUiVisibilityChange(com.rovio.fusion.App$1@123917676, 0)
+I/org.umd.logging( 4238): Method < 1 com.rovio.fusion.App$1.onSystemUiVisibilityChange()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.a.run(com.comscore.utils.task.a@129401168)
+I/org.umd.logging( 4238): Method > 2043 com.comscore.analytics.af.run(com.comscore.analytics.af@770515747)
+D/KeepAlive( 4238): stop
+D/KeepAlive( 4238): cancel()
+D/KeepAlive( 4238): processKeepAlive(true) timeSinceLastTransmission=1481666389028 currentTimeout=86400000
+I/org.umd.logging( 4238): Api > 2043 java.lang.Thread.start(java.lang.Thread@939237193<thread=2075>)
+I/org.umd.logging( 4238): Api < 2043 java.lang.Thread.start()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.analytics.af.run()
+I/org.umd.logging( 4238): Method < 2043 com.comscore.utils.task.a.run()
+I/org.umd.logging( 4238): Method > 2043 com.comscore.utils.task.TaskThread.run(com.comscore.utils.task.TaskThread@62617778<thread=2043>)
+I/org.umd.logging( 4238): Method > 2075 com.comscore.utils.d.run(com.comscore.utils.d@503730862)
+I/Finsky  ( 3464): [1] com.google.android.finsky.utils.di.a(1045): Starting LocationRefresher
+V/WindowManager(  594): Adding window Window{1d04e362 u0 com.android.vending/com.google.android.finsky.activities.MainActivity} at 6 of 13 (before Window{37400b14 u0 Starting com.android.vending})
+I/Finsky  ( 3464): [1] com.google.android.finsky.selfupdate.f.a(165): Skipping DFE self-update. Local Version [80721300] >= Server Version [-1]
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/Finsky  ( 3464): [1] com.google.android.finsky.utils.ji.a(101): TOS is accepted (pref)
+I/Finsky  ( 3464): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 MarketWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/Finsky  ( 3464): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 RecommendedWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/Finsky  ( 3464): [1] com.google.android.finsky.receivers.UpdateWidgetsReceiver.onReceive(38): Updated 0 NowPlayingWidgetProvider widgets (com.google.android.finsky.action.TOC_SET)
+I/ActivityManager(  594): Displayed com.android.vending/com.google.android.finsky.activities.MainActivity: +556ms (total +712ms)
+I/org.umd.logging( 4238): Method < 2075 com.comscore.utils.d.run()
+I/org.umd.logging( 4238): Api > 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api < 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1008812110)
+W/Settings( 3464): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/Settings( 3464): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Finsky  ( 3464): [1] com.google.android.finsky.b.s.a(263): No LoggingContext in the bundle, which breaks event chain!. Creating a new logging context.
+I/Finsky  ( 3464): [1] com.google.android.finsky.utils.dl.a(70): Connection with LocationServices established
+W/GCoreFlp( 1301): No location to return for getLastLocation()
+I/Finsky  ( 3464): [1] com.google.android.finsky.utils.dl.a(97): Requesting Location Updates; Interval: 300000
+I/Finsky  ( 3464): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+W/GCoreFlp( 1301): No location to return for getLastLocation()
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/Finsky  ( 3464): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+I/PlayCommon( 3464): [1] com.google.android.play.dfe.api.b.a(20553): Not delivering second response for request=[[ ] https://android.clients.google.com/fdfe/api/userProfile 0xe8d195d1 NORMAL 14]
+I/Finsky  ( 3464): [1] com.google.android.finsky.widget.a.onReceive(137): Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+W/Herrevad( 1667): Invalid mccmnc 
+W/Herrevad( 1667): Invalid mccmnc 
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/art     ( 1301): Explicit concurrent mark sweep GC freed 25293(1351KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 17MB/28MB, paused 2.014ms total 79.414ms
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+W/ResourceType(  738): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  738): Failure retrieving resources for com.rovio.angrybirds: Resource ID #0x0
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@1003874053)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@425005914)
+W/FlurryAgent( 4238): Flurry session paused for context:com.rovio.fusion.App@187a01f8
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@408496744)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@1028845185)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@432081702)
+I/org.umd.logging( 4238): Api > 2039 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Api < 2039 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@234586983)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$2@306115005)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$3@548597507)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$4@653126841)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(855): No file ready to send
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(855): No file ready to send
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/Finsky  ( 3464): [1] com.google.android.finsky.utils.bm.run(145): Capture referrer for com.rovio.baba (empty)
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=182.63 rxSuccessRate=334.83 targetRoamBSSID=any RSSI=-37
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(993): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.a(1068): Successfully uploaded logs.
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(853): Preparing logs for uploading
+I/PlayCommon( 3464): [2030] com.google.android.play.a.g.e(855): No file ready to send
+W/ResourcesManager( 3464): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+W/ResourcesManager( 3464): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+I/Finsky  ( 3464): [1] com.google.android.finsky.activities.bv.u(130): Page [class=aq] loaded in [94 ms] (hasDetailsDataLoaded? false)
+D/DynamitePackage( 3464): Instantiated singleton DynamitePackage.
+D/DynamitePackage( 3464): Instantiating com.google.android.gms.ads.adshield.ChimeraAdShieldCreatorImpl
+I/VideoCapabilities( 3464): Unsupported profile 4 for video/mp4v-es
+I/OMXClient( 3464): Using client-side OMX mux.
+I/dex2oat ( 4479): /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=div --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --dex-file=/data/data/com.android.vending/cache/1470286953684.jar --oat-fd=89 --oat-location=/data/data/com.android.vending/cache/1470286953684.dex --runtime-arg -Xms64m --runtime-arg -Xmx512m
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+E/OMX-VDEC-1080P(  190): 
+E/OMX-VDEC-1080P(  190):  Error in ioctl read next msg
+E/        (  190): 
+E/        (  190):  Destroy C2D instance
+E/        (  190): 
+E/        (  190):  Destroy C2D instance
+I/Finsky  ( 3464): [1] com.google.android.finsky.activities.bv.u(130): Page [class=aq] loaded in [406 ms] (hasDetailsDataLoaded? true)
+I/dex2oat ( 4479): dex2oat took 169.418ms (threads: 4) arena alloc=135KB java alloc=24KB native alloc=1174KB free=25KB
+I/art     (  594): Explicit concurrent mark sweep GC freed 21252(1136KB) AllocSpace objects, 1(16KB) LOS objects, 33% free, 24MB/37MB, paused 1.495ms total 109.781ms
+I/PlayCommon( 3464): [1] com.google.android.play.image.d.a_(2391): https://lh3.googleusercontent.com/_ipOomxya4fopIcB4nQAFAv4HQ9mCpx8TzTl3D2mJ2yK-JNXJSVLWvHpTouQusXLfA=rw-w1196-v1 is not cached
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api > 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api < 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@562321662)
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.d$1.run(com.jirbo.adcolony.d$1@1030316716)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.d$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Api > 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.ConnectivityManager@103875590)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Api < 2069 android.net.ConnectivityManager.getActiveNetworkInfo(android.net.NetworkInfo@1056414581)
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+I/System.out( 4238): Exiting monitor
+I/org.umd.logging( 4238): Method > 2070 com.jirbo.adcolony.p$1.run(com.jirbo.adcolony.p$1@46010681)
+I/org.umd.logging( 4238): Method < 2070 com.jirbo.adcolony.p$1.run()
+I/org.umd.logging( 4238): Method > 2076 com.flurry.sdk.lg$a.run(com.flurry.sdk.lg$a@620313467)
+I/org.umd.logging( 4238): Method < 2076 com.flurry.sdk.lg$a.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@710933912)
+W/FlurryAgent( 4238): Flurry session ended
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@95648241)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@502827478)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kb$1@777393239)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.lf$4@256601442)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$5@899475376)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$6@838270382)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ja$5$1@182505180)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$3@988236773)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$4@632899258)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2077 com.flurry.sdk.lw.run(com.flurry.sdk.ke$1$1@734380385)
+I/org.umd.logging( 4238): Method < 2077 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2077 com.flurry.sdk.lw.run(com.flurry.sdk.kl@827062635)
+I/org.umd.logging( 4238): Api > 2077 java.net.URL.openConnection(java.net.URL@371528838<URL=https://data.flurry.com/aap.do>)
+I/org.umd.logging( 4238): Api < 2077 java.net.URL.openConnection(com.android.okhttp.internal.http.HttpsURLConnectionImpl@531546439)
+W/FlurryAgent( 4238): Analytics report sent.
+I/org.umd.logging( 4238): Method < 2077 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.ix$2@263983773)
+I/org.umd.logging( 4238): Method > 2077 com.flurry.sdk.lw.run(com.flurry.sdk.ke$1$2@53342994)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method < 2077 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$7@747383523)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging( 4238): Method > 2039 com.flurry.sdk.lw.run(com.flurry.sdk.kr$4@995204320)
+I/org.umd.logging( 4238): Method < 2039 com.flurry.sdk.lw.run()
+I/org.umd.logging(26066): Method > 1 com.cnn.mobile.android.phone.service.FeedService.onCreate(com.cnn.mobile.android.phone.service.FeedService@5540745)
+I/org.umd.logging(26066): Method < 1 com.cnn.mobile.android.phone.service.FeedService.onCreate()
+I/org.umd.logging(26066): Method > 1 com.cnn.mobile.android.phone.service.FeedService.onStartCommand(com.cnn.mobile.android.phone.service.FeedService@5540745, android.content.Intent@824949679<action=null><data=null><package=null><component=com.cnn.mobile.android.phone/.service.FeedService><type=null><filter_hashcode=-1301101658><fetch_type=None><umd_Intent_key=None><android.intent.extra.ALARM_COUNT=None>, 0, 1)
+I/org.umd.logging(26066): Method > 1 com.androidquery.callback.AbstractAjaxCallback.execute(com.cnn.mobile.android.phone.service.FeedService$1@455633852)
+I/org.umd.logging(26066): Method < 1 com.androidquery.callback.AbstractAjaxCallback.execute()
+W/AlarmManager(  594): Suspiciously short interval 30000 millis; expanding to 60 seconds
+I/org.umd.logging(26066): Method > 1820 com.androidquery.callback.AbstractAjaxCallback.run(com.cnn.mobile.android.phone.service.FeedService$1@455633852)
+I/org.umd.logging(26066): Method > 1820 com.androidquery.callback.AbstractAjaxCallback.execute(com.cnn.mobile.android.phone.service.FeedService$1@455633852, org.apache.http.client.methods.HttpGet@812734277, org.apache.http.impl.client.DefaultHttpClient@770631670, org.apache.http.protocol.BasicHttpContext@758603418)
+I/org.umd.logging(26066): Api > 1820 org.apache.http.impl.client.DefaultHttpClient.execute(org.apache.http.impl.client.DefaultHttpClient@770631670, org.apache.http.client.methods.HttpGet@812734277, org.apache.http.protocol.BasicHttpContext@758603418)
+I/org.umd.logging(26066): Method < 1 com.cnn.mobile.android.phone.service.FeedService.onStartCommand(2)
+I/org.umd.logging(26066): Method > 1 com.cnn.mobile.android.phone.service.FeedService.onStartCommand(com.cnn.mobile.android.phone.service.FeedService@5540745, android.content.Intent@612525003<action=null><data=null><package=null><component=com.cnn.mobile.android.phone/.service.FeedService><type=null><filter_hashcode=-1301101658><fetch_type=None><umd_Intent_key=None><android.intent.extra.ALARM_COUNT=None>, 0, 2)
+I/org.umd.logging(26066): Method > 1 com.androidquery.callback.AbstractAjaxCallback.execute(com.cnn.mobile.android.phone.service.FeedService$2@1072596904)
+I/org.umd.logging(26066): Method > 1812 com.androidquery.callback.AbstractAjaxCallback.run(com.cnn.mobile.android.phone.service.FeedService$2@1072596904)
+I/org.umd.logging(26066): Method > 1812 com.androidquery.callback.AbstractAjaxCallback.execute(com.cnn.mobile.android.phone.service.FeedService$2@1072596904, org.apache.http.client.methods.HttpGet@970269377, org.apache.http.impl.client.DefaultHttpClient@770631670, org.apache.http.protocol.BasicHttpContext@849136230)
+I/org.umd.logging(26066): Api > 1812 org.apache.http.impl.client.DefaultHttpClient.execute(org.apache.http.impl.client.DefaultHttpClient@770631670, org.apache.http.client.methods.HttpGet@970269377, org.apache.http.protocol.BasicHttpContext@849136230)
+I/org.umd.logging(26066): Method < 1 com.androidquery.callback.AbstractAjaxCallback.execute()
+I/org.umd.logging(26066): Method < 1 com.cnn.mobile.android.phone.service.FeedService.onStartCommand(2)
+I/org.umd.logging(26066): Method > 1 com.cnn.mobile.android.phone.service.FeedService.onDestroy(com.cnn.mobile.android.phone.service.FeedService@5540745)
+I/org.umd.logging(26066): Method < 1 com.cnn.mobile.android.phone.service.FeedService.onDestroy()
+I/DownloadManagerWrapper(  949): onReceive() : Charging = true
+I/org.umd.logging(26066): Api < 1812 org.apache.http.impl.client.DefaultHttpClient.execute(org.apache.http.message.BasicHttpResponse@55669159)
+I/org.umd.logging(26066): Api < 1820 org.apache.http.impl.client.DefaultHttpClient.execute(org.apache.http.message.BasicHttpResponse@142112340)
+I/org.umd.logging(26066): Method < 1820 com.androidquery.callback.AbstractAjaxCallback.execute(org.apache.http.message.BasicHttpResponse@142112340)
+I/org.umd.logging(26066): Method < 1812 com.androidquery.callback.AbstractAjaxCallback.execute(org.apache.http.message.BasicHttpResponse@55669159)
+I/org.umd.logging(26066): Method > 1 com.androidquery.callback.AbstractAjaxCallback.run(com.cnn.mobile.android.phone.service.FeedService$1@455633852)
+I/org.umd.logging(26066): Method < 1 com.androidquery.callback.AbstractAjaxCallback.run()
+I/org.umd.logging(26066): Method > 1821 com.androidquery.util.Common.run(com.androidquery.util.Common@676342269)
+I/org.umd.logging(26066): Method < 1821 com.androidquery.util.Common.run()
+I/org.umd.logging(26066): Method < 1820 com.androidquery.callback.AbstractAjaxCallback.run()
+W/ContentTaskController( 1301): Invalid task was provided to stopTracking.
+I/org.umd.logging(26066): Method > 1 com.androidquery.callback.AbstractAjaxCallback.run(com.cnn.mobile.android.phone.service.FeedService$2@1072596904)
+I/org.umd.logging(26066): Method < 1812 com.androidquery.callback.AbstractAjaxCallback.run()
+I/org.umd.logging(26066): Method < 1 com.androidquery.callback.AbstractAjaxCallback.run()
+I/org.umd.logging(26066): Method > 1821 com.androidquery.util.Common.run(com.androidquery.util.Common@228271858)
+I/org.umd.logging(26066): Method < 1821 com.androidquery.util.Common.run()
+W/ContentTaskController( 1301): Invalid task was provided to stopTracking.
+W/ContentTaskController( 1301): Invalid task was provided to stopTracking.
+W/ContentTaskController( 1301): Invalid newTask was provided to startTracking.
+I/art     (  594): Explicit concurrent mark sweep GC freed 11846(592KB) AllocSpace objects, 4(84KB) LOS objects, 33% free, 24MB/36MB, paused 1.678ms total 163.680ms
+W/ContentTaskController( 1301): Invalid newTask was provided to startTracking.
+W/ContentTaskController( 1301): Invalid task was provided to stopTracking.
+W/ContentTaskController( 1301): Invalid newTask was provided to startTracking.
+I/PhenotypeFlagCommitter( 1301): Experiment Configs successfully retrieved for com.google.android.gms.playlog.uploader
+I/GoogleURLConnFactory( 1301): Using platform SSLCertificateSocketFactory
+I/GoogleURLConnFactory( 1301): Using platform SSLCertificateSocketFactory
+I/org.umd.logging( 4986): Method > 1 com.cleanmaster.base.crash.util.debug.b.run(com.cleanmaster.base.crash.util.debug.b@453239735)
+I/org.umd.logging( 4986): Method < 1 com.cleanmaster.base.crash.util.debug.b.run()
+E/WifiStateMachine(  594): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=11.81 rxSuccessRate=12.00 targetRoamBSSID=any RSSI=-37
+I/GoogleURLConnFactory( 1301): Using platform SSLCertificateSocketFactory
+I/GoogleURLConnFactory( 1301): Using platform SSLCertificateSocketFactory
+W/ContentTaskController( 1301): Invalid newTask was provided to startTracking.
