@@ -13,5 +13,19 @@ To add logging capabilities to methods/apis of an app, follow the instructions b
   ```  
 - The modified logged apk will now be in the results folder
 
-### Run Comparisons
+### List of Methods/APIs
+The C++ file LogData.cpp can be found in the Log-Compare_Methods folder:
+```
+$./Log.o 
+Reading total logging file...
+File name (logfile) > yourapp-logfile.txt
+Reading logcat output file...
+File name (logcat) > yourapp-r1.txt
+
+Output file name (.csv) > yourapp-list.csv 
+Output file name (.txt) > yourapp-list.txt
+Total logged: 55
+```
+
+
 
