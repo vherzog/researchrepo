@@ -1,2 +1,2 @@
-# researchrepo
-Keeping track of my research tasks/experiments
+# Non-Deterministic Replay of Mobile Apps
+Keeping track of my research tasks/experiments#
