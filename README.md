@@ -7,9 +7,7 @@ To add logging capabilities to methods/apis of an app, follow the instructions b
 - Pull the apk for the desired application
 - Move the apk to the redexer repo folder.
 - To add logging to the apk:
-
-  '''
+  ```
   ruby ./scripts/cmd.rb com.yourapp.apk --cmd logging
-  '''
-  
+  ```  
   
